@@ -11,15 +11,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.typoraio.cn/windows/typora-setup-x64-1.12.2.exe",
+            "url": "https://download.typora.io/windows/typora-setup-x64-1.12.2.exe",
             "hash": "8654218e89dfa5772fb074da27854da454a39deef33a7c558ffab5408e4fb11c"
         },
         "32bit": {
-            "url": "https://downloads.typoraio.cn/windows/typora-setup-ia32-1.12.2.exe",
+            "url": "https://download.typora.io/windows/typora-setup-ia32-1.12.2.exe",
             "hash": "dc857c51470c77f76d450fc0d8ca870e4c8c7877a19cc647a4deae5b9dfb7e5f"
         },
         "arm64": {
-            "url": "https://downloads.typoraio.cn/windows/typora-setup-arm64-1.12.2.exe",
+            "url": "https://download.typora.io/windows/typora-setup-arm64-1.12.2.exe",
             "hash": "bce19b7e8b2896fd3dac6fecde96d8edd0820c63946b38111772c63955abdcdf"
         }
     },
@@ -38,13 +38,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.typoraio.cn/windows/typora-setup-x64-$version.exe"
+                "url": "https://download.typora.io/windows/typora-setup-x64-$version.exe"
             },
             "32bit": {
-                "url": "https://downloads.typoraio.cn/windows/typora-setup-ia32-$version.exe"
+                "url": "https://download.typora.io/windows/typora-setup-ia32-$version.exe"
             },
             "arm64": {
-                "url": "https://downloads.typoraio.cn/windows/typora-setup-arm64-$version.exe"
+                "url": "https://download.typora.io/windows/typora-setup-arm64-$version.exe"
             }
         }
     }

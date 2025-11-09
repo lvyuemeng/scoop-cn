@@ -61,7 +61,12 @@ foreach ($man in $manifests) {
 	foreach ($rule in $rules) {
 		if ($content -match $rule.find) {
 			Write-Verbose "[$($man.Name)] Applying rule: $($rule.description)"
-			$content = $content -replace [Regex]::Escape($rule.find), $rule.replace
+			# the find string is already escaped in `ConvertFrom-Json`, so we need to unescape it
+			# replace 'pattern' 'with'
+			# 'pattern': escaped
+			# 'with': unescaped
+			# replace '\\' '\\': '\' -> '\\'
+			$content = $content -replace ($rule.find -replace '\\', '\\'), $rule.replace
 			$isChange = $true
 		}
 	}

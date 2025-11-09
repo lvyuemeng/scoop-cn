@@ -9,11 +9,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.1.1900/gvim_9.1.1900_x64.zip",
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.1.1900/gvim_9.1.1900_x64.zip",
             "hash": "f09fd00ef19b1aef668af2e03e82c34e0d30ed640aac9f0e0533baad9331e995"
         },
         "32bit": {
-            "url": "https://gh-proxy.com/https://github.com/vim/vim-win32-installer/releases/download/v9.1.1900/gvim_9.1.1900_x86.zip",
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.1.1900/gvim_9.1.1900_x86.zip",
             "hash": "23be4cd8fcd90f947ac5d8e16512d38781e135be387a194fc4a57207c75da7de"
         }
     },
@@ -22,7 +22,7 @@
         "Remove-Item \"$dir\\`$*\", \"$dir\\uninstal.*\", \"$dir\\install.exe\" -Recurse",
         "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
         "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
-        "    $content = (Get-Content \"$bucketsdir\\scoop-cn\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
+        "    $content = (Get-Content \"$bucketsdir\\versions\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
         "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "    Set-Content \"$dir\\$_\" $content",
         "}"
@@ -103,10 +103,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.com/https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
             },
             "32bit": {
-                "url": "https://gh-proxy.com/https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x86.zip"
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x86.zip"
             }
         },
         "extract_dir": "vim\\vim$majorVersion$minorVersion"

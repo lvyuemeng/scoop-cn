@@ -8,14 +8,14 @@
         "Required Components: 'MSbuild', 'VC++ 2017 v141 toolset' and one of the Windows SDKs (10 or 8.1)."
     ],
     "depends": [
-        "scoop-cn/python27",
-        "scoop-cn/squashfs-tools"
+        "versions/python27",
+        "extras/squashfs-tools"
     ],
     "architecture": {
         "64bit": {
             "url": [
-                "https://gh-proxy.com/https://raw.githubusercontent.com/ScoopInstaller/Binary/master/node-compiler/nodec-v1.5.0-x64.7z.001",
-                "https://gh-proxy.com/https://raw.githubusercontent.com/ScoopInstaller/Binary/master/node-compiler/nodec-v1.5.0-x64.7z.002"
+                "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/node-compiler/nodec-v1.5.0-x64.7z.001",
+                "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/node-compiler/nodec-v1.5.0-x64.7z.002"
             ],
             "hash": [
                 "31c7d5a5883237f38d7754114f7d42a159d99a787555ab51ab24c48d7ec5356b",

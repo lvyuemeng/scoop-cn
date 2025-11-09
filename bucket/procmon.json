@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "Procmon64.exe",
-                    "scoop-cn/Process Monitor",
+                    "SysInternals/Process Monitor",
                     "/accepteula"
                 ]
             ]
@@ -29,7 +29,7 @@
             "shortcuts": [
                 [
                     "Procmon.exe",
-                    "scoop-cn/Process Monitor",
+                    "SysInternals/Process Monitor",
                     "/accepteula"
                 ]
             ]
@@ -44,14 +44,14 @@
             "shortcuts": [
                 [
                     "Procmon64a.exe",
-                    "scoop-cn/Process Monitor",
+                    "SysInternals/Process Monitor",
                     "/accepteula"
                 ]
             ]
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.com/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procmon.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procmon.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

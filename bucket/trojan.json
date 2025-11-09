@@ -4,11 +4,11 @@
     "homepage": "https://trojan-gfw.github.io/trojan/",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.com/https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-win.zip",
+            "url": "https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-win.zip",
             "hash": "0e6107a73e113b30893d66844ed8d619a125c5f5e54c559727e87a33f1add423"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.com/https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip"
+                "url": "https://github.com/trojan-gfw/trojan/releases/download/v$version/trojan-$version-win.zip"
             }
         }
     }

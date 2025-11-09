@@ -11,11 +11,11 @@
         "https://docs.camunda.io/docs/guides/update-guide/130-to-800/"
     ],
     "suggest": {
-        "JDK": "scoop-cn/openjdk"
+        "JDK": "java/openjdk"
     },
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.com/https://github.com/camunda/camunda-platform/releases/download/8.5.0/camunda-zeebe-8.5.0.zip",
+            "url": "https://github.com/camunda/camunda-platform/releases/download/8.5.0/camunda-zeebe-8.5.0.zip",
             "hash": "sha1:fc8b457126ba5c8e1bfa076b58990c1c3a3accf4"
         }
     },
@@ -37,7 +37,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.com/https://github.com/camunda/camunda-platform/releases/download/$version/camunda-zeebe-$version.zip"
+                "url": "https://github.com/camunda/camunda-platform/releases/download/$version/camunda-zeebe-$version.zip"
             }
         },
         "hash": {

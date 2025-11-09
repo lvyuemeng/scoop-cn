@@ -4,15 +4,15 @@
     "homepage": "https://github.com/yt-dlp/yt-dlp-master-builds",
     "license": "Freeware",
     "suggest": {
-        "ffmpeg": "scoop-cn/ffmpeg-yt-dlp"
+        "ffmpeg": "versions/ffmpeg-yt-dlp"
     },
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.11.09.034542/yt-dlp.exe",
+            "url": "https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.11.09.034542/yt-dlp.exe",
             "hash": "sha512:e4799de7c71d262b4a80eb61cbad7fc33a26dcd190448edda163fd2f36e99a512f6bcd250a029c2777ffb56e1f8a6da266902f822864eb97f291c11a18864f64"
         },
         "32bit": {
-            "url": "https://gh-proxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.11.09.034542/yt-dlp_x86.exe#/yt-dlp.exe",
+            "url": "https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/2025.11.09.034542/yt-dlp_x86.exe#/yt-dlp.exe",
             "hash": "sha512:ecd15b5c6a6f5d3100b177efc23983cc40802854580f2dbdd4e69a1b7dcac565c7c5820a08f419bf4b89e97e5886f61f80c2df29cf5a81281c07bd8a6b6e4f97"
         }
     },
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/$version/yt-dlp.exe"
+                "url": "https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/$version/yt-dlp.exe"
             },
             "32bit": {
-                "url": "https://gh-proxy.com/https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
+                "url": "https://github.com/yt-dlp/yt-dlp-master-builds/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
             }
         },
         "hash": {

@@ -10,7 +10,7 @@
         }
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2010"
+        "vcredist": "extras/vcredist2010"
     },
     "bin": [
         "qFlipper.exe",

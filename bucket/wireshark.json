@@ -14,7 +14,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://mirrors.tuna.tsinghua.edu.cn/wireshark/win64/Wireshark-4.6.0-x64.exe#/dl.7z",
+            "url": "https://www.wireshark.org/download/win64/Wireshark-4.6.0-x64.exe#/dl.7z",
             "hash": "aaec7abd3b79e0f336722ab86b193bbf5175fed125d7b8e2629ccdfc9a763aa1"
         }
     },
@@ -26,7 +26,7 @@
         ]
     },
     "post_install": [
-        "Get-ChildItem \"$bucketsdir\\scoop-cn\\scripts\\wireshark\" | Copy-Item -Force -Destination \"$dir\"",
+        "Get-ChildItem \"$bucketsdir\\extras\\scripts\\wireshark\" | Copy-Item -Force -Destination \"$dir\"",
         "& \"$dir\\enable-usbpcap.ps1\" 2>$null   # Attempt try to enable USBPcap if already installed"
     ],
     "bin": [
@@ -59,9 +59,9 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://mirrors.tuna.tsinghua.edu.cn/wireshark/win64/Wireshark-$version-x64.exe#/dl.7z",
+                "url": "https://www.wireshark.org/download/win64/Wireshark-$version-x64.exe#/dl.7z",
                 "hash": {
-                    "url": "https://mirrors.tuna.tsinghua.edu.cn/wireshark/SIGNATURES-$version.txt",
+                    "url": "https://www.wireshark.org/download/SIGNATURES-$version.txt",
                     "regex": "SHA256\\($basename\\)=$sha256"
                 }
             }

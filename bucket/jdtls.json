@@ -4,7 +4,7 @@
     "homepage": "https://projects.eclipse.org/projects/eclipse.jdt.ls",
     "license": "EPL-2.0",
     "suggest": {
-        "JDK": "scoop-cn/openjdk",
+        "JDK": "java/openjdk",
         "Python": "python"
     },
     "url": "https://download.eclipse.org/jdtls/snapshots/jdt-language-server-1.53.0-202511031516.tar.gz",

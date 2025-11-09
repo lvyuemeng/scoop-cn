@@ -7,7 +7,7 @@
         "url": "http://www.jrsoftware.org/files/is/license.txt"
     },
     "suggest": {
-        "Inno Script Studio": "scoop-cn/inno-script-studio"
+        "Inno Script Studio": "extras/inno-script-studio"
     },
     "url": "http://files.jrsoftware.org/is/6/innosetup-6.5.4.exe",
     "hash": "fa73bf47a4da250d185d07561c2bfda387e5e20db77e4570004cf6a133cc10b1",

@@ -4,8 +4,8 @@
     "homepage": "https://github.com/JustArchiNET/ArchiSteamFarm",
     "license": "Apache-2.0",
     "suggest": {
-        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts",
-        "vcredist": "scoop-cn/vcredist2022"
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
+        "vcredist": "extras/vcredist2022"
     },
     "notes": [
         "ArchiSteamFarm has a built-in updater, So you should DISABLE it in configuration file,",
@@ -15,7 +15,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.com/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.2.3.1/ASF-win-x64.zip",
+            "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/6.2.3.1/ASF-win-x64.zip",
             "hash": "83496ba8ba47e463d4f3a28a388f5eed13a609e8615a3e7a4e0194a2c8a5bac9"
         }
     },
@@ -34,7 +34,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.com/https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
+                "url": "https://github.com/JustArchiNET/ArchiSteamFarm/releases/download/$version/ASF-win-x64.zip"
             }
         }
     }
