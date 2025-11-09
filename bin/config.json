@@ -182,9 +182,7 @@
 		},
 		{
 			"description": "Fix: Internal 'scripts' paths",
-			// From json -> regex -> json will translate slashes twice
-			// Thus one literal backslash corresponds to four backslashes here.
-			"find": "(bucketsdir\\\\\\\\).+(\\\\\\\\scripts)",
+			"find": "(bucketsdir\\\\).+(\\\\scripts)",
 			"replace": "$1scoop-cn$2",
 			"enabled": true
 		},

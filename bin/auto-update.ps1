@@ -61,7 +61,7 @@ foreach ($man in $manifests) {
 	foreach ($rule in $rules) {
 		if ($content -match $rule.find) {
 			Write-Verbose "[$($man.Name)] Applying rule: $($rule.description)"
-			$content = $content -replace $rule.find, $rule.replace
+			$content = $content -replace [Regex]::Escape($rule.find), $rule.replace
 			$isChange = $true
 		}
 	}
