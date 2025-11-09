@@ -4,7 +4,7 @@
     "homepage": "https://github.com/2dust/v2rayN",
     "license": "GPL-3.0-only",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts",
         "v2fly-core": "v2ray"
     },
     "architecture": {

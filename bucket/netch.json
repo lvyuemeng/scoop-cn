@@ -4,7 +4,7 @@
     "homepage": "https://github.com/NetchX/Netch",
     "license": "MIT",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime"
     },
     "architecture": {
         "64bit": {

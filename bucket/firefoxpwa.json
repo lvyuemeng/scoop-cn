@@ -9,8 +9,8 @@
         "Download: https://addons.mozilla.org/firefox/addon/pwas-for-firefox/"
     ],
     "suggest": {
-        "vcredist": "extras/vcredist2022",
-        "firefox": "extras/firefox"
+        "vcredist": "scoop-cn/vcredist2022",
+        "firefox": "scoop-cn/firefox"
     },
     "architecture": {
         "64bit": {

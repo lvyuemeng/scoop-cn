@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "url": "https://github.com/google/google-java-format/releases/download/v1.32.0/google-java-format-1.32.0-all-deps.jar#/google-java-format.jar",

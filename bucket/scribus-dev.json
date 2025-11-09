@@ -6,7 +6,7 @@
     "notes": "If asked for ghostscript, point to \"..\\..\\ghostscript\\current\\bin\\gswin64c.exe\".",
     "depends": "ghostscript",
     "suggest": {
-        "vcredist": "extras/vcredist2012"
+        "vcredist": "scoop-cn/vcredist2012"
     },
     "architecture": {
         "64bit": {

@@ -5,9 +5,9 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk",
-            "java/temurin-jdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk",
+            "scoop-cn/temurin-jdk"
         ]
     },
     "url": "https://github.com/tnorbye/kdoc-formatter/releases/download/v1.6.8/kdoc-formatter-1.6.8.zip",

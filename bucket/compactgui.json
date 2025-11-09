@@ -4,7 +4,7 @@
     "homepage": "https://github.com/ImminentFate/CompactGUI",
     "license": "GPL-3.0-only",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime"
     },
     "architecture": {
         "64bit": {

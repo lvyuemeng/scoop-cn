@@ -4,7 +4,7 @@
     "homepage": "https://apps.ankiweb.net",
     "license": "AGPL-3.0-only",
     "suggest": {
-        "vcredist": "extras/vcredist2008"
+        "vcredist": "scoop-cn/vcredist2008"
     },
     "architecture": {
         "64bit": {

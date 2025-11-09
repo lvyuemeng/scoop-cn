@@ -4,8 +4,8 @@
     "homepage": "https://github.com/srwi/EverythingToolbar",
     "license": "MIT",
     "suggest": {
-        "everything": "extras/everything",
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+        "everything": "scoop-cn/everything",
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts"
     },
     "architecture": {
         "64bit": {

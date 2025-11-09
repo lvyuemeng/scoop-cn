@@ -4,7 +4,7 @@
     "homepage": "https://github.com/LGUG2Z/komokana",
     "license": "MIT",
     "suggest": {
-        "komorebi": "extras/komorebi"
+        "komorebi": "scoop-cn/komorebi"
     },
     "architecture": {
         "64bit": {

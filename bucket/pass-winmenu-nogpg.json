@@ -7,7 +7,7 @@
         "GPG": [
             "gnupg1",
             "gpg",
-            "extras/gpg4win"
+            "scoop-cn/gpg4win"
         ]
     },
     "url": "https://github.com/Baggykiin/pass-winmenu/releases/download/v1.14/pass-winmenu-nogpg.zip",

@@ -4,7 +4,7 @@
     "homepage": "https://landrop.app",
     "license": "BSD-3-Clause",
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

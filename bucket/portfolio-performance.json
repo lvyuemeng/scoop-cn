@@ -5,8 +5,8 @@
     "license": "EPL-1.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "architecture": {

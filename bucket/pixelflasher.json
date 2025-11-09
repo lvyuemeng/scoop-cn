@@ -16,7 +16,7 @@
         ]
     ],
     "suggest": {
-        "adb": "main/adb"
+        "adb": "scoop-cn/adb"
     },
     "checkver": "github",
     "autoupdate": {

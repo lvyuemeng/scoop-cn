@@ -9,8 +9,8 @@
     ],
     "suggest": {
         "Node.js": [
-            "main/nodejs",
-            "main/nodejs-lts"
+            "scoop-cn/nodejs",
+            "scoop-cn/nodejs-lts"
         ]
     },
     "architecture": {

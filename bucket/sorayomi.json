@@ -7,7 +7,7 @@
         "url": "https://github.com/Suwayomi/Tachidesk-Sorayomi/blob/main/LICENSE"
     },
     "suggest": {
-        "Tachidesk-Server": "extras/tachidesk-server"
+        "Tachidesk-Server": "scoop-cn/tachidesk-server"
     },
     "architecture": {
         "64bit": {

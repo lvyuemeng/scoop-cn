@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "url": "https://github.com/detekt/detekt/releases/download/v1.23.8/detekt-cli-1.23.8.zip",

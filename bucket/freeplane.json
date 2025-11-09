@@ -5,8 +5,8 @@
     "license": "GPL-2.0-or-later",
     "suggest": {
         "JDK": [
-            "java/openjdk11",
-            "java/openjdk17"
+            "scoop-cn/openjdk11",
+            "scoop-cn/openjdk17"
         ]
     },
     "url": "https://downloads.sourceforge.net/project/freeplane/freeplane%20stable/freeplane_bin-1.12.14.zip",

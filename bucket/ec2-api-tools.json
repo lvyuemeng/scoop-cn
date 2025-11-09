@@ -8,8 +8,8 @@
     },
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "url": "https://s3.amazonaws.com/ec2-downloads/ec2-api-tools-1.7.3.0.zip",

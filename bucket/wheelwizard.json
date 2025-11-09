@@ -7,7 +7,7 @@
         "url": "https://github.com/TeamWheelWizard/WheelWizard/blob/main/LICENSE"
     },
     "suggest": {
-        "Dolphin Emulator": "games/dolphin"
+        "Dolphin Emulator": "scoop-cn/dolphin"
     },
     "architecture": {
         "64bit": {

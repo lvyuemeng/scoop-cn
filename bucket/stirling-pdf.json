@@ -6,7 +6,7 @@
     "suggest": {
         "Python": "python",
         "QPDF": "qpdf",
-        "LibreOffice": "extras/libreoffice",
+        "LibreOffice": "scoop-cn/libreoffice",
         "Tesseract OCR": "tesseract",
         "Weasyprint": "weasyprint"
     },

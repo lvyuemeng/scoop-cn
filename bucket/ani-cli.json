@@ -8,7 +8,7 @@
         "fzf": "fzf",
         "wget": "wget",
         "aria2": "aria2",
-        "mpv": "extras/mpv",
+        "mpv": "scoop-cn/mpv",
         "ffmpeg": [
             "ffmpeg",
             "ffmpeg-shared"

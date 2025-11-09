@@ -15,9 +15,9 @@
     ],
     "suggest": {
         "Lua": [
-            "main/lua",
-            "versions/lua51",
-            "versions/lua53"
+            "scoop-cn/lua",
+            "scoop-cn/lua51",
+            "scoop-cn/lua53"
         ]
     },
     "architecture": {

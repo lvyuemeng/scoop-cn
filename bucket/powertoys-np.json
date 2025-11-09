@@ -4,7 +4,7 @@
     "homepage": "https://github.com/microsoft/PowerToys",
     "license": "MIT",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts"
     },
     "architecture": {
         "64bit": {

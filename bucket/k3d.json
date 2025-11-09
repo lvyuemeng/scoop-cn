@@ -6,7 +6,7 @@
     "suggest": {
         "docker": [
             "docker",
-            "versions/docker-nightly",
+            "scoop-cn/docker-nightly",
             "docker-machine"
         ]
     },

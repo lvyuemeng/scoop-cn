@@ -5,8 +5,8 @@
     "license": "MIT",
     "suggest": {
         "SDK": [
-            "main/dotnet-sdk",
-            "versions/dotnet6-sdk"
+            "scoop-cn/dotnet-sdk",
+            "scoop-cn/dotnet6-sdk"
         ]
     },
     "architecture": {

@@ -4,7 +4,7 @@
     "homepage": "https://github.com/MicaForEveryone/MicaForEveryone",
     "license": "MIT",
     "suggest": {
-        ".NET Core Runtime": "versions/windowsdesktop-runtime-lts"
+        ".NET Core Runtime": "scoop-cn/windowsdesktop-runtime-lts"
     },
     "architecture": {
         "64bit": {

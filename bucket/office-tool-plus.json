@@ -4,7 +4,7 @@
     "homepage": "https://otp.landian.vip/",
     "license": "GPL-3.0-or-later",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts"
     },
     "architecture": {
         "64bit": {

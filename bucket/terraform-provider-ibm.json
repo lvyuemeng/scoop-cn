@@ -3,7 +3,7 @@
     "description": "The IBM Cloud provider is used to manage provisioning and orchestration of IBM Cloud resources with the Terraform provisioning engine",
     "homepage": "https://cloud.ibm.com/docs/ibm-cloud-provider-for-terraform/",
     "license": "MPL-2.0",
-    "depends": "versions/terraform011",
+    "depends": "scoop-cn/terraform011",
     "architecture": {
         "64bit": {
             "url": "https://github.com/IBM-Cloud/terraform-provider-ibm/releases/download/v1.84.3/terraform-provider-ibm_1.84.3_windows_amd64.zip",

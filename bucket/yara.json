@@ -4,7 +4,7 @@
     "homepage": "https://virustotal.github.io/yara/",
     "license": "BSD-3-Clause",
     "suggest": {
-        "vcredist": "extras/vcredist"
+        "vcredist": "scoop-cn/vcredist"
     },
     "architecture": {
         "64bit": {

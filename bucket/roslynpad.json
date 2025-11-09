@@ -4,7 +4,7 @@
     "homepage": "https://roslynpad.net",
     "license": "Apache-2.0",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime"
     },
     "architecture": {
         "64bit": {

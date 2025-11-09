@@ -4,7 +4,7 @@
     "homepage": "https://github.com/jtyr/gbt",
     "license": "MIT",
     "suggest": {
-        "NerdFont": "nerd-fonts/DejaVuSansMono-NF"
+        "NerdFont": "scoop-cn/DejaVuSansMono-NF"
     },
     "architecture": {
         "64bit": {

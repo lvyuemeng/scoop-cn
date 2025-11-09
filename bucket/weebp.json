@@ -5,9 +5,9 @@
     "license": "Unlicense",
     "suggest": {
         "mpv": [
-            "extras/mpv",
-            "extras/mpv-git",
-            "extras/mpv.net"
+            "scoop-cn/mpv",
+            "scoop-cn/mpv-git",
+            "scoop-cn/mpv.net"
         ]
     },
     "architecture": {

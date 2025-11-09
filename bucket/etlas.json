@@ -6,7 +6,7 @@
     "suggest": {
         "wget": "wget",
         "JDK": [
-            "java/oraclejdk",
+            "scoop-cn/oraclejdk",
             "javan/openjdk"
         ]
     },

@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "url": "https://github.com/jreleaser/jreleaser/releases/download/v1.21.0/jreleaser-1.21.0.zip",

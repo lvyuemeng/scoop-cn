@@ -6,9 +6,9 @@
     "depends": "putty",
     "suggest": {
         "Cygwin": "cygwin",
-        "WinSCP": "extras/winscp",
-        "FileZilla": "extras/filezilla",
-        "KiTTY": "extras/kitty"
+        "WinSCP": "scoop-cn/winscp",
+        "FileZilla": "scoop-cn/filezilla",
+        "KiTTY": "scoop-cn/kitty"
     },
     "url": "https://github.com/jimradford/superputty/releases/download/1.5.0.0/SuperPuTTY-1.5.0.0.zip",
     "hash": "4d96c6e42c1a1191455960580fdc610027c69cbd0d3477ef8b757c8512f0947c",

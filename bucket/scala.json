@@ -8,7 +8,7 @@
         "Or follow the migration guide: https://docs.scala-lang.org/scala3/guides/migration/compatibility-intro.html"
     ],
     "suggest": {
-        "JDK": "java/openjdk"
+        "JDK": "scoop-cn/openjdk"
     },
     "url": "https://github.com/scala/scala3/releases/download/3.7.3/scala3-3.7.3.msi",
     "hash": "2b2ab50ae3501dbe2737e2c5cca00d7ba5b538352d02c41d9f8d2311d1dcca5d",

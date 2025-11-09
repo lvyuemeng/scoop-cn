@@ -4,7 +4,7 @@
     "homepage": "https://vencord.dev/",
     "license": "GPL-3.0-only",
     "suggest": {
-        "discord": "extras/discord"
+        "discord": "scoop-cn/discord"
     },
     "architecture": {
         "64bit": {

@@ -8,8 +8,8 @@
         "See \"Important Notes\" section at https://github.com/BedrockLauncher/BedrockLauncher/releases/latest"
     ],
     "suggest": {
-        "VCRedist": "extras/vcredist2022",
-        ".NET 8.0 Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+        "VCRedist": "scoop-cn/vcredist2022",
+        ".NET 8.0 Desktop Runtime": "scoop-cn/windowsdesktop-runtime-lts"
     },
     "architecture": {
         "64bit": {

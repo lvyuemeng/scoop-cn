@@ -8,7 +8,7 @@
         "VLC is not distributed with pympress, but it is certainly available in your system’s package manager and on their website (https://www.videolan.org/vlc/)."
     ],
     "suggest": {
-        "VLC": "extras/vlc"
+        "VLC": "scoop-cn/vlc"
     },
     "architecture": {
         "64bit": {

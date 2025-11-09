@@ -5,8 +5,8 @@
     "license": "GPL-3.0-or-later",
     "suggest": {
         "JDK": [
-            "java/openjdk",
-            "java/oraclejdk"
+            "scoop-cn/openjdk",
+            "scoop-cn/oraclejdk"
         ]
     },
     "url": "https://github.com/oripa/oripa/releases/download/v1.77_release/oripa-1.77-all.jar#/oripa.jar",

@@ -9,8 +9,8 @@
     "bin": "bin\\gradle.bat",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     }
 }

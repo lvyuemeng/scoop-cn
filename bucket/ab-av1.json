@@ -3,7 +3,7 @@
     "description": "AV1 re-encoding using ffmpeg, svt-av1 & vmaf.",
     "homepage": "https://github.com/alexheretic/ab-av1",
     "license": "MIT",
-    "depends": "main/ffmpeg",
+    "depends": "scoop-cn/ffmpeg",
     "architecture": {
         "64bit": {
             "url": "https://github.com/alexheretic/ab-av1/releases/download/v0.10.1/ab-av1.exe",

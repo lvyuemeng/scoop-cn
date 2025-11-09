@@ -5,7 +5,7 @@
     "license": "MIT",
     "notes": "Asus System Control Interface v3+ and .NET Desktop Runtime 7 are required.",
     "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
+        ".NET Desktop Runtime": "scoop-cn/windowsdesktop-runtime"
     },
     "architecture": {
         "64bit": {

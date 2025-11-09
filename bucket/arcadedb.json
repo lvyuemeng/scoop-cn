@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/openjdk11",
-            "java/graalvm-jdk11"
+            "scoop-cn/openjdk11",
+            "scoop-cn/graalvm-jdk11"
         ]
     },
     "url": "https://github.com/ArcadeData/arcadedb/releases/download/25.10.1/arcadedb-25.10.1.tar.gz",

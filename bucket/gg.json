@@ -4,7 +4,7 @@
     "homepage": "https://github.com/gulbanana/gg",
     "license": "Apache-2.0",
     "suggest": {
-        "jj": "main/jj"
+        "jj": "scoop-cn/jj"
     },
     "architecture": {
         "64bit": {

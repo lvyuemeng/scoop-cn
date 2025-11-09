@@ -7,7 +7,7 @@
         "url": "https://github.com/Suwayomi/Suwayomi-JUI/blob/master/LICENSE"
     },
     "suggest": {
-        "JRE": "java/oraclejre8"
+        "JRE": "scoop-cn/oraclejre8"
     },
     "architecture": {
         "64bit": {

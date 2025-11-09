@@ -4,7 +4,7 @@
     "homepage": "https://www.videohelp.com/software/clever-FFmpeg-GUI",
     "license": "Freeware",
     "suggest": {
-        "FFmpeg": "main/ffmpeg"
+        "FFmpeg": "scoop-cn/ffmpeg"
     },
     "url": "https://www.videohelp.com/download/clever_ffmpeg_gui_347.zip",
     "hash": "f62ec5465300c1cc9b92d25f9a6465d8157816c2c6dc6d896834eba5503444b4",
