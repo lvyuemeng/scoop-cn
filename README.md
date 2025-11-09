@@ -1,8 +1,14 @@
-# Scoop Proxy
+<div align="center">
+
+# Scoop Buckets Mirrors 
+
+**[中文](README-cn.md) | [English](README.md)**
+
+![GitHub Actions Workflow Status](https://github.com/lvyuemeng/scoop-cn/actions/workflows/auto-update.yml/badge.svg)
+
+</div>
 
 **Especially thanks to `https://github.com/duzyn/scoop-cn`** which currently seems not maintained now.
-
-<!-- ![GitHub Actions Workflow Status](https://github.com/lvyuemeng/scoop-cn/actions/workflows/auto-update.yml/badge.svg) -->
 
 ## Why I create
 
@@ -18,20 +24,20 @@ In order to solve the problem, we replace urls into the proxy one: [Github Proxy
 
 ### Features:
 
-- The buckets of repo：`main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`. You are welcome to pull request for more buckets needing proxy.
+- The buckets of repo：`main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`. You are welcome to pull request for more buckets needing mirrors.
 - Updated per 4 hours.
 
 ## Installation
 
 ### Prerequisite
 
-[PowerShell](https://learn.microsoft.com/en-us/powershell/) Should be `>= 5.1`, which should be normal for every windows user. Otherwise you have to install [PowerShell Core](https://github.com/PowerShell/PowerShell).
+[PowerShell](https://learn.microsoft.com/en-us/powershell/) Should be `>= 5.1`, which should be common for every windows user. Otherwise you have to refer [PowerShell Installation Tutorial](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5).
 
 ```powershell
 $PSVersionTable.PSVersion.Major >= 5.1
 ```
 
-Second, you should have ability to change the `ExecutionPolicy` to execute scripts.
+Second, you should change the `ExecutionPolicy` to execute scripts.
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -40,6 +46,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Scoop
 
 You should have scoop already, if not, watch below, if so, skip to `Buckets` section.
+
+- Please notice to your scoop installation location. We use `$env:USERPROFILE\scoop\` as the default location.
+- Please notice the bucket name you added. We use `spc` as the default name.
+- If you use custom name or path, please modify your own.
 
 In your Powershell, input below commands to download and execute installation of scoop.
 
@@ -65,8 +75,6 @@ scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn 
 Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object { (Get-Content -Path $_.FullName -Raw) -replace '"bucket": "(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' | Set-Content -Path $_.FullName }
 ```
 
-The path `$env:USERPROFILE\scoop\apps` should be modified depended on your installation location, if you changed, change this one too; the name `spc` should be modified depended on your previous added bucket name too, if so, change this one too.
-
 - Check our modification:
 
 ```powershell
@@ -78,7 +86,7 @@ Name          Version           Source         Updated               Info
 git           2.47.0.2          main           ...
 ```
 
-运行命令替换之后变为：
+Change to:
 
 ```powershell
 Installed apps:
@@ -94,21 +102,12 @@ git           2.47.0.2          spc            ...
 If you want to modify your other scoop bucket upstream url (Which is the url your bucket to synchronize the remote one.), you could change by below commands, notice you **should have `git`**:
 
 ```powershell
-scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop
-git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main
-git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn
+scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop # Change Scoop upstream
+git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main # Change Main bucket upstream
+git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn # Change scoop-cn bucket upstream
 # Others...
-```
-
-## Usage
-
-```powershell
-scoop search <app-name>
-scoop install <app-name>
-scoop install spc/<app-name>
-scoop help
 ```
 
 ## Star History
 
-![Star History Chart](https://api.star-history.com/svg?repos=lvyuemeng/scoop-cn&type=Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=lvyuemeng/scoop-cn&type=date&legend=top-left)](https://www.star-history.com/#lvyuemeng/scoop-cn&type=date&legend=top-left)

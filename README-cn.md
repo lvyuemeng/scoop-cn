@@ -1,5 +1,12 @@
-[PowerShell](https://learn.microsoft.com/zh-cn/powershell/) 版本在 5.1 或以上，如果没有 PowerShell 大于 5.1 版本，可以下载安装 [PowerShell Core](https://github.com/PowerShell/PowerShell)。运行以下命令查看：
-# Scoop Proxy
+<div align="center">
+
+# Scoop Buckets Mirrors 
+
+**[中文](README-cn.md) | [English](README.md)**
+
+![GitHub Actions Workflow Status](https://github.com/lvyuemeng/scoop-cn/actions/workflows/auto-update.yml/badge.svg)
+
+</div>
 
 **特别感谢 `https://github.com/duzyn/scoop-cn`**，该项目原作者似乎已不再维护。
 
@@ -11,18 +18,18 @@ Scoop 是一个优秀的包管理器，它简洁易用。然而，Scoop及其buc
 
 ## 简介
 
-为了解决这个问题，我们替换了镜像链接：[Github Proxy](https://gh-proxy.com/)。
+为了解决这个问题，我们替换至镜像链接，如：[Github Proxy](https://gh-proxy.com/)。 
 
 ### 特性：
 
-  - 涵盖的软件源：`main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`。欢迎提交拉取请求，添加更多需要代理的软件源。
-  - 每 4 小时更新一次。
+- 涵盖的软件源：`main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`。欢迎提交拉取请求，添加更多需要镜像的软件源。
+- 每 4 小时更新一次。
 
 ## 安装
 
-### 先决条件
+### 前提
 
-[PowerShell](https://learn.microsoft.com/en-us/powershell/) 需具备 `>= 5.1` 版本， 所有Windows使用者应当不陌生。否则，您需要安装 [PowerShell Core](https://github.com/PowerShell/PowerShell)。
+[PowerShell](https://learn.microsoft.com/en-us/powershell/) 需具备 `>= 5.1` 版本， 所有Windows使用者应当对此并不陌生。否则，您需要参考 [PowerShell Installation Tutorial](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)。
 
 ```powershell
 $PSVersionTable.PSVersion.Major >= 5.1
@@ -37,6 +44,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ### Scoop
 
 您应该已经安装了 Scoop，如果没有，请阅读该节；如果已经安装，请跳至 `Buckets` 节。
+
+- 请注意您的 scoop 安装路径。我们使用 `$env:USERPROFILE\scoop\` 作为默认路径。
+- 请注意您添加的镜像源名称。我们使用 `spc` 作为默认名称。
+- 如果您使用了自定义名称或路径，请自行修改相应配置。
 
 在你的 Powershell 中，输入以下命令来下载并执行 Scoop 的安装。
 
@@ -62,8 +73,6 @@ scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn 
 Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object { (Get-Content -Path $_.FullName -Raw) -replace '"bucket": "(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' | Set-Content -Path $_.FullName }
 ```
 
-路径 `$env:USERPROFILE\scoop\apps` 应根据您的安装位置进行修改，如果您更改安装位置，请一并修改此路径；名称 `spc` 也应根据您之前添加的软件源名称进行修改，如果更改，请一并修改此名称。
-
 - 检查我们的修改：
 
 ```powershell
@@ -88,24 +97,15 @@ git           2.47.0.2          spc            ...
 
 ### 其他软件源（可选）
 
-如果您想修改其他 Scoop 软件源的**上游链接**（用于同步远程仓库的链接），您可以通过以下命令更改，请注意您**应该安装`git`**：
+如果您想修改其他 Scoop 软件源的**上游链接**（用于同步远程仓库的链接），您可以通过以下命令更改，请注意您**需要安装`git`**：
 
 ```powershell
-scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop
-git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main
-git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn
-# 还有其他的...
-```
-
-## 使用方法
-
-```powershell
-scoop search <app-name>
-scoop install <app-name>
-scoop install spc/<app-name>
-scoop help
+scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop # 修改scoop拉取源
+git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main # 修改Main镜像源
+git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn #修改scoop-cn镜像源
+# 其他...
 ```
 
 ## Star 历史
 
-![Star History Chart](https://api.star-history.com/svg?repos=lvyuemeng/scoop-cn&type=Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=lvyuemeng/scoop-cn&type=date&legend=top-left)](https://www.star-history.com/#lvyuemeng/scoop-cn&type=date&legend=top-left)
