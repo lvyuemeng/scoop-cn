@@ -1,5 +1,9 @@
+# EditorConfig (is awesome): http://EditorConfig.org
+
+# * top-most EditorConfig file
 root = true
 
+# default style settings
 [*]
 charset = utf-8
 end_of_line = crlf
@@ -7,3 +11,7 @@ indent_size = 4
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
+
+[[Mm]akefile{,.*}]
+# TAB-style indentation
+indent_style = tab

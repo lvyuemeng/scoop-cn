@@ -1,0 +1,53 @@
+name: Auto Update
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "master"
+  schedule:
+    - cron: "0 */4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  auto-update:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout Self
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 2
+
+      - name: Checkout Source
+        shell: pwsh
+        run: |
+          # We manually clone to avoid repeated `actions/checkout`
+          #
+          $Config = Get-Content -Path .\bin\config.json -Raw | ConvertFrom-Json
+          Write-Host "Found $($Config.repositories.Count) repositories to clone."
+
+          foreach ($repo in $Config.repositories) {
+            $path = $repo.Split('/')[-1]
+            Write-Host "Cloning $repo to $path"
+            git clone --depth 1 "https://github.com/$repo.git" $path
+          }
+
+      - name: Aggregate and update
+        shell: pwsh
+        run: |
+          .\bin\auto-update.ps1
+
+          # Configure git
+          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git add --all
+
+          # Commit and push if there are changes
+          if ([string]::IsNullOrEmpty((git status --porcelain))) {
+            echo "No changes to commit"
+          } else {
+            git commit -m "Updated on $(Get-Date -Format "yyyy-MM-dd HH:mm K")"
+            git push -f origin master
+          }

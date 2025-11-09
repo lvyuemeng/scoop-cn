@@ -1,0 +1,69 @@
+name: 🐛 Bug Report
+description: Open an issue about a bug that needs fixing.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+- type: checkboxes
+  attributes:
+    label: Prerequisites
+    options:
+    - label: I have written a descriptive issue title.
+      required: true
+    - label: The problem is not related to Scoop, Powershell (We can't fix it) but the bucket itself (like proxy).
+      required: true 
+    - label: I have searched all issues/PRs to ensure it has not already been reported or fixed.
+      required: true
+- type: textarea
+  attributes:
+    label: Expected/Current Behaviour
+    description: A clear and concise description of what you expected to happen and what actually happen.
+    placeholder: I am experiencing a problem with X. I think Y should be happening but Z is actually happening.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Steps to Reproduce
+    description: List of steps, sample code or failing test that reproduces the behavior.
+    render: console
+    placeholder: |
+      PS> scoop install our-bucket/meson
+      Failed to download due to proxy (...)
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Scoop Config
+    description: Paste verbatim output from `scoop config` below.
+    render: console
+    placeholder: |
+      PS> scoop config
+
+      last_update            : 2022/11/14 22:05:50
+      scoop_repo             : https://github.com/ScoopInstaller/Scoop
+      scoop_branch           : master
+      use_lessmsi            : True
+      aria2-enabled          : True
+      aria2-warning-enabled  : False
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: PowerShell Version
+    description: Paste verbatim output from `$PSVersionTable` below.
+    render: console
+    placeholder: |
+      PS> $PSVersionTable
+
+      Name                           Value
+      ----                           -----
+      PSVersion                      7.3.0
+      PSEdition                      Core
+      GitCommitId                    7.3.0
+      OS                             Microsoft Windows 10.0.25236
+      Platform                       Win32NT
+      PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0…}
+      PSRemotingProtocolVersion      2.3
+      SerializationVersion           1.1.0.1
+      WSManStackVersion              3.0
+  validations:
+    required: true

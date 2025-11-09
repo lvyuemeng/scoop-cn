@@ -1,0 +1,8 @@
+# .github/dependabot.yml
+version: 2
+updates:
+  # Enable version updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/" # Location of your .github/workflows files
+    schedule:
+      interval: "daily" # How often to check for updates (daily, weekly, etc.)
