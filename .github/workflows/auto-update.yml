@@ -24,15 +24,7 @@ jobs:
         shell: pwsh
         run: |
           # We manually clone to avoid repeated `actions/checkout`
-          #
-          $Config = Get-Content -Path .\bin\config.json -Raw | ConvertFrom-Json
-          Write-Host "Found $($Config.repositories.Count) repositories to clone."
-
-          foreach ($repo in $Config.repositories) {
-            $path = $repo.Split('/')[-1]
-            Write-Host "Cloning $repo to $path"
-            git clone --depth 1 "https://github.com/$repo.git" $path
-          }
+          .\bin\auto-pull.ps1
 
       - name: Aggregate and update
         shell: pwsh
