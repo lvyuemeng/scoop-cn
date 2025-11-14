@@ -20,7 +20,7 @@ Therefore I create (follows from `duzyn/scoop-cn`) the proxy-oriented buckets.
 
 ## Introduction
 
-In order to solve the problem, we replace urls into the proxy one: [Github Proxy](https://gh-proxy.com/).
+In order to solve the problem, we replace urls by mirror one with variables replacement. To check the concrete replacement, please check [config](./bin/config.ps1)
 
 ### Features:
 

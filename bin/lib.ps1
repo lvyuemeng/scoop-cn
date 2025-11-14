@@ -1,0 +1,128 @@
+$BIN_ROOT = $PSScriptRoot
+$ROOT = (Get-Item $PSScriptRoot).Parent.FullName
+$BUCKET_DIR = Join-Path $ROOT "bucket"
+$SCRIPTS_DIR = Join-Path $ROOT "scripts"
+
+# Safety: $PScriptRoot\config.ps1 = <root>\bin\config.json
+$Context = & "$BIN_ROOT\config.ps1"
+
+function Expand-Variables {
+	param(
+		[string]$text,
+		[hashtable]$vars
+	)
+	
+	$prevText = $null
+	while ($text -ne $prevText) {
+		$prevText = $text
+		foreach ($key in $vars.Keys) {
+			$pattern = '\$\{' + [Regex]::Escape($key) + '\}'
+			$text = $text -replace $pattern, $vars[$key]
+		}
+	}
+	return $text
+}
+
+function Update-Manifest {
+	param(
+		[PSCustomObject]$manifest,
+		[PSCustomObject[]]$rules,
+		[hashtable]$vars,
+		[switch]$DryRun
+	)
+
+	$content = [System.IO.File]::ReadAllText($manifest.FullName)
+	$isChange = $false
+
+	# Apply all enabled rules
+	foreach ($rule in $rules) {
+		if ($content -match $rule.find) {
+			Write-Verbose "[$($manifest.Name)] Applying rule: $($rule.description)"
+			$content = $content -replace $rule.find, $rule.replace
+			$isChange = $true
+		}
+	}
+
+	# Write the file back *only* if changes were made
+	if (-not $isChange) {
+		continue
+	}
+
+	if ($DryRun) {
+		Write-Warning "DRY RUN: Would have modified $($manifest.FullName)"
+	} else {
+		Write-Host "Updating $($manifest.FullName)"
+		[System.IO.File]::WriteAllText($manifest.FullName, $content, [Text.Encoding]::UTF8)
+	}
+}
+
+# --- PART 1: AGGREGATION ---
+function Invoke-BucketAggregation {
+	param(
+		[string[]]$repos
+	)
+	Write-Host "Starting bucket aggregation..."
+	Write-Host "Found $($repos.Count) repositories."
+
+	# Clear old buckets
+	Remove-Item -Path $BUCKET_DIR, $SCRIPTS_DIR -Recurse -Force -ErrorAction SilentlyContinue
+	New-Item -ItemType Directory -Path $BUCKET_DIR | Out-Null
+	New-Item -ItemType Directory -Path $SCRIPTS_DIR | Out-Null
+
+	# Safety: $repos should contains urls of repo
+	foreach ($repo in $repos) {
+		# $repo = <owner>/<bucket>
+		$bucket = $repo.Split('/')[-1]
+		Write-Verbose "Aggregating $bucket..."
+		$SourceBucket = Join-Path $Root $bucket "bucket"
+		$SourceScripts = Join-Path $Root $bucket "scripts"
+		
+		if (Test-Path $SourceBucket) {
+			Copy-Item -Path (Join-Path $SourceBucket "*") -Destination $BUCKET_DIR -Recurse -Force
+		}
+		if (Test-Path $SourceScripts) {
+			Copy-Item -Path (Join-Path $SourceScripts "*") -Destination $SCRIPTS_DIR -Recurse -Force
+		}
+	}
+	Write-Host "Aggregation complete."
+}
+
+# --- PART 2: URL REPLACEMENT ---
+function Invoke-Replacement {
+	param(
+		[PSCustomObject[]]$rules,
+		[hashtable]$vars,
+		[switch]$DryRun
+	)
+	Write-Host "Applying replacement rules..."
+	$rules = $rules | Where-Object { $_.enabled -eq $true } | ForEach-Object {
+		$_.PSObject.Copy() | Add-Member -MemberType NoteProperty -Name "replace" -Value (Expand-Variables -text $_.replace -vars $vars)
+	}
+
+	if ($rules.Count -eq 0) {
+		Write-Warning "No enabled rules found in config.json. Skipping replacement."
+		return
+	} else {
+		Write-Host "Applying $($rules.Count) enabled replacement rules..."
+	}
+
+	$manifests = Get-ChildItem -Recurse -Path $BUCKET_DIR -Filter "*.json"
+
+	$manifests | ForEach-Object -Parallel {
+		Update-Manifest -manifest $man -rules $rules -vars $vars -DryRun:$DryRun
+	}
+	Write-Host "Replacement complete."
+}
+
+# --- PART 3: CLEANUP ---
+function Invoke-Cleanup {
+	param(
+		[string[]]$repos
+	)
+
+	Write-Host "Cleaning up source bucket folders..."
+	$repos | ForEach-Object -Parallel {
+		$bucket = $_.Split('/')[-1]
+		Remove-Item -Path (Join-Path $using:ROOT $bucket) -Recurse -Force -ErrorAction SilentlyContinue
+	}
+}
