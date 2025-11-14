@@ -1,0 +1,54 @@
+{
+    "version": "144.0.7512.4",
+    "description": "Fast, secure, and free web browser, built for the modern web.",
+    "homepage": "https://www.google.com/chrome/dev",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.google.com/chrome/privacy/eula_text.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/release2/chrome/achv7z2mwxluprdqaxx7si6ou3sa_144.0.7512.4/144.0.7512.4_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "2a6e3830095ac26c36f8300907348235437fb0253fdec32be34fb5cf01889cfe"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/release2/chrome/ad5tgpxeurjwdl7cjndbrgu6bjtq_144.0.7512.4/144.0.7512.4_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "81df978b52b1b00786a1699f4a906573c9df37aa72184c3c6c32ca73b87b6b81"
+        }
+    },
+    "extract_dir": "Chrome-bin",
+    "bin": [
+        [
+            "chrome.exe",
+            "chrome-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Google Chrome (Dev)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+        "regex": "(?sm)<dev32><version>(?<version>[\\d.]+)</version>.+release2/chrome/(?<32>[\\w-]+)_.+<dev64>.+release2/chrome/(?<64>[\\w-]+)_.+</dev64>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/release2/chrome/$match64_$version/$version_chrome_installer_uncompressed.exe#/dl.7z",
+                "hash": {
+                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+                    "xpath": "/chromechecker/dev64[version='$version']/sha256"
+                }
+            },
+            "32bit": {
+                "url": "https://dl.google.com/release2/chrome/$match32_$version/$version_chrome_installer_uncompressed.exe#/dl.7z",
+                "hash": {
+                    "url": "https://scoopinstaller.github.io/UpdateTracker/googlechrome/chrome.min.xml",
+                    "xpath": "/chromechecker/dev32[version='$version']/sha256"
+                }
+            }
+        }
+    }
+}

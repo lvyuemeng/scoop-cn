@@ -1,0 +1,34 @@
+{
+    "version": "0.110.3",
+    "description": "A tool used to apply file update strategies. Designed to be used from everywhere, each application 'run' detects if a value needs to be updated using a custom strategy then apply changes according to the strategy.",
+    "homepage": "https://www.updatecli.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/updatecli/updatecli/releases/download/v0.110.3/updatecli_Windows_x86_64.zip",
+            "hash": "dc91eb4d8e6e3ae36f788321729bc00611f4b8894754166fec7af4b3582bf75d"
+        },
+        "arm64": {
+            "url": "https://github.com/updatecli/updatecli/releases/download/v0.110.3/updatecli_Windows_arm64.zip",
+            "hash": "48b1cbc22363c6a099a89d40ba35764805b4b78879a1ccc1338fce87b436530e"
+        }
+    },
+    "env_add_path": ".",
+    "checkver": {
+        "github": "https://github.com/updatecli/updatecli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/updatecli/updatecli/releases/download/v$version/updatecli_Windows_x86_64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/updatecli/updatecli/releases/download/v$version/updatecli_Windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt",
+            "regex": "(?im)^$sha256\\s+$basename$"
+        }
+    }
+}

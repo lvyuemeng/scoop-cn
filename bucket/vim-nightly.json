@@ -1,0 +1,114 @@
+{
+    "version": "9.1.1914",
+    "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
+    "homepage": "https://www.vim.org",
+    "license": "Vim",
+    "notes": "Add gVim as a context menu option by running: \"$dir\\install-context.reg\"",
+    "suggest": {
+        "vimtutor": "vimtutor"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.1.1914/gvim_9.1.1914_x64.zip",
+            "hash": "ea0ec0762ff5594f9fd38da28b2b698a1182a442076ea2683afe810db93cf885"
+        },
+        "32bit": {
+            "url": "https://github.com/vim/vim-win32-installer/releases/download/v9.1.1914/gvim_9.1.1914_x86.zip",
+            "hash": "3b30fe13f959839d834228bb6ede55f1fbff9d45282e3a618aa644ac99e78c04"
+        }
+    },
+    "extract_dir": "vim\\vim91",
+    "post_install": [
+        "Remove-Item \"$dir\\`$*\", \"$dir\\uninstal.*\", \"$dir\\install.exe\" -Recurse",
+        "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
+        "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
+        "    $content = (Get-Content \"$bucketsdir\\versions\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
+        "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
+        "    Set-Content \"$dir\\$_\" $content",
+        "}"
+    ],
+    "bin": [
+        "vim.exe",
+        [
+            "vim.exe",
+            "vi"
+        ],
+        [
+            "vim.exe",
+            "ex",
+            "-e"
+        ],
+        [
+            "vim.exe",
+            "view",
+            "-R"
+        ],
+        [
+            "vim.exe",
+            "rvim",
+            "-Z"
+        ],
+        [
+            "vim.exe",
+            "rview",
+            "-RZ"
+        ],
+        [
+            "vim.exe",
+            "vimdiff",
+            "-d"
+        ],
+        "gvim.exe",
+        [
+            "gvim.exe",
+            "gview",
+            "-R"
+        ],
+        [
+            "gvim.exe",
+            "evim",
+            "-y"
+        ],
+        [
+            "gvim.exe",
+            "eview",
+            "-Ry"
+        ],
+        [
+            "gvim.exe",
+            "rgvim",
+            "-Z"
+        ],
+        [
+            "gvim.exe",
+            "rgview",
+            "-RZ"
+        ],
+        [
+            "gvim.exe",
+            "gvimdiff",
+            "-d"
+        ],
+        "xxd.exe"
+    ],
+    "shortcuts": [
+        [
+            "gvim.exe",
+            "gVim"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/vim/vim-win32-installer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x86.zip"
+            }
+        },
+        "extract_dir": "vim\\vim$majorVersion$minorVersion"
+    }
+}

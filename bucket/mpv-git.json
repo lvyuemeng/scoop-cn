@@ -1,0 +1,47 @@
+{
+    "version": "20251114",
+    "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
+    "homepage": "https://mpv.io",
+    "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
+    "notes": [
+        "To set and unset file type associations and AutoPlay handlers, run '$dir\\installer\\mpv-install.bat' and '$dir\\installer\\mpv-uninstall.bat' as administrator, respectively.",
+        "You can use Icaros ('nonportable/icaros-np') to enable thumbnails for all media types."
+    ],
+    "suggest": {
+        "yt-dlp": "yt-dlp"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20251114/mpv-x86_64-20251114-git-7815181.7z",
+            "hash": "bfc84ac22c3bc943a3f8ed4a3b695134284ea25624c7e6a922e90c0560d07047"
+        },
+        "32bit": {
+            "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20251114/mpv-i686-20251114-git-7815181.7z",
+            "hash": "efb131d15696f85af880857e885d9e873e4a65b8380b7a8d9522c23a46f174af"
+        }
+    },
+    "pre_install": "Remove-Item \"$dir\\updater.bat\"",
+    "env_add_path": ".",
+    "shortcuts": [
+        [
+            "mpv.exe",
+            "mpv"
+        ]
+    ],
+    "persist": "portable_config",
+    "checkver": {
+        "url": "https://api.github.com/repositories/141023757/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
+        "regex": "mpv-x86_64-(\\d+)-git-(?<commit>[\\da-f]+)\\.7z"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-x86_64-$version-git-$matchCommit.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/mpv-i686-$version-git-$matchCommit.7z"
+            }
+        }
+    }
+}

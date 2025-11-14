@@ -1,0 +1,23 @@
+{
+    "version": "25.3.1.311.1257",
+    "description": "Oracle SQL Developer Command Line (SQLcl)",
+    "homepage": "https://www.oracle.com/database/sqldeveloper/technologies/sqlcl",
+    "license": {
+        "identifier": "Oracle Free Use License",
+        "url": "https://www.oracle.com/downloads/licenses/oracle-free-license.html"
+    },
+    "suggest": {
+        "JRE": "java/oraclejdk"
+    },
+    "url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip",
+    "hash": "6502793c6489f2ba6c189d8efe58b2d9b641be130f55e277e86c13ba16990dfa",
+    "extract_dir": "sqlcl",
+    "bin": "bin\\sql.exe",
+    "checkver": {
+        "url": "https://formulae.brew.sh/cask/sqlcl",
+        "regex": ">([\\d.]+)</a>"
+    },
+    "autoupdate": {
+        "url": "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip"
+    }
+}
