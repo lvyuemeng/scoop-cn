@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.79",
     "description": "Obtain information about a system.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psinfo",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psinfo.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psinfo.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

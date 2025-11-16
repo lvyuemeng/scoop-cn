@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.46",
     "description": "Translate SIDs to their display name and vice versa.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psgetsid",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psgetsid.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psgetsid.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "4.01",
     "description": "Monitor file system, Registry, process, thread and DLL activity in real-time.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/procmon",
@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "Procmon64.exe",
-                    "SysInternals/Process Monitor",
+                    "scoop-cn/Process Monitor",
                     "/accepteula"
                 ]
             ]
@@ -29,7 +29,7 @@
             "shortcuts": [
                 [
                     "Procmon.exe",
-                    "SysInternals/Process Monitor",
+                    "scoop-cn/Process Monitor",
                     "/accepteula"
                 ]
             ]
@@ -44,14 +44,14 @@
             "shortcuts": [
                 [
                     "Procmon64a.exe",
-                    "SysInternals/Process Monitor",
+                    "scoop-cn/Process Monitor",
                     "/accepteula"
                 ]
             ]
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procmon.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procmon.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

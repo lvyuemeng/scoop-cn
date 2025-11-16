@@ -1,0 +1,34 @@
+﻿{
+    "version": "9.2.0",
+    "description": "An open-source build automation tool focused on flexibility and performance. (Binaries only without documentation)",
+    "homepage": "https://gradle.org",
+    "license": "Apache-2.0",
+    "suggest": {
+        "JDK": "scoop-cn/openjdk"
+    },
+    "url": "https://mirrors.nju.edu.cn/gradle/gradle-9.2.0-bin.zip",
+    "hash": "df67a32e86e3276d011735facb1535f64d0d88df84fa87521e90becc2d735444",
+    "extract_dir": "gradle-9.2.0",
+    "post_install": [
+        "$current_env = Get-EnvVar -Name GRADLE_USER_HOME -Global:$global",
+        "If ($null -eq $current_env) {",
+        "    $path = \"$dir\\.gradle\"",
+        "    Set-EnvVar -Name GRADLE_USER_HOME -Value $path -Global:$global",
+        "    $Env:GRADLE_USER_HOME = $path",
+        "    Write-Host \"Environment variable 'GRADLE_USER_HOME' set to '$path'\"",
+        "}"
+    ],
+    "persist": ".gradle",
+    "bin": "bin\\gradle.bat",
+    "checkver": {
+        "url": "https://gradle.org/install/",
+        "regex": "The current Gradle release is version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://mirrors.nju.edu.cn/gradle/gradle-$version-bin.zip",
+        "hash": {
+            "url": "$url.sha256"
+        },
+        "extract_dir": "gradle-$version"
+    }
+}

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.02",
     "description": "A program that allows you to control the Cache Manager's working set size using functions provided by NT.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/cacheset",
@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "Cacheset64.exe",
-                    "SysInternals/CacheSet",
+                    "scoop-cn/CacheSet",
                     "/accepteula"
                 ]
             ]
@@ -29,14 +29,14 @@
             "shortcuts": [
                 [
                     "Cacheset.exe",
-                    "SysInternals/CacheSet",
+                    "scoop-cn/CacheSet",
                     "/accepteula"
                 ]
             ]
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/cacheset.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/cacheset.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

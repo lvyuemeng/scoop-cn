@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "11.1",
     "description": "Capturing process dumps of otherwise difficult to isolate and reproduce CPU spikes.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/procdump",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procdump.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/procdump.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

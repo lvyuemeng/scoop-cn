@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "5.0",
     "description": "Show you what files are open by which processes, and much more.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/handle",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/handle.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/handle.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

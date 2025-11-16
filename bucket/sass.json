@@ -1,0 +1,37 @@
+﻿{
+    "version": "1.94.0",
+    "description": "The primary implementation of Sass, written in Dart.",
+    "homepage": "https://sass-lang.com/dart-sass",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/sass/dart-sass/releases/download/1.94.0/dart-sass-1.94.0-windows-x64.zip",
+            "hash": "6befd5df9980aae39353e3a7037af9f3dd916b1c174b47d00fad663dc7d27775"
+        },
+        "arm64": {
+            "url": "https://gh-proxy.org/https://github.com/sass/dart-sass/releases/download/1.94.0/dart-sass-1.94.0-windows-arm64.zip",
+            "hash": "fe89168a81051436a0281fb7851b22a73e33bb9d8a6c196a3a47a4c2e60ea73b"
+        }
+    },
+    "extract_dir": "dart-sass",
+    "bin": [
+        "sass.bat",
+        [
+            "sass.bat",
+            "dart-sass"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/sass/dart-sass"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gh-proxy.org/https://github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://gh-proxy.org/https://github.com/sass/dart-sass/releases/download/$version/dart-sass-$version-windows-arm64.zip"
+            }
+        }
+    }
+}

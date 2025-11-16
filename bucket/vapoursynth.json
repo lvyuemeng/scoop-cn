@@ -1,0 +1,32 @@
+﻿{
+    "version": "72",
+    "description": "A video processing framework with simplicity in mind",
+    "homepage": "https://www.vapoursynth.com/",
+    "suggest": {
+        "vcredist": "scoop-cn/vcredist2022"
+    },
+    "license": "LGPL-2.1-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/vapoursynth/vapoursynth/releases/download/R72/VapourSynth64-Portable-R72.zip",
+            "hash": "a521a4201fc6ba453df02fc7a2995bcda21c0b3a190d457a3890c373c57bbd5d"
+        }
+    },
+    "bin": [
+        "AVFS.exe",
+        "VSPipe.exe",
+        "pfm-192-vapoursynth-win.exe",
+        "vsrepo.py"
+    ],
+    "checkver": {
+        "github": "https://github.com/vapoursynth/vapoursynth",
+        "regex": "tag/R(\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gh-proxy.org/https://github.com/vapoursynth/vapoursynth/releases/download/R$version/VapourSynth64-Portable-R$version.zip"
+            }
+        }
+    }
+}

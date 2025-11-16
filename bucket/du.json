@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.62",
     "description": "View disk usage by directory.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/du",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/du.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/du.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

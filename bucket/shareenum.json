@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.61",
     "description": "Scan file shares on your network and view their security settings to close security holes.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/shareenum",
@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "ShareEnum64.exe",
-                    "SysInternals/ShareEnum",
+                    "scoop-cn/ShareEnum",
                     "/accepteula"
                 ]
             ]
@@ -29,14 +29,14 @@
             "shortcuts": [
                 [
                     "ShareEnum.exe",
-                    "SysInternals/ShareEnum",
+                    "scoop-cn/ShareEnum",
                     "/accepteula"
                 ]
             ]
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/shareenum.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/shareenum.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

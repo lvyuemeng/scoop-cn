@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.82",
     "description": "Dump event log records.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psloglist",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psloglist.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psloglist.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

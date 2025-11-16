@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.90",
     "description": "Dump file version information and verify that images on your system are digitally signed.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/sigcheck",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sigcheck.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sigcheck.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

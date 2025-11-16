@@ -1,0 +1,28 @@
+﻿{
+    "version": "3.16.35",
+    "description": "Jenkins X provides automated CI+CD for Kubernetes with Preview Environments on Pull Requests",
+    "homepage": "https://jenkins-x.io/",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/jenkins-x/jx/releases/download/v3.16.35/jx-windows-amd64.zip",
+            "hash": "b3891ed53e76261c5881e6253d25adc9904d4473b6684e23cae16d46aaffe182"
+        }
+    },
+    "pre_install": "Stop-Process -Name 'jx' -ErrorAction 'Ignore' -Verbose",
+    "bin": "jx.exe",
+    "checkver": {
+        "github": "https://github.com/jenkins-x/jx"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gh-proxy.org/https://github.com/jenkins-x/jx/releases/download/v$version/jx-windows-amd64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/jx-checksums.txt",
+            "regex": "(?m)$checksum[\\x20\\t]+.*$basename(?:[\\x20\\t]+\\d+)?$"
+        }
+    }
+}
