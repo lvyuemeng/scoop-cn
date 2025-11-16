@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2",
     "description": "Flush cached data to disk.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/sync",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sync.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sync.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

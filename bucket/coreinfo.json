@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6",
     "description": "A command-line utility that shows you the mapping between logical processors and the physical processor.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/coreinfo",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/coreinfo.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/coreinfo.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

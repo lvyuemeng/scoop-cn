@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.25",
     "description": "Changes account passwords.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pspasswd",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pspasswd.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pspasswd.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

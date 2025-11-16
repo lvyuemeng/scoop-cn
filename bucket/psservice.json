@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.26",
     "description": "View and control services.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psservice",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psservice.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psservice.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

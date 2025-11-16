@@ -20,12 +20,6 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Checkout Source
-        shell: pwsh
-        run: |
-          # We manually clone to avoid repeated `actions/checkout`
-          .\bin\auto-pull.ps1
-
       - name: Aggregate and update
         shell: pwsh
         run: |

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.07",
     "description": "Create Win2K NTFS junction points.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/junction",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/junction.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/junction.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

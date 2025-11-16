@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "15.15",
     "description": "Monitors and reports key system activity via the Windows event log.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/sysmon",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysmon.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sysmon.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

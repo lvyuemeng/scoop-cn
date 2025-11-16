@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.1",
     "description": "View the resolution of the system clock, which is also the maximum timer resolution.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/clockres",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/clockres.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/clockres.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.02",
     "description": "Displays the named pipes on your system, including the number of maximum instances and active instances for each pipe.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pipelist",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pipelist.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pipelist.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

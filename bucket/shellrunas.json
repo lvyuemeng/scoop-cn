@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.02",
     "description": "Launch programs as a different user via a convenient shell context-menu entry.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/shellrunas",
@@ -12,12 +12,12 @@
     "shortcuts": [
         [
             "ShellRunas.exe",
-            "scoop-cn/ShellRunas",
+            "SysInternals/ShellRunas",
             "/accepteula"
         ]
     ],
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/shellrunas.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/shellrunas.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

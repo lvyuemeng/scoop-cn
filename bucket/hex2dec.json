@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.1",
     "description": "Convert hex numbers to decimal and vice versa.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/hex2dec",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/hex2dec.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/hex2dec.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

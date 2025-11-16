@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.41",
     "description": "Show information about processes and threads.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pslist",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pslist.md",
+        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pslist.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

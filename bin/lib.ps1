@@ -4,7 +4,7 @@ $BUCKET_DIR = Join-Path $ROOT "bucket"
 $SCRIPTS_DIR = Join-Path $ROOT "scripts"
 
 # Safety: $PScriptRoot\config.ps1 = <root>\bin\config.json
-$Context = & "$BIN_ROOT\config.ps1"
+$CONTEXT = & "$BIN_ROOT\config.ps1"
 
 function Expand-Variables {
 	param(
@@ -73,11 +73,15 @@ function Invoke-BucketAggregation {
 
 	# Safety: $repos should contains urls of repo
 	foreach ($repo in $repos) {
-		# $repo = <owner>/<bucket>
+		# $repo = <owner>/<$bucket>
 		$bucket = $repo.Split('/')[-1]
+		# clone repo: $ROOT/<bucket>
+		Write-Host "Cloning $repo to $bucket"
+		& git clone --depth 1 "https://github.com/$repo.git" $bucket
+
 		Write-Verbose "Aggregating $bucket..."
-		$SourceBucket = Join-Path $Root $bucket "bucket"
-		$SourceScripts = Join-Path $Root $bucket "scripts"
+		$SourceBucket = Join-Path (Get-Location).Path $bucket "bucket"
+		$SourceScripts = Join-Path (Get-Location).Path $bucket "scripts"
 		
 		if (Test-Path $SourceBucket) {
 			Copy-Item -Path (Join-Path $SourceBucket "*") -Destination $BUCKET_DIR -Recurse -Force
@@ -139,4 +143,16 @@ function Invoke-Cleanup {
 		$bucket = $_.Split('/')[-1]
 		Remove-Item -Path (Join-Path $ROOT $bucket) -Recurse -Force -ErrorAction SilentlyContinue
 	}
+}
+
+function Invoke-Entry {
+	[CmdletBinding()]
+	param(
+		[switch]$DryRun
+	)
+
+	Invoke-BucketAggregation -repos $CONTEXT.repositories
+	Invoke-Replacement -rules  $CONTEXT.rules -vars $CONTEXT.proxies -DryRun:$DryRun
+	Invoke-Cleanup -repos $CONTEXT.repositories
+	Write-Host "Update process complete."
 }
