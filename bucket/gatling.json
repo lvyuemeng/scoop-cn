@@ -1,12 +1,12 @@
-{
+﻿{
     "version": "3.13.5",
     "description": "Async load test tool for web applications",
     "homepage": "https://gatling.io",
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "url": "https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/3.13.5/gatling-charts-highcharts-bundle-3.13.5.zip",

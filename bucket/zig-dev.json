@@ -1,10 +1,10 @@
-{
+﻿{
     "version": "0.16.0-dev.1334",
     "description": "General-purpose programming language designed for robustness, optimality, and maintainability.",
     "homepage": "https://ziglang.org/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

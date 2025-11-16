@@ -1,18 +1,18 @@
-{
+﻿{
     "version": "25.2.4",
     "description": "Database tool for developers, SQL programmers, database administrators and analysts",
     "homepage": "https://dbeaver.io",
     "license": "Apache-2.0",
     "suggest": {
         "java": [
-            "java/oraclejdk",
-            "java/oraclejre8",
-            "java/openjdk11"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/oraclejre8",
+            "scoop-cn/openjdk11"
         ]
     },
     "architecture": {
         "64bit": {
-            "url": "https://dbeaver.io/files/25.2.4/dbeaver-ce-25.2.4-win32.win32.x86_64.zip",
+            "url": "https://gh-proxy.org/https://github.com/dbeaver/dbeaver/releases/download/25.2.4/dbeaver-ce-25.2.4-win32.win32.x86_64.zip",
             "hash": "b91eee67353119d79424a750ba1f341705c09a4c149495e133c36031b7056541"
         }
     },

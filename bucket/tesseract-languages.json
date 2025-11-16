@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "4.1.0",
     "description": "Fast integer versions of trained models for the Tesseract Open Source OCR Engine",
     "homepage": "https://github.com/tesseract-ocr/tessdata_fast",
@@ -10,11 +10,11 @@
         "* Known issue:",
         "  - ERROR: Cannot create symbolic link: https://github.com/ScoopInstaller/Main/issues/4874"
     ],
-    "depends": "tesseract",
+    "depends": "scoop-cn/tesseract",
     "url": [
-        "https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.zip",
-        "https://raw.githubusercontent.com/tesseract-ocr/tessdata/d87b3cbc75555bd3282e0cadab5e159e2d468396/equ.traineddata",
-        "https://raw.githubusercontent.com/USCDataScience/counterfeit-electronics-tesseract/319a6eeacff181dad5c02f3e7a3aff804eaadeca/Training%20Tesseract/snum.traineddata"
+        "https://gh-proxy.org/https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.zip",
+        "https://gh-proxy.org/https://raw.githubusercontent.com/tesseract-ocr/tessdata/d87b3cbc75555bd3282e0cadab5e159e2d468396/equ.traineddata",
+        "https://gh-proxy.org/https://raw.githubusercontent.com/USCDataScience/counterfeit-electronics-tesseract/319a6eeacff181dad5c02f3e7a3aff804eaadeca/Training%20Tesseract/snum.traineddata"
     ],
     "hash": [
         "46ae18d17bd9583392ae7c047b751846233d4e030264a551e71ff4f25e035548",
@@ -27,7 +27,7 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/tesseract-ocr/tessdata_fast/archive/$version.zip",
+        "url": "https://gh-proxy.org/https://github.com/tesseract-ocr/tessdata_fast/archive/$version.zip",
         "extract_dir": "tessdata_fast-$version"
     }
 }

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.207.0",
     "description": "Create, deploy, and manage infrastructure on any cloud using any language.",
     "homepage": "https://www.pulumi.com",
@@ -43,7 +43,7 @@
             }
         },
         "hash": {
-            "url": "https://github.com/pulumi/pulumi/releases/download/v$version/SHA512SUMS"
+            "url": "https://gh-proxy.org/https://github.com/pulumi/pulumi/releases/download/v$version/SHA512SUMS"
         }
     }
 }

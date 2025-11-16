@@ -1,10 +1,10 @@
-{
+﻿{
     "version": "7.3.0.5189",
     "description": "Source code scanner for SonarQube analyzer.",
     "homepage": "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/",
     "license": "LGPL-3.0-only",
     "suggest": {
-        "JDK": "java/openjdk",
+        "JDK": "scoop-cn/openjdk",
         "SonarQube": "sonarqube"
     },
     "url": "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.3.0.5189.zip",

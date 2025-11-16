@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.6.1",
     "description": "GUI Shell for waifu2x-caffe, waifu2x-converter-cpp and waifu2x-ncnn-vulkan.",
     "homepage": "https://github.com/YukihoAA/waifu2x_snowshell",
@@ -8,13 +8,13 @@
         "Following converters are available: extras/waifu2x-caffe, waifu2x-converter-cpp and waifu2x-ncnn-vulkan."
     ],
     "suggest": {
-        "waifu2x-caffe": "extras/waifu2x-caffe",
+        "waifu2x-caffe": "scoop-cn/waifu2x-caffe",
         "waifu2x-converter-cpp": "waifu2x-converter-cpp",
         "waifu2x-ncnn-vulkan": "waifu2x-ncnn-vulkan"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v2.6.1/waifu2x-snowshell_v2.6.1.zip",
+            "url": "https://gh-proxy.org/https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v2.6.1/waifu2x-snowshell_v2.6.1.zip",
             "hash": "b2a33d542cbd9ac49ed7445a51043ab959bd935a78106294bff45595ea5ba346"
         }
     },
@@ -36,7 +36,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
+                "url": "https://gh-proxy.org/https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
             }
         }
     }

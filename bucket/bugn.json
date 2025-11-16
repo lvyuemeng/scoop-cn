@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "9.0.2",
     "description": "Tiling window manager add-on for the Explorer shell of Microsoft Windows",
     "homepage": "https://github.com/fuhsjr00/bug.n",
@@ -8,9 +8,9 @@
         "Make sure you have the right autohotkey version for your architecture."
     ],
     "suggest": {
-        "autohotkey": "extras/autohotkey"
+        "autohotkey": "scoop-cn/autohotkey"
     },
-    "url": "https://github.com/fuhsjr00/bug.n/archive/v9.0.2.zip",
+    "url": "https://gh-proxy.org/https://github.com/fuhsjr00/bug.n/archive/v9.0.2.zip",
     "hash": "27cc1ce069f7947b543306d4b1ec28f31fdf71fd0941650a9a39bb6a24880a5b",
     "extract_dir": "bug.n-9.0.2",
     "bin": "bugn.exe",
@@ -22,7 +22,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/fuhsjr00/bug.n/archive/v$version.zip",
+        "url": "https://gh-proxy.org/https://github.com/fuhsjr00/bug.n/archive/v$version.zip",
         "extract_dir": "bug.n-$version"
     }
 }

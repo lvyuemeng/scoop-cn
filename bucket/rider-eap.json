@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2025.3-EAP8-253.28086.30",
     "description": "Cross-Platform IDE for .NET by JetBrains. (Early Access Program)",
     "homepage": "https://www.jetbrains.com/rider/",
@@ -26,7 +26,7 @@
     },
     "extract_to": "IDE",
     "installer": {
-        "script": "& \"$bucketsdir\\versions\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir"
+        "script": "& \"$bucketsdir\\scoop-cn\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir"
     },
     "persist": [
         "IDE\\bin\\idea.properties",

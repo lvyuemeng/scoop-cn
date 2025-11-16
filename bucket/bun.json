@@ -1,16 +1,16 @@
-{
+﻿{
     "version": "1.3.2",
     "description": "Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.",
     "homepage": "https://bun.sh/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/oven-sh/bun/releases/download/bun-v1.3.2/bun-windows-x64.zip",
-                "https://github.com/oven-sh/bun/releases/download/bun-v1.3.2/bun-windows-x64-baseline.zip"
+                "https://gh-proxy.org/https://github.com/oven-sh/bun/releases/download/bun-v1.3.2/bun-windows-x64.zip",
+                "https://gh-proxy.org/https://github.com/oven-sh/bun/releases/download/bun-v1.3.2/bun-windows-x64-baseline.zip"
             ],
             "hash": [
                 "5e73b4eba0cc09085df141e1167609b100570f1a0d538d87f9b9c0da54af58d6",
@@ -46,8 +46,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/oven-sh/bun/releases/download/bun-v$version/bun-windows-x64.zip",
-                    "https://github.com/oven-sh/bun/releases/download/bun-v$version/bun-windows-x64-baseline.zip"
+                    "https://gh-proxy.org/https://github.com/oven-sh/bun/releases/download/bun-v$version/bun-windows-x64.zip",
+                    "https://gh-proxy.org/https://github.com/oven-sh/bun/releases/download/bun-v$version/bun-windows-x64-baseline.zip"
                 ]
             }
         },

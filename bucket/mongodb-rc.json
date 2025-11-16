@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "8.2.2-rc0",
     "description": "A document database with the scalability and flexibility.",
     "homepage": "https://www.mongodb.org",
@@ -16,7 +16,7 @@
         "\"$dir\\bin\\mongod.exe --config NEW_CONFIG_FILE\""
     ],
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

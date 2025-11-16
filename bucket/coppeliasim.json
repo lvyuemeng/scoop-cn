@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "4.10.0_rev0",
     "description": "Create, compose and simulate any robot.",
     "homepage": "https://www.coppeliarobotics.com",
@@ -7,7 +7,7 @@
         "url": "https://manual.coppeliarobotics.com/en/licensing.htm"
     },
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

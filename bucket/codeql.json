@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.23.5",
     "description": "Source code security analyzer from GitHub",
     "homepage": "https://github.com/github/codeql-cli-binaries",
@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/github/codeql-cli-binaries/releases/download/v2.23.5/codeql-win64.zip",
+            "url": "https://gh-proxy.org/https://github.com/github/codeql-cli-binaries/releases/download/v2.23.5/codeql-win64.zip",
             "hash": "de8c6370758ea990370ec929dea73c3879e0eca14f791ec3a3c992130326a541",
             "extract_dir": "codeql"
         }
@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
+                "url": "https://gh-proxy.org/https://github.com/github/codeql-cli-binaries/releases/download/v$version/codeql-win64.zip"
             }
         }
     }

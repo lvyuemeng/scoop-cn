@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.21",
     "description": "See who owns an Internet address.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/whois",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/whois.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/whois.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

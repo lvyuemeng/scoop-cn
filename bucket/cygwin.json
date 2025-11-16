@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.934",
     "description": "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows",
     "homepage": "https://cygwin.com/",
@@ -28,7 +28,7 @@
             "--root",
             "$dir\\root",
             "--site",
-            "https://mirrors.kernel.org/sourceware/cygwin/"
+            "https://mirrors.tuna.tsinghua.edu.cn/cygwin/"
         ],
         "keep": true
     },

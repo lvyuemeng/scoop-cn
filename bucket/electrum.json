@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "4.6.2",
     "description": "A Bitcoin SPV Wallet",
     "homepage": "https://electrum.org",
@@ -20,7 +20,7 @@
     ],
     "persist": "electrum_data",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/spesmilo/electrum-web/master/index.html",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/spesmilo/electrum-web/master/index.html",
         "regex": "Latest release: Electrum-([\\d.]+)"
     },
     "autoupdate": {

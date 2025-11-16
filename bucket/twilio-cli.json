@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "6.2.0",
     "description": "Twilio CLI. Unleash the power of Twilio from your command prompt.",
     "homepage": "https://github.com/twilio/twilio-cli",
@@ -9,8 +9,8 @@
     ],
     "suggest": {
         "Node.js": [
-            "main/nodejs",
-            "main/nodejs-lts"
+            "scoop-cn/nodejs",
+            "scoop-cn/nodejs-lts"
         ]
     },
     "architecture": {

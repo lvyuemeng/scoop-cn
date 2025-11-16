@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "23.9.0.25.07",
     "description": "Additional libraries for enabling ODBC applications with Oracle Instant Client.",
     "homepage": "https://www.oracle.com/database/technologies/instant-client.html",
@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "https://www.oracle.com/downloads/licenses/instant-client-lic.html"
     },
-    "depends": "oracle-instant-client",
+    "depends": "scoop-cn/oracle-instant-client",
     "architecture": {
         "64bit": {
             "url": "https://download.oracle.com/otn_software/nt/instantclient/2390000/instantclient-odbc-windows.x64-23.9.0.25.07.zip",

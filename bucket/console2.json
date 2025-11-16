@@ -1,11 +1,11 @@
-{
+﻿{
     "version": "2.0.0.148",
     "description": "A Windows console window enhancement.",
     "homepage": "https://sourceforge.net/projects/console/",
     "license": "GPL-2.0-only",
     "notes": "Console 2 development stopped in 2011. You might consider installing the fork ConsoleZ.",
     "suggest": {
-        "ConsoleZ": "extras/consolez"
+        "ConsoleZ": "scoop-cn/consolez"
     },
     "architecture": {
         "64bit": {

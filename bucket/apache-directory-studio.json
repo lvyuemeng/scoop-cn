@@ -1,12 +1,12 @@
-{
+﻿{
     "version": "2.0.0.v20210717-M17",
     "description": "LDAP browser and directory client",
     "homepage": "https://directory.apache.org/studio/",
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/openjdk"
         ]
     },
     "architecture": {

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "nightly",
     "description": "Run the latest master build of docker client and engine",
     "homepage": "https://master.dockerproject.org",
@@ -36,7 +36,7 @@
         "Docker Machine": "docker-machine",
         "Kubernetes Client": "kubectl",
         "Kubernetes Standalone": "minikube",
-        "Linux container support on Windows": "versions/lcow",
+        "Linux container support on Windows": "scoop-cn/lcow",
         "sudo": [
             "sudo",
             "gsudo"

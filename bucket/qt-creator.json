@@ -1,10 +1,10 @@
-{
+﻿{
     "version": "18.0.0",
     "description": "IDE for development with the Qt framework",
     "homepage": "https://doc.qt.io/qtcreator/index.html",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

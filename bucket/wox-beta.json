@@ -1,15 +1,15 @@
-{
+﻿{
     "version": "2.0.0-beta.5",
     "description": "A full-featured launcher, access programs and web contents as you type.",
     "homepage": "http://www.wox.one",
     "license": "MIT",
     "suggest": {
         "Python3": "python",
-        "Everything": "extras/everything"
+        "Everything": "scoop-cn/everything"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Wox-launcher/Wox/releases/download/v2.0.0-beta.5/wox-windows-amd64.exe",
+            "url": "https://gh-proxy.org/https://github.com/Wox-launcher/Wox/releases/download/v2.0.0-beta.5/wox-windows-amd64.exe",
             "hash": "0d1e034b63260a99d80619c803db8455ad1c299895952b7a9b8ffd046daecc95"
         }
     },
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Wox-launcher/Wox/releases/download/v$version/wox-windows-amd64.exe"
+                "url": "https://gh-proxy.org/https://github.com/Wox-launcher/Wox/releases/download/v$version/wox-windows-amd64.exe"
             }
         }
     }

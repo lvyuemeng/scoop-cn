@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "11.4.2-20250826",
     "description": "a software reverse engineering (SRE) framework",
     "homepage": "https://ghidra-sre.org",
@@ -6,11 +6,11 @@
     "notes": "Ghidra requires JDK 21 on the PATH to run.",
     "extract_dir": "ghidra_11.4.2_PUBLIC",
     "suggest": {
-        "JDK": "java/temurin21-jdk"
+        "JDK": "scoop-cn/temurin21-jdk"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.4.2_build/ghidra_11.4.2_PUBLIC_20250826.zip",
+            "url": "https://gh-proxy.org/https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_11.4.2_build/ghidra_11.4.2_PUBLIC_20250826.zip",
             "hash": "795a02076af16257bd6f3f4736c4fc152ce9ff1f95df35cd47e2adc086e037a6"
         }
     },
@@ -41,7 +41,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_$matchHead_build/ghidra_$matchHead_PUBLIC_$matchReleasedate.zip"
+                "url": "https://gh-proxy.org/https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_$matchHead_build/ghidra_$matchHead_PUBLIC_$matchReleasedate.zip"
             }
         },
         "hash": {

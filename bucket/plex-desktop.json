@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.110.0.351-4e48eb83",
     "description": "Official Plex client",
     "homepage": "https://www.plex.tv/apps-devices/#modal-devices-plex-for-windows",
@@ -7,7 +7,7 @@
         "url": "https://www.plex.tv/media-server-downloads/?platform=windows#remodal-terms"
     },
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

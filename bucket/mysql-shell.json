@@ -1,10 +1,10 @@
-{
+﻿{
     "version": "9.5.0",
     "description": "Advanced client and code editor for MySQL",
     "homepage": "https://dev.mysql.com/downloads/shell/#info-tab",
     "license": "GPL-2.0-only",
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {

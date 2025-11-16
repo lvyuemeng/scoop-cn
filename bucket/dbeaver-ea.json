@@ -1,13 +1,13 @@
-{
+﻿{
     "version": "25.3.0-2025-11-16",
     "description": "Database tool for developers, SQL programmers, database administrators and analysts. (Early Access)",
     "homepage": "https://dbeaver.io",
     "license": "Apache-2.0",
     "suggest": {
         "java": [
-            "java/oraclejdk",
-            "java/oraclejre8",
-            "java/openjdk11"
+            "scoop-cn/oraclejdk",
+            "scoop-cn/oraclejre8",
+            "scoop-cn/openjdk11"
         ]
     },
     "architecture": {

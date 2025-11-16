@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "6.0.36",
     "description": "Open-source reference management software to manage bibliographic data and related research materials.",
     "homepage": "https://www.zotero.org/",
@@ -21,7 +21,7 @@
         ]
     ],
     "post_install": [
-        "$scriptsDir = \"$bucketsdir\\versions\\scripts\"",
+        "$scriptsDir = \"$bucketsdir\\scoop-cn\\scripts\"",
         "Get-ChildItem \"$scriptsDir\\zotero\\*.ps1\" | ForEach-Object {",
         "    $content = Get-Content $_",
         "    $content = $content.Replace('REPLACE_HERE', $dir)",

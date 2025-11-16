@@ -1,15 +1,15 @@
-{
+﻿{
     "version": "1.10.1",
     "description": "Command-line tool to interact with the Scala language. It lets you compile, run, test, and package your Scala code (and more!)",
     "homepage": "https://scala-cli.virtuslab.org/",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": "java/openjdk",
-        "vcredist": "extras/vcredist2022"
+        "JDK": "scoop-cn/openjdk",
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Virtuslab/scala-cli/releases/download/v1.10.1/scala-cli-x86_64-pc-win32.zip",
+            "url": "https://gh-proxy.org/https://github.com/Virtuslab/scala-cli/releases/download/v1.10.1/scala-cli-x86_64-pc-win32.zip",
             "hash": "05b411e1965ffb912ab22fe53bbf560e8c75d2351492815e360203a8bbafbec2"
         }
     },
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Virtuslab/scala-cli/releases/download/v$version/scala-cli-x86_64-pc-win32.zip"
+                "url": "https://gh-proxy.org/https://github.com/Virtuslab/scala-cli/releases/download/v$version/scala-cli-x86_64-pc-win32.zip"
             }
         }
     }

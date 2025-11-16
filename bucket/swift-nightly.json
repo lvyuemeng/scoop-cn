@@ -1,11 +1,11 @@
-{
+﻿{
     "version": "20251114.2",
     "homepage": "https://www.swift.org/",
     "description": "A general-purpose programming language built using a modern approach to safety, performance, and software design patterns.",
     "license": "Apache-2.0",
     "suggest": {
-        "python": "main/python",
-        "vcredist": "extras/vcredist2022"
+        "python": "scoop-cn/python",
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "notes": [
         "To make Swift toolchain work, you must have Visual Studio and Windows SDK components installed.",
@@ -13,11 +13,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20251114.2/installer-amd64.exe#/swiftsetup.exe",
+            "url": "https://gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/20251114.2/installer-amd64.exe#/swiftsetup.exe",
             "hash": "1e72dc090b63dd2f0496882d2249e1f25bab8862c74ab295cb7a2ed6ce651e12"
         },
         "arm64": {
-            "url": "https://github.com/thebrowsercompany/swift-build/releases/download/20251114.2/installer-arm64.exe#/swiftsetup.exe",
+            "url": "https://gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/20251114.2/installer-arm64.exe#/swiftsetup.exe",
             "hash": "dd3ca0aaef6cf773f5c1dfbc966b532ff6e4e86842b58ca86549875255100a64"
         }
     },
@@ -57,10 +57,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
+                "url": "https://gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-amd64.exe#/swiftsetup.exe"
             },
             "arm64": {
-                "url": "https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
+                "url": "https://gh-proxy.org/https://github.com/thebrowsercompany/swift-build/releases/download/$version/installer-arm64.exe#/swiftsetup.exe"
             }
         }
     }

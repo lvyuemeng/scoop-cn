@@ -1,10 +1,10 @@
-{
+﻿{
     "version": "10.1.49",
     "description": "Implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies",
     "homepage": "https://tomcat.apache.org",
     "license": "Apache-2.0",
     "suggest": {
-        "JRE": "java/openjdk"
+        "JRE": "scoop-cn/openjdk"
     },
     "architecture": {
         "64bit": {

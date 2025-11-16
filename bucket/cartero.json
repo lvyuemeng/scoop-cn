@@ -1,11 +1,11 @@
-{
+﻿{
     "version": "25.0",
     "description": "A native, lightweight, multiplatform and free HTTP client that you can use to test your APIs",
     "homepage": "https://cartero.danirod.es",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/danirod/cartero/releases/download/v25.0/cartero-25.0-windows-x64.zip",
+            "url": "https://gh-proxy.org/https://github.com/danirod/cartero/releases/download/v25.0/cartero-25.0-windows-x64.zip",
             "hash": "0a88ed5cdce257267b9240cde11c4351866286e83e165e7e521349dec0997c60"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/danirod/cartero/releases/download/v$version/cartero-$version-windows-x64.zip"
+                "url": "https://gh-proxy.org/https://github.com/danirod/cartero/releases/download/v$version/cartero-$version-windows-x64.zip"
             }
         },
         "hash": {

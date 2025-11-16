@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.2",
     "description": "List all the DLLs that are currently loaded, including where they are loaded and their version numbers.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/listdlls",
@@ -22,7 +22,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/listdlls.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/listdlls.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

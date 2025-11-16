@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.43",
     "description": "Execute processes on remote systems.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psexec",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psexec.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psexec.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

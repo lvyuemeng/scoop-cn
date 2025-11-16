@@ -1,9 +1,9 @@
-{
+﻿{
     "version": "2025.11.10669",
     "description": "Cutting-edge Windows configuration tool",
     "homepage": "https://www.ntlite.com",
     "license": "Proprietary",
-    "depends": "innounp",
+    "depends": "scoop-cn/innounp",
     "architecture": {
         "64bit": {
             "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",

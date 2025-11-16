@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "20251116",
     "description": "Neovim GUI which uses a Golang Qt backend",
     "homepage": "https://github.com/akiyosi/goneovim",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-x86_64.zip",
+            "url": "https://gh-proxy.org/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-x86_64.zip",
             "hash": "9ff546f97b53a5e20b8b468347ae9d20be8b90320d780f90623e34332c1296e5",
             "extract_dir": "goneovim-windows-x86_64"
         },
         "arm64": {
-            "url": "https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-arm64.zip",
+            "url": "https://gh-proxy.org/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-arm64.zip",
             "hash": "457faee484465a3be8ab435d706d78f2692dc1f69b1832dfe2dec1e7aad7d1b0",
             "extract_dir": "goneovim-windows-arm64"
         }
@@ -34,10 +34,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-x86_64.zip"
+                "url": "https://gh-proxy.org/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-arm64.zip"
+                "url": "https://gh-proxy.org/https://github.com/akiyosi/goneovim/releases/download/nightly/goneovim-windows-arm64.zip"
             }
         }
     }

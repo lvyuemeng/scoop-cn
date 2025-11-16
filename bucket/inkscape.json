@@ -1,11 +1,11 @@
-{
+﻿{
     "version": "1.4.2_2025-05-13_f4327f4",
     "description": "Professional vector graphics editor",
     "homepage": "https://inkscape.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://media.inkscape.org/dl/resources/file/inkscape-1.4.2_2025-05-13_f4327f4-x64.7z",
+            "url": "https://mirrors.nju.edu.cn/inkscape/inkscape-1.4.2_2025-05-13_f4327f4-x64.7z",
             "hash": "757e0358512630e65505a4cca89885369087f2908469439bc41b5a346604cbd4"
         }
     },
@@ -40,7 +40,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://media.inkscape.org/dl/resources/file/$matchCleanfilename-x64.7z",
+                "url": "https://mirrors.nju.edu.cn/inkscape/$matchCleanfilename-x64.7z",
                 "hash": {
                     "url": "https://media.inkscape.org/media/resources/sigs/$matchCleanfilename-x64.7z.sha256"
                 }

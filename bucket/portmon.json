@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.03",
     "description": "Monitor serial and parallel port activity with this advanced monitoring tool.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/portmon",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/portmon.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/portmon.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

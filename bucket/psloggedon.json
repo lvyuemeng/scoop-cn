@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.35",
     "description": "Show users logged on to a system.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/psloggedon",
@@ -22,7 +22,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psloggedon.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/psloggedon.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

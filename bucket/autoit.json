@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.3.16.1",
     "description": "Scripting language designed for automating the Windows GUI and general scripting",
     "homepage": "https://www.autoitscript.com/site/autoit/",
@@ -8,11 +8,11 @@
     },
     "suggest": {
         "vcredist": [
-            "extras/vcredist2005",
-            "extras/vcredist2008",
-            "extras/vcredist2022"
+            "scoop-cn/vcredist2005",
+            "scoop-cn/vcredist2008",
+            "scoop-cn/vcredist2022"
         ],
-        "AutoIt Script Editor": "extras/autoit-script-editor"
+        "AutoIt Script Editor": "scoop-cn/autoit-script-editor"
     },
     "url": "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
     "hash": "ceb666a993a9f62621c3a0d4ee602774b2e7f543de1f08ec0380632ee3f89beb",

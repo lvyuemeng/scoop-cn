@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.1",
     "description": "Reports the file index and any hard links (alternate file paths on the same volume) that exist for the specified file.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/findlinks",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/findlinks.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/findlinks.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

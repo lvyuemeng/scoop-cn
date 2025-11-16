@@ -1,16 +1,16 @@
-{
+﻿{
     "version": "121758",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-11-15-12-59/ffmpeg-N-121758-g1ce88d29d0-win64-gpl-shared.zip",
+            "url": "https://gh-proxy.org/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-11-15-12-59/ffmpeg-N-121758-g1ce88d29d0-win64-gpl-shared.zip",
             "hash": "ec669f62037d6095d7fb3260ace23490bed1b93a877819702ba5c3b92e55bac0",
             "extract_dir": "ffmpeg-N-121758-g1ce88d29d0-win64-gpl-shared"
         },
         "arm64": {
-            "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-11-15-12-59/ffmpeg-N-121758-g1ce88d29d0-winarm64-gpl-shared.zip",
+            "url": "https://gh-proxy.org/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2025-11-15-12-59/ffmpeg-N-121758-g1ce88d29d0-winarm64-gpl-shared.zip",
             "hash": "fa9072b6d2544f304a763350afe25a1c8aded1219caa4b508f1ad89584529b3f",
             "extract_dir": "ffmpeg-N-121758-g1ce88d29d0-winarm64-gpl-shared"
         }
@@ -28,11 +28,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl-shared.zip",
+                "url": "https://gh-proxy.org/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-win64-gpl-shared.zip",
                 "extract_dir": "ffmpeg-N-$version-g$matchHash-win64-gpl-shared"
             },
             "arm64": {
-                "url": "https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-winarm64-gpl-shared.zip",
+                "url": "https://gh-proxy.org/https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-$matchTime/ffmpeg-N-$version-g$matchHash-winarm64-gpl-shared.zip",
                 "extract_dir": "ffmpeg-N-$version-g$matchHash-winarm64-gpl-shared"
             }
         }

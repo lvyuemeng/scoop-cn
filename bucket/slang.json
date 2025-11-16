@@ -1,15 +1,15 @@
-{
+﻿{
     "version": "2025.22.1",
     "description": "A new language and compiler for shader development.",
     "homepage": "https://shader-slang.com/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shader-slang/slang/releases/download/v2025.22.1/slang-2025.22.1-windows-x86_64.zip",
+            "url": "https://gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v2025.22.1/slang-2025.22.1-windows-x86_64.zip",
             "hash": "1b0017958766ffe62e29a105d28c5de8d23cfd95a38db1869b558b354998111d"
         },
         "arm64": {
-            "url": "https://github.com/shader-slang/slang/releases/download/v2025.22.1/slang-2025.22.1-windows-aarch64.zip",
+            "url": "https://gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v2025.22.1/slang-2025.22.1-windows-aarch64.zip",
             "hash": "78bca0b3a49eff21c846088bea1a1529640ab6af9a78e24db8e38c756bbbfb03"
         }
     },
@@ -23,10 +23,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
+                "url": "https://gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
             },
             "arm64": {
-                "url": "https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-aarch64.zip"
+                "url": "https://gh-proxy.org/https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-aarch64.zip"
             }
         }
     }

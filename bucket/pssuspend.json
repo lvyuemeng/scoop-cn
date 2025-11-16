@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.08",
     "description": "See what files are opened remotely.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pssuspend",
@@ -22,7 +22,7 @@
     },
     "bin": "pssuspend.exe",
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pssuspend.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/pssuspend.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.12.250",
     "description": "Windows Package Manager CLI (aka winget)",
     "homepage": "https://github.com/microsoft/winget-cli",
@@ -8,9 +8,9 @@
         "For documentation on settings, see: https://aka.ms/winget-settings."
     ],
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
-    "url": "https://github.com/microsoft/winget-cli/releases/download/v1.12.250-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
+    "url": "https://gh-proxy.org/https://github.com/microsoft/winget-cli/releases/download/v1.12.250-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
     "hash": "b40c40421b9dbaf1904bfb80ef4ee8fe780b9b9e85d704bf1cc1b59cd38ef4d4",
     "architecture": {
         "64bit": {
@@ -29,9 +29,9 @@
         "regex": "tag/v([\\d.]+)-preview"
     },
     "autoupdate": {
-        "url": "https://github.com/microsoft/winget-cli/releases/download/v$version-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
+        "url": "https://gh-proxy.org/https://github.com/microsoft/winget-cli/releases/download/v$version-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle#/dl.7z",
         "hash": {
-            "url": "https://github.com/microsoft/winget-cli/releases/download/v$version-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.txt"
+            "url": "https://gh-proxy.org/https://github.com/microsoft/winget-cli/releases/download/v$version-preview/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.txt"
         }
     }
 }

@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "0.29.3-35-g15db2da3",
     "description": "An organizer for your porn. (Dev release channel)",
     "homepage": "https://stashapp.cc",
@@ -6,7 +6,7 @@
     "suggest": {
         "ffmpeg": "ffmpeg"
     },
-    "url": "https://github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe",
+    "url": "https://gh-proxy.org/https://github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe",
     "hash": "f6ea1aab4c51fe330c1711429ae020d79647ff140ebe0c967e1c3f2ff497b536",
     "bin": [
         [
@@ -26,6 +26,6 @@
         "regex": "Release v([\\w.-]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe"
+        "url": "https://gh-proxy.org/https://github.com/stashapp/stash/releases/download/latest_develop/stash-win.exe"
     }
 }

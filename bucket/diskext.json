@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.2",
     "description": "Display volume disk-mappings.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/diskext",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/diskext.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/diskext.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

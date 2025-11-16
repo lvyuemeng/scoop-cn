@@ -1,16 +1,16 @@
-{
+﻿{
     "version": "5.4.5",
     "description": "A Qt/C++ front-end to yt-dlp, youtube-dl, gallery-dl, lux, you-get, svtplay-dl, aria2c, wget and safari books.",
     "homepage": "https://github.com/mhogomchungu/media-downloader",
     "license": "GPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mhogomchungu/media-downloader/releases/download/5.4.5/MediaDownloaderQt6-5.4.5.zip",
+            "url": "https://gh-proxy.org/https://github.com/mhogomchungu/media-downloader/releases/download/5.4.5/MediaDownloaderQt6-5.4.5.zip",
             "hash": "5b6c6bc02cc61f89df67c96a6482a551fc3e3d2255081498b824c440c9720c34",
             "extract_dir": "MediaDownloaderQt6-5.4.5"
         },
         "32bit": {
-            "url": "https://github.com/mhogomchungu/media-downloader/releases/download/5.4.5/MediaDownloaderQt5-5.4.5.zip",
+            "url": "https://gh-proxy.org/https://github.com/mhogomchungu/media-downloader/releases/download/5.4.5/MediaDownloaderQt5-5.4.5.zip",
             "hash": "4bc93ed742e8ccb4db4098896b4b5c9bebe5aa466ba14c23b7a0c3d1d354e789",
             "extract_dir": "MediaDownloaderQt5-5.4.5"
         }
@@ -27,11 +27,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mhogomchungu/media-downloader/releases/download/$version/MediaDownloaderQt6-$version.zip",
+                "url": "https://gh-proxy.org/https://github.com/mhogomchungu/media-downloader/releases/download/$version/MediaDownloaderQt6-$version.zip",
                 "extract_dir": "MediaDownloaderQt6-$version"
             },
             "32bit": {
-                "url": "https://github.com/mhogomchungu/media-downloader/releases/download/$version/MediaDownloaderQt5-$version.zip",
+                "url": "https://gh-proxy.org/https://github.com/mhogomchungu/media-downloader/releases/download/$version/MediaDownloaderQt5-$version.zip",
                 "extract_dir": "MediaDownloaderQt5-$version"
             }
         },

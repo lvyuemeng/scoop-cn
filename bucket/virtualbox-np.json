@@ -1,11 +1,11 @@
-{
+﻿{
     "version": "7.2.4",
     "description": "Powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.",
     "homepage": "https://www.virtualbox.org/",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.virtualbox.org/virtualbox/7.2.4/VirtualBox-7.2.4-170995-Win.exe#/setup.exe",
+            "url": "https://mirrors.tuna.tsinghua.edu.cn/virtualbox/7.2.4/VirtualBox-7.2.4-170995-Win.exe#/setup.exe",
             "hash": "22988be9792f39c8e07068504612bd83aae8f8317e2aaf7515079f5cd9421675"
         }
     },
@@ -60,7 +60,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.virtualbox.org/virtualbox/$version/VirtualBox-$version-$matchRevision-Win.exe#/setup.exe"
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/virtualbox/$version/VirtualBox-$version-$matchRevision-Win.exe#/setup.exe"
             }
         },
         "hash": {

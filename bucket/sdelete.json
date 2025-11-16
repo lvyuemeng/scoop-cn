@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2.05",
     "description": "Securely overwrite your sensitive files and cleanse your free space of previously deleted files using this DoD-compliant secure delete program.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/sdelete",
@@ -30,7 +30,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sdelete.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/sdelete.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

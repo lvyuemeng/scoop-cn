@@ -1,12 +1,12 @@
-{
+﻿{
     "version": "9.2.0",
     "description": "An open-source build automation tool focused on flexibility and performance. (Source code and documentation bundled)",
     "homepage": "https://gradle.org",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": "java/openjdk"
+        "JDK": "scoop-cn/openjdk"
     },
-    "url": "https://services.gradle.org/distributions/gradle-9.2.0-all.zip",
+    "url": "https://mirrors.nju.edu.cn/gradle/gradle-9.2.0-all.zip",
     "hash": "16f2b95838c1ddcf7242b1c39e7bbbb43c842f1f1a1a0dc4959b6d4d68abcac3",
     "extract_dir": "gradle-9.2.0",
     "post_install": [
@@ -25,7 +25,7 @@
         "regex": "The current Gradle release is version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://services.gradle.org/distributions/gradle-$version-all.zip",
+        "url": "https://mirrors.nju.edu.cn/gradle/gradle-$version-all.zip",
         "hash": {
             "url": "$url.sha256"
         },

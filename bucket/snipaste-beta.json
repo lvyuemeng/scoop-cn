@@ -1,4 +1,4 @@
-{
+﻿{
     "homepage": "https://www.snipaste.com/",
     "version": "2.9.2-Beta",
     "license": "Freeware",
@@ -24,7 +24,7 @@
         ]
     ],
     "suggest": {
-        "vcredist": "extras/vcredist2022"
+        "vcredist": "scoop-cn/vcredist2022"
     },
     "checkver": {
         "url": "https://bitbucket.org/liule/snipaste/downloads",

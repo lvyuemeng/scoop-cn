@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "3.67.1",
     "description": "Lossless trimming tool for video and audio files",
     "homepage": "https://github.com/mifi/lossless-cut",
@@ -9,7 +9,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mifi/lossless-cut/releases/download/v3.67.1/LosslessCut-win-x64.7z",
+            "url": "https://gh-proxy.org/https://github.com/mifi/lossless-cut/releases/download/v3.67.1/LosslessCut-win-x64.7z",
             "hash": "4727d31f03764a7418cc9e5f7cc68e298686b801df526a63de2c131f7d38754e"
         }
     },
@@ -23,8 +23,8 @@
     "post_install": [
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
         "'install-associations', 'uninstall-associations' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\losslesscut\\$_.reg\") {",
-        "        $content = Get-Content \"$bucketsdir\\extras\\scripts\\losslesscut\\$_.reg\"",
+        "    if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\losslesscut\\$_.reg\") {",
+        "        $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\losslesscut\\$_.reg\"",
         "        $content = $content.Replace('$dirpath', $dirpath)",
         "        $content | Set-Content -Path \"$dir\\$_.reg\"",
         "    }",
@@ -44,7 +44,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
+                "url": "https://gh-proxy.org/https://github.com/mifi/lossless-cut/releases/download/v$version/LosslessCut-win-x64.7z"
             }
         }
     }

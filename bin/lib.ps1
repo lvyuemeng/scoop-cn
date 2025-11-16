@@ -24,10 +24,11 @@ function Expand-Variables {
 }
 
 function Update-Manifest {
+	[CmdletBinding()]
 	param(
-		[PSCustomObject]$manifest,
-		[PSCustomObject[]]$rules,
-		[hashtable]$vars,
+		$manifest,
+		$rules,
+		$vars,
 		[switch]$DryRun
 	)
 
@@ -36,16 +37,16 @@ function Update-Manifest {
 
 	# Apply all enabled rules
 	foreach ($rule in $rules) {
-		if ($content -match $rule.find) {
-			Write-Verbose "[$($manifest.Name)] Applying rule: $($rule.description)"
-			$content = $content -replace $rule.find, $rule.replace
+		if ($content -match $rule["find"]) {
+			Write-Verbose "[$($manifest.Name)] Applying rule: $($rule["description"])"
+			$content = $content -replace $rule["find"], $rule["replace"]
 			$isChange = $true
 		}
 	}
 
 	# Write the file back *only* if changes were made
 	if (-not $isChange) {
-		continue
+		return
 	}
 
 	if ($DryRun) {
@@ -58,6 +59,7 @@ function Update-Manifest {
 
 # --- PART 1: AGGREGATION ---
 function Invoke-BucketAggregation {
+	[CmdletBinding()]
 	param(
 		[string[]]$repos
 	)
@@ -89,40 +91,52 @@ function Invoke-BucketAggregation {
 
 # --- PART 2: URL REPLACEMENT ---
 function Invoke-Replacement {
+	[CmdletBinding()]
 	param(
 		[PSCustomObject[]]$rules,
 		[hashtable]$vars,
 		[switch]$DryRun
 	)
 	Write-Host "Applying replacement rules..."
-	$rules = $rules | Where-Object { $_.enabled -eq $true } | ForEach-Object {
-		$_.PSObject.Copy() | Add-Member -MemberType NoteProperty -Name "replace" -Value (Expand-Variables -text $_.replace -vars $vars)
-	}
 
-	if ($rules.Count -eq 0) {
-		Write-Warning "No enabled rules found in config.json. Skipping replacement."
+	Write-Debug "Rules: $($rules | Out-String)"
+	$expandedRules = foreach ($rule in $rules) {
+		if (-not $rule["enabled"]) { continue }
+
+		[ordered]@{
+			description = $rule["description"]
+			find        = $rule["find"]
+			replace     = Expand-Variables -text $rule["replace"] -vars $vars
+		}
+	}
+	Write-Debug "Expanded rules: $($expandedRules | Out-String)"
+
+	if ($expandedRules.Count -eq 0) {
+		Write-Warning "No enabled rules found in config.ps1. Skipping replacement."
 		return
 	} else {
-		Write-Host "Applying $($rules.Count) enabled replacement rules..."
+		Write-Host "Applying $($expandedRules.Count) enabled replacement rules..."
 	}
 
 	$manifests = Get-ChildItem -Recurse -Path $BUCKET_DIR -Filter "*.json"
+	# Write-Debug "Manifests: $($manifests | Out-String)"
 
-	$manifests | ForEach-Object -Parallel {
-		Update-Manifest -manifest $man -rules $rules -vars $vars -DryRun:$DryRun
+	$manifests | ForEach-Object {
+		Update-Manifest -manifest $_ -rules $expandedRules -vars $vars -DryRun:$DryRun
 	}
 	Write-Host "Replacement complete."
 }
 
 # --- PART 3: CLEANUP ---
 function Invoke-Cleanup {
+	[CmdletBinding()]
 	param(
 		[string[]]$repos
 	)
 
 	Write-Host "Cleaning up source bucket folders..."
-	$repos | ForEach-Object -Parallel {
+	$repos | ForEach-Object {
 		$bucket = $_.Split('/')[-1]
-		Remove-Item -Path (Join-Path $using:ROOT $bucket) -Recurse -Force -ErrorAction SilentlyContinue
+		Remove-Item -Path (Join-Path $ROOT $bucket) -Recurse -Force -ErrorAction SilentlyContinue
 	}
 }

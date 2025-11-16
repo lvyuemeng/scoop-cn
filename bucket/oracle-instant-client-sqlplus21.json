@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "21.18.0.0.0",
     "description": "The SQL*Plus command line tool for SQL and PL/SQL queries with Oracle Instant Client.",
     "homepage": "https://www.oracle.com/database/technologies/instant-client.html",
@@ -6,7 +6,7 @@
         "identifier": "Freeware",
         "url": "https://www.oracle.com/downloads/licenses/instant-client-lic.html"
     },
-    "depends": "oracle-instant-client21",
+    "depends": "scoop-cn/oracle-instant-client21",
     "architecture": {
         "64bit": {
             "url": "https://download.oracle.com/otn_software/nt/instantclient/2118000/instantclient-sqlplus-windows.x64-21.18.0.0.0dbru.zip",

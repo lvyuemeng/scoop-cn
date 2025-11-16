@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "0.72.0",
     "description": "The Grammar Checker for Developers",
     "homepage": "https://github.com/Automattic/harper",
@@ -6,8 +6,8 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/Automattic/harper/releases/download/v0.72.0/harper-ls-x86_64-pc-windows-msvc.zip",
-                "https://github.com/Automattic/harper/releases/download/v0.72.0/harper-cli-x86_64-pc-windows-msvc.zip"
+                "https://gh-proxy.org/https://github.com/Automattic/harper/releases/download/v0.72.0/harper-ls-x86_64-pc-windows-msvc.zip",
+                "https://gh-proxy.org/https://github.com/Automattic/harper/releases/download/v0.72.0/harper-cli-x86_64-pc-windows-msvc.zip"
             ],
             "hash": [
                 "003b3416b33ab9f953f6848f8ddca3be5c8f1fccecd4fa4e6256c0e42fb6d942",
@@ -26,8 +26,8 @@
         "architecture": {
             "64bit": {
                 "url": [
-                    "https://github.com/Automattic/harper/releases/download/v$version/harper-ls-x86_64-pc-windows-msvc.zip",
-                    "https://github.com/Automattic/harper/releases/download/v$version/harper-cli-x86_64-pc-windows-msvc.zip"
+                    "https://gh-proxy.org/https://github.com/Automattic/harper/releases/download/v$version/harper-ls-x86_64-pc-windows-msvc.zip",
+                    "https://gh-proxy.org/https://github.com/Automattic/harper/releases/download/v$version/harper-cli-x86_64-pc-windows-msvc.zip"
                 ]
             }
         }

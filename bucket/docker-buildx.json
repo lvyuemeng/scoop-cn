@@ -1,15 +1,15 @@
-{
+﻿{
     "version": "0.30.0",
     "description": "Docker CLI plugin for extended build capabilities with BuildKit",
     "homepage": "https://github.com/docker/buildx",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/docker/buildx/releases/download/v0.30.0/buildx-v0.30.0.windows-amd64.exe#/docker-buildx.exe",
+            "url": "https://gh-proxy.org/https://github.com/docker/buildx/releases/download/v0.30.0/buildx-v0.30.0.windows-amd64.exe#/docker-buildx.exe",
             "hash": "616ddbe97ab40946ee736f0adb6c8ee58328742086af06823d2491ddae6c22ae"
         },
         "arm64": {
-            "url": "https://github.com/docker/buildx/releases/download/v0.30.0/buildx-v0.30.0.windows-arm64.exe#/docker-buildx.exe",
+            "url": "https://gh-proxy.org/https://github.com/docker/buildx/releases/download/v0.30.0/buildx-v0.30.0.windows-arm64.exe#/docker-buildx.exe",
             "hash": "98d1af3972b9c85a814693d937270828d61879504f4115be1a921b7f2657a591"
         }
     },
@@ -37,14 +37,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-amd64.exe#/docker-buildx.exe"
+                "url": "https://gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-amd64.exe#/docker-buildx.exe"
             },
             "arm64": {
-                "url": "https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-arm64.exe#/docker-buildx.exe"
+                "url": "https://gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/buildx-v$version.windows-arm64.exe#/docker-buildx.exe"
             }
         },
         "hash": {
-            "url": "https://github.com/docker/buildx/releases/download/v$version/checksums.txt"
+            "url": "https://gh-proxy.org/https://github.com/docker/buildx/releases/download/v$version/checksums.txt"
         }
     }
 }

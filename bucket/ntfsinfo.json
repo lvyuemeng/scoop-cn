@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "1.2",
     "description": "See detailed information about NTFS volumes.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/ntfsinfo",
@@ -22,7 +22,7 @@
         }
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/ntfsinfo.md",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/MicrosoftDocs/sysinternals/main/sysinternals/downloads/ntfsinfo.md",
         "regex": "#.*?v([\\d.]+)"
     },
     "autoupdate": {

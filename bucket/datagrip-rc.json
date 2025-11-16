@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "2025.2-252.23892.201",
     "description": "Cross-Platform IDE for Databases & SQL by JetBrains. (Release Candidate)",
     "homepage": "https://www.jetbrains.com/datagrip/",
@@ -11,7 +11,7 @@
     "extract_to": "IDE",
     "installer": {
         "script": [
-            "& \"$bucketsdir\\versions\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+            "& \"$bucketsdir\\scoop-cn\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
             "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
         ]
     },

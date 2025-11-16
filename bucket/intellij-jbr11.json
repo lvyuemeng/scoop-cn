@@ -1,4 +1,4 @@
-{
+﻿{
     "version": "11_0_16-b2043.64",
     "homepage": "https://github.com/JetBrains/JetBrainsRuntime",
     "description": "A fork of OpenJDK that includes a number enhancements in font rendering, HiDPI support, ligatures, performance improvements, and bugfixes. These are mainly for running IntelliJ Platform-based products",
@@ -19,7 +19,7 @@
     },
     "env_add_path": "bin",
     "checkver": {
-        "url": "https://github.com/JetBrains/JetBrainsRuntime/raw/main/.github/README.md",
+        "url": "https://gh-proxy.org/https://github.com/JetBrains/JetBrainsRuntime/raw/main/.github/README.md",
         "regex": "\\[11_(?<Version>[\\d_]+)-(?<Build>[\\w]+)\\.(?<Patch>[\\d]+)]",
         "replace": "11_${Version}-${Build}.${Patch}"
     },

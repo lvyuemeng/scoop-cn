@@ -1,4 +1,4 @@
-{
+﻿{
     "homepage": "https://slproweb.com/products/Win32OpenSSL.html",
     "version": "3.0.18",
     "license": "Apache-2.0",
@@ -17,7 +17,7 @@
             "hash": "f923bc7d45fc391b40bf4467c137204a183d9f5865c9385aec07bb6630b0a7df"
         }
     },
-    "depends": "innounp",
+    "depends": "scoop-cn/innounp",
     "installer": {
         "script": [
             "Expand-InnoArchive -Path \"$dir\\$fname\"",
@@ -30,7 +30,7 @@
         "OPENSSL_CONF": "$dir\\bin\\cnf\\openssl.cnf"
     },
     "checkver": {
-        "url": "https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
         "jsonpath": "$.files..basever",
         "regex": "(3\\.0\\.([\\d.]+))",
         "reverse": true
@@ -48,7 +48,7 @@
             }
         },
         "hash": {
-            "url": "https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
+            "url": "https://gh-proxy.org/https://raw.githubusercontent.com/slproweb/opensslhashes/master/win32_openssl_hashes.json",
             "jsonpath": "$.files.['$basename'].sha256"
         }
     }
