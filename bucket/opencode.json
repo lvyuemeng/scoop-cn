@@ -1,12 +1,12 @@
 ﻿{
-    "version": "1.0.154",
+    "version": "1.0.162",
     "description": "AI coding agent, built for the terminal.",
     "homepage": "https://opencode.ai/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/sst/opencode/releases/download/v1.0.154/opencode-windows-x64.zip",
-            "hash": "d62da921927c8b44a423c6be7ecc6be7caa8cee9b32de9a56eea2d34ec499f5f"
+            "url": "https://gh-proxy.org/https://github.com/sst/opencode/releases/download/v1.0.162/opencode-windows-x64.zip",
+            "hash": "5b060de373ddef50e14fe7862f8a5d3b78616f85ebdaa2aeeb8189f108ca1cca"
         }
     },
     "bin": "opencode.exe",
