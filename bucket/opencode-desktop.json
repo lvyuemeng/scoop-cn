@@ -1,12 +1,12 @@
 ﻿{
-    "version": "1.1.45",
+    "version": "1.1.47",
     "description": "The open source AI coding agent.",
     "homepage": "https://opencode.ai/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/anomalyco/opencode/releases/download/v1.1.45/opencode-desktop-windows-x64.exe#/dl.7z",
-            "hash": "409742f780f438a106de089895daf31bef2e07fde2636c1550b26564339e3caa"
+            "url": "https://gh-proxy.org/https://github.com/anomalyco/opencode/releases/download/v1.1.47/opencode-desktop-windows-x64.exe#/dl.7z",
+            "hash": "2651f07ff13319f2c2704b00899419a482821774df7ef586d09333283570a7cd"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse -ErrorAction Ignore",
