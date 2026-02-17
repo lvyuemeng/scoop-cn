@@ -1,6 +1,6 @@
 <div align="center">
 
-# Scoop Buckets Mirrors 
+# Scoop Buckets Mirrors
 
 **[中文](README-cn.md) | [English](README.md)**
 
@@ -8,103 +8,151 @@
 
 </div>
 
-**特别感谢 `https://github.com/duzyn/scoop-cn`**，该项目原作者似乎已不再维护。
-
 ## 动机
 
-Scoop 是一个优秀的包管理器，它简洁易用。然而，Scoop及其buckets的安装会阻碍那些受网络限制（特别是中国）的用户。因此，镜像是必要的，但手动替换每个软件源的链接过于麻烦，所以我创建（沿袭 `duzyn/scoop-cn`）了该仓库。
+Scoop 是一个功能强大且轻量级的 Windows 包管理工具，能简化软件的安装和管理流程。然而，由于网络限制，从 GitHub 等外部源下载软件包时常常遇到困难。
 
-**如果你在使用 Scoop 及其软件包安装时没有下载问题**，则**不必**使用它。
+本项目提供经过优化的镜像软件源，使用经过替换的下载链接，让您即使在网络受限的环境下也能顺畅地安装和管理软件包。
 
-## 简介
+**如果您在使用 Scoop 时没有遇到任何下载问题**，则不一定需要使用本项目。
 
-为了解决这个问题，我们替换至镜像链接，并通过变量代换的方式进行便捷替换。具体请查看[镜像配置](./bin/config.ps1)
+## 特性
 
-### 特性：
+- **聚合软件源**：涵盖 `main extras versions nirsoft sysinternals php nerd-fonts nonportable java games` 的镜像
+- **自动更新**：镜像每 4 小时刷新一次
+- **代理支持**：内置中国代理镜像支持
+- **轻松迁移**：提供工具将现有安装迁移至镜像源
 
-- 涵盖的软件源：`main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`。欢迎提交拉取请求，添加更多需要镜像的软件源。
-- 每 4 小时更新一次。
+## 使用方法
+
+### 快速开始
+
+安装 Scoop 后，您可以立即使用本软件源：
+
+```powershell
+# 添加软件源
+scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn
+
+# 搜索软件包
+scoop search <软件包名称>
+
+# 安装软件包
+scoop install spc/<软件包名称>
+```
+
+### 迁移现有应用
+
+如果您已经通过其他软件源安装了应用，可以将其迁移至本镜像：
+
+```powershell
+# 将所有已安装的应用迁移至 spc 软件源
+Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object { (Get-Content -Path $_.FullName -Raw) -replace '"bucket": "(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' | Set-Content -Path $_.FullName }
+```
+
+### 配置上游镜像
+
+您还可以配置其他 Scoop 软件源的上游链接使用镜像：
+
+```powershell
+# 修改 Scoop 核心仓库上游
+scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop
+
+# 修改 Main 软件源上游
+git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main
+
+# 修改 scoop-cn 软件源上游
+git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn
+```
 
 ## 安装
 
-### 前提
+### 前提条件
 
-[PowerShell](https://learn.microsoft.com/en-us/powershell/) 需具备 `>= 5.1` 版本， 所有Windows使用者应当对此并不陌生。否则，您需要参考 [PowerShell Installation Tutorial](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)。
+在安装 Scoop 之前，请确保您的系统满足以下要求：
+
+- **PowerShell**：版本 5.1 或更高
 
 ```powershell
 $PSVersionTable.PSVersion.Major >= 5.1
 ```
 
-其次，您应该更改 `ExecutionPolicy` 以执行脚本。
+- **执行策略**：必须允许脚本执行
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### Scoop
+### 方法一：自动化安装（推荐）
 
-您应该已经安装了 Scoop，如果没有，请阅读该节；如果已经安装，请跳至 `Buckets` 节。
-
-- 请注意您的 scoop 安装路径。我们使用 `$env:USERPROFILE\scoop\` 作为默认路径。
-- 请注意您添加的镜像源名称。我们使用 `spc` 作为默认名称。
-- 如果您使用了自定义名称或路径，请自行修改相应配置。
-
-在你的 Powershell 中，输入以下命令来下载并执行 Scoop 的安装。
+使用提供的 `installer.ps1` 脚本进行全自动安装：
 
 ```powershell
-Invoke-WebRequest https://gh-proxy.com/https://raw.githubusercontent.com/ScoopInstaller/Install/master/install.ps1 | Invoke-Expression # 适用于受网络限制的用户
+# 下载安装脚本
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lvyuemeng/scoop-cn/master/installer.ps1" -OutFile "$env:TEMP\installer.ps1"
 
-Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression # 适用于原生用户
+# 使用默认设置运行（会提示是否使用代理）
+& "$env:TEMP\installer.ps1"
+
+# 或直接指定选项：
+# 自动使用中国代理镜像
+& "$env:TEMP\installer.ps1" -UseProxy
+
+# 使用代理并自定义软件源名称
+& "$env:TEMP\installer.ps1" -UseProxy -BucketName "my-bucket"
 ```
 
-这仅会下载带有镜像的安装脚本。然后，您还需要修改配置和软件源。
+#### 安装脚本参数
 
-### Buckets
+| 参数 | 说明 | 默认值 |
+| ---- | ---- | ------ |
+| `-UseProxy` | 使用中国代理镜像进行安装 | 提示用户选择 |
+| `-ScoopDir` | 自定义 Scoop 安装目录 | `$env:USERPROFILE\scoop` |
+| `-BucketName` | scoop-cn 软件源名称 | `spc` |
 
-- 添加我们的软件源：
+### 方法二：手动安装
+
+如果您更喜欢手动安装：
 
 ```powershell
-scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn # 你可以将 `spc` 改成其他名称，如果修改，则下方的 `spc` 也需修改。
+# 适用于受网络限制的用户（中国大陆）
+Invoke-WebRequest https://gh-proxy.com/https://raw.githubusercontent.com/ScoopInstaller/Install/master/install.ps1 | Invoke-Expression
+
+# 适用于网络正常的用户
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-- 更改你已安装的应用以解析到我们的软件源。每个 `<scoop-dir>\apps\<app>\current\install.json` 文件都可以修改以解析到我们的软件源。
+安装后，添加本软件源：
 
 ```powershell
-Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object { (Get-Content -Path $_.FullName -Raw) -replace '"bucket": "(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' | Set-Content -Path $_.FullName }
+scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn
 ```
 
-- 检查我们的修改：
+## 配置
+
+有关 URL 替换规则的更多详细信息，请参阅[配置文件](./bin/config.ps1)。
+
+## 贡献
+
+欢迎贡献代码！提交更改前请阅读我们的[贡献指南](CONTRIBUTING.md)。
+
+### 贡献方式
+
+- **添加新的镜像规则**：帮助我们覆盖更多需要代理支持的软件包
+- **错误修复**：改进现有的 URL 替换规则
+- **文档**：完善指南和示例
+- **测试**：为新规则添加测试覆盖
+
+### 测试
+
+提交前请运行测试套件：
 
 ```powershell
-Installed apps:
-
-Name          Version           Source         Updated               Info
-----          -------           ------         -------               ----
-7zip          24.08             main           ...
-git           2.47.0.2          main           ...
+.\tests\Run-Tests.ps1
 ```
 
-运行命令替换之后变为：
+## 许可证
 
-```powershell
-Installed apps:
-
-Name          Version           Source         Updated               Info
-----          -------           ------         -------               ----
-7zip          24.08             spc            ...
-git           2.47.0.2          spc            ...
-```
-
-### 其他软件源（可选）
-
-如果您想修改其他 Scoop 软件源的**上游链接**（用于同步远程仓库的链接），您可以通过以下命令更改，请注意您**需要安装`git`**：
-
-```powershell
-scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop # 修改scoop拉取源
-git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main # 修改Main镜像源
-git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn #修改scoop-cn镜像源
-# 其他...
-```
+本项目基于 MIT 许可证授权 - 请参阅 [LICENSE](LICENSE) 文件了解详情。
 
 ## Star 历史
 
