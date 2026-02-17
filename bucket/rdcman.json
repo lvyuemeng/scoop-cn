@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.12",
     "description": "Remote Desktop Connection Manager",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/rdcman",
@@ -12,7 +12,7 @@
     "shortcuts": [
         [
             "RDCMan.exe",
-            "scoop-cn/RDCMan"
+            "SysInternals/RDCMan"
         ]
     ],
     "checkver": {

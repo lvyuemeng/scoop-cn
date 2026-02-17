@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "20250129",
     "description": "Open source home theater/media center software and entertainment hub for digital media",
     "homepage": "https://kodi.tv/",
     "license": "GPL-2.0-or-later",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

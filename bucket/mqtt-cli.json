@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.48.0",
     "description": "MQTT CLI is a useful command line interface for connecting various MQTT clients supporting MQTT 5.0 and 3.1.1 ",
     "homepage": "https://hivemq.github.io/mqtt-cli/",

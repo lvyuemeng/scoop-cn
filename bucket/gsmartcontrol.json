@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.2",
     "description": "Hard disk drive and SSD health inspection tool",
     "homepage": "https://gsmartcontrol.shaduri.dev/",
@@ -8,7 +8,7 @@
         "If Smartmontools is installed, GSmartControl will automatically use the standalone version."
     ],
     "suggest": {
-        "Smartmontools": "scoop-cn/smartmontools"
+        "Smartmontools": "main/smartmontools"
     },
     "architecture": {
         "64bit": {

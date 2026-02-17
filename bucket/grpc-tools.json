@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.6",
     "description": "A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.",
     "homepage": "https://github.com/bradleyjkemp/grpc-tools",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.6",
     "description": "A cross-platform TUI database management tool written in Go.",
     "homepage": "https://github.com/jorgerojas26/lazysql",

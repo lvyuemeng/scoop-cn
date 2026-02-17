@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.33.0",
     "description": "a CLI tool to serve files and dirs over HTTP",
     "homepage": "https://github.com/svenstaro/miniserve",

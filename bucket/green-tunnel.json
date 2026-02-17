@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.3",
     "description": "Anti-censorship utility designed to bypass the DPI (Deep Packet Inspection) system that is put in place by various ISPs to block access to certain websites.",
     "homepage": "https://github.com/SadeghHayeri/GreenTunnel",

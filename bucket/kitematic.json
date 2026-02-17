@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.17.13",
     "description": "A simple application for managing Docker containers.",
     "homepage": "https://github.com/docker/kitematic",

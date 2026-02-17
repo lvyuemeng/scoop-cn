@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "5.0.8",
     "description": "Intuitive and Powerful Ground Control Station for the MAVLink protocol",
     "homepage": "http://qgroundcontrol.com",
     "license": "Apache-2.0|GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

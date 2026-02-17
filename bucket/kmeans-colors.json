@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.0",
     "description": "k-means clustering library and binary to find dominant colors in images",
     "homepage": "https://github.com/okaneco/kmeans-colors",

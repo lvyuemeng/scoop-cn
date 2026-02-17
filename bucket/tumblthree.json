@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.19.4",
     "description": "A Tumblr Backup Application",
     "homepage": "https://github.com/TumblThreeApp/TumblThree",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

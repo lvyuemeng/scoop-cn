@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.02",
     "description": "Displays the named pipes on your system, including the number of maximum instances and active instances for each pipe.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pipelist",

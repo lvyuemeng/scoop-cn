@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.7",
     "description": "witr ('Why Is This Running') is a tool that explains the causal chain behind running processes with additional insights.",
     "homepage": "https://github.com/pranshuparmar/witr",

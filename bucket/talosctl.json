@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.12.4",
     "description": "CLI for out-of-band management of Kubernetes nodes created by Talos",
     "homepage": "https://talos.dev",

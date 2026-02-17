@@ -1,4 +1,4 @@
-﻿{
+{
     "##": ".bat won't be able to modify shell sessions of PowerShell, Fish, Bash etc. Therefore env_add_path is required.",
     "version": "5.0.1",
     "description": "LLVM to WebAssembly compiler. Compiles C/C++ to WebAssembly that can be run on most web browsers.",

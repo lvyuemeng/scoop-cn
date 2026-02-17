@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.0",
     "description": "Powershell tab completion for Docker",
     "homepage": "https://github.com/samneirinck/posh-docker",

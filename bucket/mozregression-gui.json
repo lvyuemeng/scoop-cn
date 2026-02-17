@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.0.0",
     "description": "Regression range finder for Firefox and other Mozilla products. Helps determining a changeset range corresponding to when a problem was introduced.",
     "homepage": "https://mozilla.github.io/mozregression/",

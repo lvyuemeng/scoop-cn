@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.4.16",
     "homepage": "https://windows.php.net/downloads/releases/",
     "description": "PHP 8.4 (thread-safe/TS build) for Windows. Widely used open-source scripting language for web development.",
@@ -7,7 +7,7 @@
         "url": "https://www.php.net/license/"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "32bit": {

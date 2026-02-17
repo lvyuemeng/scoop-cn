@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6.0",
     "description": "Sloc, Cloc and Code (scc) is a very fast accurate code counter with complexity calculations and COCOMO estimates.",
     "homepage": "https://github.com/boyter/scc",

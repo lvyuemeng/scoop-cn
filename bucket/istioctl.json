@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.29.0",
     "description": "Configuration command line utility for service operators to debug and diagnose their Istio mesh.",
     "homepage": "https://istio.io/latest/docs/reference/commands/istioctl/",

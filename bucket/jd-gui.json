@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.6.6",
     "description": "A standalone Java Decompiler GUI",
     "homepage": "https://github.com/java-decompiler/jd-gui",
     "license": "GPL-3.0-only",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "url": "https://gh-proxy.org/https://github.com/java-decompiler/jd-gui/releases/download/v1.6.6/jd-gui-1.6.6.jar#/jd-gui.jar",

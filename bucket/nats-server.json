@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.12.4",
     "description": "High-Performance server for NATS.io, the cloud and edge native messaging system",
     "homepage": "https://github.com/nats-io/nats-server",

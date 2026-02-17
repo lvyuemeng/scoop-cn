@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "This manifest is in Extras because of elaborated pre/post install script",
     "version": "2.24.0",
     "description": "SDL_ttf is a library that provides support for TrueType (.ttf) font files with Simple Directmedia Layer.",

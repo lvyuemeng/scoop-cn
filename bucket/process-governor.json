@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.25275",
     "description": "Set various constraints and limits on Windows processes",
     "homepage": "https://github.com/lowleveldesign/process-governor",

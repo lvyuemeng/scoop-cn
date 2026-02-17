@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.5.3",
     "description": "Watches over your Cargo project's source. ",
     "homepage": "https://watchexec.github.io/#cargo-watch",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.2.6a-172322",
     "description": "Powerful x86 and AMD64/Intel64 virtualization product for enterprise as well as home use.",
     "homepage": "https://www.virtualbox.org/",
@@ -11,7 +11,7 @@
         "A license must be purchased for enterprise use.",
         "For more information, go here: https://www.virtualbox.org/wiki/Licensing_FAQ"
     ],
-    "depends": "scoop-cn/vcredist2022",
+    "depends": "extras/vcredist2022",
     "architecture": {
         "64bit": {
             "url": [

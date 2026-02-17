@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.26.5",
     "description": "An incremental parsing system for programming tools",
     "homepage": "https://tree-sitter.github.io/tree-sitter/",

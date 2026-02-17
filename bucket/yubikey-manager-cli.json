@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.9.0",
     "description": "Python library and command line tool for configuring any YubiKey over all USB interfaces.",
     "homepage": "https://developers.yubico.com/yubikey-manager/",

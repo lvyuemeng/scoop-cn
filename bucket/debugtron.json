@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.0",
     "description": "An app to debug in-production Electron-based apps.",
     "homepage": "https://github.com/pd4d10/debugtron",

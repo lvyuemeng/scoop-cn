@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.17.0",
     "description": "Hex viewer, which uses colored output to distinguish different categories of bytes.",
     "homepage": "https://github.com/sharkdp/hexyl",

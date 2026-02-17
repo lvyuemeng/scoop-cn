@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.0",
     "description": "Enrich SBOMs with data from third party services.",
     "homepage": "https://github.com/snyk/parlay",

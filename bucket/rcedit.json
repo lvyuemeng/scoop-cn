@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.0",
     "description": "Command-line tool for editing resources of PE executables",
     "homepage": "https://github.com/electron/rcedit",

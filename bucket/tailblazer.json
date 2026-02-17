@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.0.536",
     "description": "A modern file tail utility based on Rx.Net which show cases reactive programming and Dynamic Data.",
     "homepage": "https://github.com/RolandPheasant/TailBlazer",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.1",
     "description": "Simple command-line snippet manager, written in Go.",
     "homepage": "https://github.com/knqyf263/pet",

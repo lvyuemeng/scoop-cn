@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "692",
     "description": "A terminal pager program used to view (but not change) the contents of a text file one screen at a time, similar to the 'more' command.",
     "homepage": "https://www.greenwoodsoftware.com/less/",

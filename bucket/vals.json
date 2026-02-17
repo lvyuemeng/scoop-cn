@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.43.3",
     "description": "Helm-like configuration values loader with support for various sources",
     "homepage": "https://github.com/variantdev/vals",

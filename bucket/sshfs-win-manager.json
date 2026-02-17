@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.3.1",
     "description": "A GUI for SSHFS-Win.",
     "homepage": "https://github.com/evsar3/sshfs-win-manager",
     "license": "MIT",
     "suggest": {
-        "SSHFS": "scoop-cn/sshfs-np"
+        "SSHFS": "nonportable/sshfs-np"
     },
     "architecture": {
         "64bit": {

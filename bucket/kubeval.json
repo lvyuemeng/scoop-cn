@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.16.1",
     "description": "Kubernetes resource files linter",
     "homepage": "https://kubeval.instrumenta.dev",

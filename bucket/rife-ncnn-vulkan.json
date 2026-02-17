@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20221029",
     "description": "RIFE, Real-Time Intermediate Flow Estimation for Video Frame Interpolation implemented with ncnn library",
     "homepage": "https://github.com/nihui/rife-ncnn-vulkan",

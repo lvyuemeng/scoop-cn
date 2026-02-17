@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.3",
     "description": "A GUI to browse and restore restic backup repositories.",
     "homepage": "https://github.com/emuell/restic-browser",

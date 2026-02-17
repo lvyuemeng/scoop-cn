@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.7.0",
     "description": "An easy, intuitive tool to make 2D hand-drawn animations.",
     "homepage": "https://www.pencil2d.org",
     "license": "GPL-2.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

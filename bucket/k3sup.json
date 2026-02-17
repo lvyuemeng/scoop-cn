@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.13.11",
     "description": "Utility to get from zero to KUBECONFIG with k3s on any local or remote VM",
     "homepage": "https://k3sup.dev",

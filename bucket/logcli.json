@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6.5",
     "description": "Command-line tool for querying and exploring logs in Grafana Loki.",
     "homepage": "https://grafana.com/docs/loki/latest/query/logcli/",

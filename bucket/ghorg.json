@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.9",
     "description": "Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, Bitbucket, and more",
     "homepage": "https://github.com/gabrie30/ghorg",

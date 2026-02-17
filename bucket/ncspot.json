@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.3",
     "description": "ncurses Spotify client written in Rust",
     "homepage": "https://github.com/hrkfdn/ncspot",

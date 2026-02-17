@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2025.3.2.1-253.30387.173",
     "description": "Cross-Platform IDE for Python by JetBrains.",
     "homepage": "https://www.jetbrains.com/pycharm/",
@@ -16,7 +16,7 @@
     "extract_to": "IDE",
     "installer": {
         "script": [
-            "& \"$bucketsdir\\scoop-cn\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
+            "& \"$bucketsdir\\extras\\scripts\\jetbrains\\portable.ps1\" $dir $persist_dir",
             "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse",
             "Set-Content \"$dir\\run_pycharm.bat\" \"start `\"`\" `\"$dir\\IDE\\bin\\pycharm64.exe`\"\" -Encoding ascii | Out-Null"
         ]

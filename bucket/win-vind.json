@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.13.2",
     "homepage": "https://github.com/pit-ray/win-vind",
     "description": "A Vim-oriented toy box that allows the user to operate Windows with key bindings like Vim. The app consists of various useful features inspired by Vim and its plugins.",

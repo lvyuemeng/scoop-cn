@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.2",
     "description": "A static analysis security scanner for CloudFormation code",
     "homepage": "https://cfsec.dev",

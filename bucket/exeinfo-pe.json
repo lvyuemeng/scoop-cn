@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "The homepage requires JS to load (not suitable for checkver)",
     "version": "0.0.9.4",
     "description": "EXE analyzer inspired by PEiD. Designed to detect exe signatures, compressor format and dump internal information.",

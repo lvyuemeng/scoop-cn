@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "b5449",
     "description": "Inference of LLaMA model in pure C/C++ (HIP version for AMD gfx1030)",
     "homepage": "https://github.com/ggml-org/llama.cpp",

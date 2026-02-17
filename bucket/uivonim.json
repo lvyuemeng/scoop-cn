@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.29.0",
     "description": "Fork of Veonim, a GUI frontend of Neovim that leverages latest Neovim features (floating windows, builtin LSP, Lua) without reliance on VSCode extensions.",
     "homepage": "https://github.com/smolck/uivonim",

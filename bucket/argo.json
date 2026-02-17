@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.0.1",
     "description": "Workflow engine for orchestrating parallel jobs on Kubernetes",
     "homepage": "https://github.com/argoproj/argo-workflows",

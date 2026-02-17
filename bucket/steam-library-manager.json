@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Steam.Library.Manager is for backwards compatibility",
     "version": "1.7.2.0",
     "description": "An utility to manage your Steam and Origin libraries in ease of use with multi library support.",

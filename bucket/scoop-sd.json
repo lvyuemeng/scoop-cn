@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3",
     "description": "A program to search for scoop packages. Powered by https://scoopsearch.github.io/",
     "homepage": "https://github.com/grisha765/scoop-search-directory",

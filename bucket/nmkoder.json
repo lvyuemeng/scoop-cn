@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.10.0",
     "description": "A video encoding, muxing, and analysis GUI in Winforms, built around FFmpeg, FFprobe, and av1an.",
     "homepage": "https://github.com/n00mkrad/nmkoder",

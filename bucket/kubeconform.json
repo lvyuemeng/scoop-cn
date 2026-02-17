@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.0",
     "description": "A Kubernetes manifest validation tool. Incorporate it into your CI, or use it locally to validate your Kubernetes configuration!",
     "homepage": "https://github.com/yannh/kubeconform",

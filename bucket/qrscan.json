@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.9",
     "description": "Scan a QR code in the terminal using the system camera or a given image",
     "homepage": "https://github.com/sayanarijit/qrscan",

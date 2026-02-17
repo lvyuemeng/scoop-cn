@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.2.0",
     "description": "A super fast CLI tool to decode and encode JWTs built in Rust",
     "homepage": "https://github.com/mike-engel/jwt-cli",

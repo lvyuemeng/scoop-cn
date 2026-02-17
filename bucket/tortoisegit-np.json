@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.18.0.1",
     "description": "TortoiseGit is a Windows Shell Interface to Git and based on TortoiseSVN.",
     "homepage": "https://tortoisegit.org/",
@@ -7,8 +7,8 @@
         "url": "https://gitlab.com/tortoisegit/tortoisegit/-/blob/master/LICENSE"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022",
-        "git": "scoop-cn/git"
+        "vcredist": "extras/vcredist2022",
+        "git": "main/git"
     },
     "architecture": {
         "64bit": {

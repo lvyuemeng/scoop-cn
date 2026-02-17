@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "6.2.0",
     "description": "Multi-protocol and Java-based message broker",
     "homepage": "https://activemq.apache.org",
     "license": "Apache-2.0",
     "suggest": {
         "java": [
-            "scoop-cn/openjdk9",
-            "scoop-cn/corretto8-jre"
+            "java/openjdk9",
+            "java/corretto8-jre"
         ]
     },
     "notes": "Install service manually via '$dir\\bin\\winXX\\InstallService.bat'",

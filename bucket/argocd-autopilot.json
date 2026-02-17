@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.20",
     "description": "A tool which offers an opinionated way of installing Argo-CD and managing GitOps repositories.",
     "homepage": "https://github.com/argoproj-labs/argocd-autopilot",

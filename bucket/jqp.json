@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.8.0",
     "description": "A TUI playground to experiment with jq",
     "homepage": "https://github.com/noahgorstein/jqp",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.110.0",
     "description": "A modern shell written in Rust",
     "homepage": "https://www.nushell.sh",

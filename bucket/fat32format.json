@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "a027932",
     "description": "FAT32 format tool that supports volumes greater than 32 GB",
     "homepage": "https://github.com/0xbadfca11/fat32format",

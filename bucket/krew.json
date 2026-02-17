@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.5",
     "description": "Krew is the package manager for kubectl plugins.",
     "homepage": "https://krew.sigs.k8s.io/",

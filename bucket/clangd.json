@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "21.1.8",
     "description": "Language server for C/C++, by the LLVM project",
     "homepage": "https://clangd.llvm.org/",

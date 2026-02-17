@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.1.15",
     "description": "A flexible DNS proxy, with support for encrypted DNS protocols",
     "homepage": "https://dnscrypt.info",

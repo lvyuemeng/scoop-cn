@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.3.4",
     "description": "Reimplementation of waifu2x in C++ using OpenCL and OpenCV.",
     "homepage": "https://github.com/DeadSix27/waifu2x-converter-cpp",

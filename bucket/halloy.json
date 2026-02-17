@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2026.2",
     "description": "Halloy is an open-source IRC client written in Rust, with the iced GUI library.",
     "homepage": "https://halloy.squidowl.org/",

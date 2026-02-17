@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.1.10",
     "description": "A file list program that supports multiple storages, powered by Gin and SolidJS, fork of AList.",
     "homepage": "https://oplist.org/",

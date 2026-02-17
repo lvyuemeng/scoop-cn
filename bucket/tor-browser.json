@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Multiple components under various open source licenses. Included HTTPS Everywhere extension is the strictest.",
     "version": "15.0.5",
     "description": "Web browser that connects to the internet via the Tor anonymity network",

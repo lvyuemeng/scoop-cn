@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.4",
     "description": "CLI for controlling Google Chromecast devices.",
     "homepage": "https://github.com/vishen/go-chromecast",

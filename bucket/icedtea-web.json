@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "The IcedTea-Web project provides a Free Software web browser plugin running applets written in the Java programming language and an implementation of Java Web Start, originally based on the NetX project",
     "homepage": "https://github.com/AdoptOpenJDK/IcedTea-Web",
     "version": "1.8.8",

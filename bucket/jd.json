@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.4.0",
     "description": "jd is a commandline utility and Go library for diffing and patching JSON values.",
     "homepage": "https://github.com/josephburnett/jd",

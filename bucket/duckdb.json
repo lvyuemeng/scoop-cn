@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.4.4",
     "description": "A high-performance embeddable SQL OLAP database management system",
     "homepage": "https://duckdb.org",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

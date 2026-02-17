@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.13",
     "description": "Administration panel and querying interface for InfluxDB databases",
     "homepage": "https://timeseriesadmin.github.io/",

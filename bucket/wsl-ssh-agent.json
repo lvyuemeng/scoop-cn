@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.9",
     "description": "Helper to interface with Windows ssh-agent.exe service from Windows Subsystem for Linux (WSL)",
     "homepage": "https://github.com/rupor-github/wsl-ssh-agent",

@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.46.1",
     "description": "Exports Discord chat logs to a file",
     "homepage": "https://github.com/Tyrrrz/DiscordChatExporter",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

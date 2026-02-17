@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.1.0",
     "description": "A multi-platform command-line programmer for Atmel (8051, AVR, XMEGA & AVR32) chips with a USB bootloader supporting ISP..",
     "homepage": "https://dfu-programmer.github.io/",

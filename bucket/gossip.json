@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.14.0",
     "description": "Desktop client for Nostr written in Rust",
     "homepage": "https://github.com/mikedilger/gossip",

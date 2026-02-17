@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.10",
     "description": "An LLVM backend for the Kotlin compiler, runtime implementation, and native code generation facility using the LLVM toolchain for native binaries runnable without a virtual machine.",
     "homepage": "https://kotlinlang.org",

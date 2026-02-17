@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.16.0",
     "description": "Like awk, sed, cut, join, and sort for data formats such as CSV, TSV, JSON, JSON Lines, and positionally-indexed.",
     "homepage": "https://miller.readthedocs.io",

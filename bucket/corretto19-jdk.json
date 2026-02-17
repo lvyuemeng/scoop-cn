@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "Amazon Corretto is a no-cost, multiplatform, production-ready distribution of the Open Java Development Kit (OpenJDK)",
     "homepage": "https://aws.amazon.com/corretto/",
     "version": "19.0.2.7.1",

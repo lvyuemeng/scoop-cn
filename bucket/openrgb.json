@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.9",
     "description": "RGB lighting control that does not depend on manufacturer software.",
     "homepage": "https://openrgb.org",
     "license": "GPL-2.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

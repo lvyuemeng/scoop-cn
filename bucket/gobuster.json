@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.8.2",
     "description": "A tool to brute-force URIs, DNS subdomains or Virtual Host names",
     "homepage": "https://github.com/OJ/gobuster",

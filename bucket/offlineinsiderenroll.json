@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.6.4",
     "description": "A script to enable access to the Windows Insider Program on machines not signed in with Microsoft Account",
     "homepage": "https://github.com/abbodi1406/offlineinsiderenroll",

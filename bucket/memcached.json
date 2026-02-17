@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Check https://www.apachelounge.com/viewtopic.php?t=7919 for details about this pre-compiled binary package of memcached. memcached is built with both libevent 2.1 and 2.0 because libevent 2.1 is not compatible with Win7.",
     "version": "1.6.40",
     "description": "Distributed memory object caching system",

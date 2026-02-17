@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.5.9",
     "description": "Quake II source port based on v3.21 with Vulkan support",
     "homepage": "https://github.com/kondrak/vkQuake2",
@@ -38,7 +38,7 @@
         ""
     ],
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "32bit": {

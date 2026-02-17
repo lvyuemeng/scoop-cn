@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.25.0",
     "description": "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption",
     "homepage": "https://github.com/bodo-run/yek",

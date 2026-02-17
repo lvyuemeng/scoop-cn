@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.16.2",
     "description": "Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with commands",
     "homepage": "https://github.com/docker/machine",

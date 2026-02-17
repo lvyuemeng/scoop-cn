@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "0.31",
     "description": "A digital logic designer and circuit simulator",
     "homepage": "https://github.com/hneemann/Digital",
     "license": "GPL-3.0-only",
     "suggest": {
         "JDK": [
-            "scoop-cn/opendk",
-            "scoop-cn/oraclejdk"
+            "java/opendk",
+            "java/oraclejdk"
         ]
     },
     "url": "https://gh-proxy.org/https://github.com/hneemann/Digital/releases/download/v0.31/Digital.zip",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.0.1",
     "description": "Launch processes with TrustedInstaller privilege.",
     "homepage": "https://github.com/jschicht/RunAsTI",

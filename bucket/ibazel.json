@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.28.0",
     "description": "Tools for building Bazel targets when source files change",
     "homepage": "https://github.com/bazelbuild/bazel-watcher",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.1",
     "description": "A WebLogic Console that connects remotely using the WebLogic Management REST API",
     "homepage": "https://oracle.github.io/weblogic-remote-console/",

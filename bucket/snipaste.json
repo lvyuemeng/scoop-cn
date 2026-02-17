@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.11.3",
     "description": "A snipping tool, which allows you to pin the screenshot back onto the screen.",
     "homepage": "https://www.snipaste.com/",
     "license": "Unknown",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

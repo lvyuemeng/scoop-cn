@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.5",
     "description": "A code-search engine that uses GPT-4 to answer questions about your code. Search both your local and remote repositories with natural language, regex and filtered queries.",
     "homepage": "https://bloop.ai",

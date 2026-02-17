@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.113.0",
     "description": "A tool used to apply file update strategies. Designed to be used from everywhere, each application 'run' detects if a value needs to be updated using a custom strategy then apply changes according to the strategy.",
     "homepage": "https://www.updatecli.io/",

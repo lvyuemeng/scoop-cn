@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.1.44",
     "description": "An agentic coding tool built by Anthropic that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows.",
     "homepage": "https://claude.com/product/claude-code",
@@ -16,7 +16,7 @@
         "If your Git was installed via Scoop, you might need to run `scoop update git -f` to pick up this change."
     ],
     "suggest": {
-        "git": "scoop-cn/git"
+        "git": "main/git"
     },
     "architecture": {
         "64bit": {

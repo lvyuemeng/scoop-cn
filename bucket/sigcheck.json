@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.91",
     "description": "Dump file version information and verify that images on your system are digitally signed.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/sigcheck",

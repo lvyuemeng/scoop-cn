@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2025.3.3",
     "description": "NVDA (NonVisual Desktop Access) is a free 'screen reader' which enables blind and vision impaired people to use computers. It reads the text on the screen in a computerized voice.",
     "homepage": "https://www.nvaccess.org/",
@@ -18,8 +18,8 @@
     "post_install": [
         "$dirpath = $dir.Replace('\\', '\\\\')",
         "'add-startup.reg', 'remove-startup.reg' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\nvda\\$_\") {",
-        "        $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\nvda\\$_\"",
+        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\nvda\\$_\") {",
+        "        $content = Get-Content \"$bucketsdir\\extras\\scripts\\nvda\\$_\"",
         "        $content = $content.Replace('$dir', $dirpath)",
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        $content | Set-Content -Path \"$dir\\$_\"",

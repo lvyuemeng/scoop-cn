@@ -1,11 +1,11 @@
-﻿{
+{
     "version": "20230501",
     "description": "Conversion tool from NTFS to Btrfs",
     "homepage": "https://github.com/maharmstone/ntfs2btrfs",
     "license": "GPL-2.0-only",
     "notes": "ntfs2btrfs requires admin privileges to use",
     "suggest": {
-        "WinBtrfs": "scoop-cn/winbtrfs-np"
+        "WinBtrfs": "nonportable/winbtrfs-np"
     },
     "architecture": {
         "64bit": {

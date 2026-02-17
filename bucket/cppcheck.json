@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.19.0",
     "description": "Static analysis tool for C/C++ code",
     "homepage": "https://cppcheck.sourceforge.io/",

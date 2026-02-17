@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.64.5",
     "description": "A live-reloading command line utility for developing Go applications.",
     "homepage": "https://github.com/cosmtrek/air",

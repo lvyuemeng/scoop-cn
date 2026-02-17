@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.0.0",
     "description": "Keep Outlook running in the background when the main window is closed",
     "homepage": "https://github.com/Palsternakka/OutlookWindowHook",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

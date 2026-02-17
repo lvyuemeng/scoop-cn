@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.8",
     "description": "GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI",
     "homepage": "https://github.com/gptscript-ai/gptscript",

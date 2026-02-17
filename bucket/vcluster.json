@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.31.0",
     "description": "A Virtual Kubernetes Cluster that runs inside of Kubernetes.",
     "homepage": "https://www.vcluster.com",

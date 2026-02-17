@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.103.0",
     "description": "All-in-one repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.",
     "homepage": "https://github.com/abbodi1406/vcredist",

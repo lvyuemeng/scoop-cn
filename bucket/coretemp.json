@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.19.5",
     "description": "Monitor processor temperature and other vital information.",
     "homepage": "https://www.alcpu.com/CoreTemp/",
@@ -18,7 +18,7 @@
         }
     },
     "pre_install": [
-        "Copy-Item \"$bucketsdir\\scoop-cn\\scripts\\coretemp\\download-language-packs.ps1\" \"$dir\\\" | Out-Null",
+        "Copy-Item \"$bucketsdir\\extras\\scripts\\coretemp\\download-language-packs.ps1\" \"$dir\\\" | Out-Null",
         "if (Test-Path \"$persist_dir\\CoreTemp.ini\") { Copy-Item \"$persist_dir\\CoreTemp.ini\" \"$dir\\\" | Out-Null }"
     ],
     "pre_uninstall": "Stop-Process -Name 'Core Temp' -ErrorAction SilentlyContinue",

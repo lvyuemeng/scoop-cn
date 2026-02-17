@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.40.5",
     "description": "A fast and polyglot tool for code searching, linting, rewriting at large scale.",
     "homepage": "https://ast-grep.github.io",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2020.01.26",
     "description": "An approximation of the Unix sudo command. Shows a UAC popup window unfortunately.",
     "homepage": "https://github.com/lukesampson/psutils",

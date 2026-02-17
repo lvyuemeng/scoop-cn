@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "b5449",
     "description": "Inference of LLaMA model in pure C/C++ (CUDA 11.7 version)",
     "homepage": "https://github.com/ggml-org/llama.cpp",

@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.0.0",
     "description": "Highly configurable prompt builder for Bash, ZSH and PowerShell written in Go.",
     "homepage": "https://github.com/jtyr/gbt",
     "license": "MIT",
     "suggest": {
-        "NerdFont": "scoop-cn/DejaVuSansMono-NF"
+        "NerdFont": "nerd-fonts/DejaVuSansMono-NF"
     },
     "architecture": {
         "64bit": {

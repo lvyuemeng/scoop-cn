@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.12.0",
     "description": "OpenOCD is an open-source tool that allows debugging various ARM devices with GDB using a wide variety of JTAG programmers.",
     "homepage": "https://openocd.org/",

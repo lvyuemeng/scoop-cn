@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.9",
     "description": "Gamepad driver for Nintendo Switch Joy-Cons that merges them into one controller.",
     "homepage": "https://github.com/sam0x17/XJoy",

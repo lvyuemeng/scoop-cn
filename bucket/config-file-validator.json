@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.10.0",
     "description": "A tool to validate the syntax of configuration files",
     "homepage": "https://boeing.github.io/config-file-validator/",

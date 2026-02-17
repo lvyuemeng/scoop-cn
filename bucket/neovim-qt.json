@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.19",
     "description": "Neovim client library and GUI, in Qt5",
     "homepage": "https://github.com/equalsraf/neovim-qt",

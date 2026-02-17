@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.7.2",
     "description": "An open-source, non-custodial, privacy-focused Bitcoin wallet for desktop, that implements trustless coinjoin over the Tor anonymity network.",
     "homepage": "https://wasabiwallet.io/",

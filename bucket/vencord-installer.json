@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.4.0",
     "description": "A GUI app for installing Vencord, a Discord client mod",
     "homepage": "https://vencord.dev/",
     "license": "GPL-3.0-only",
     "suggest": {
-        "discord": "scoop-cn/discord"
+        "discord": "extras/discord"
     },
     "architecture": {
         "64bit": {

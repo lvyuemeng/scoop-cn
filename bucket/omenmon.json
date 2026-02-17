@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.61.1",
     "description": "Monitor temperature and control fan speeds using WMI BIOS and the Embedded Controller.",
     "homepage": "https://github.com/OmenMon/OmenMon",

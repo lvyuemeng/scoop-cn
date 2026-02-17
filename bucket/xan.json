@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.55.0",
     "description": "xan is a command line tool that can be used to process CSV files directly from the shell.",
     "homepage": "https://github.com/medialab/xan",

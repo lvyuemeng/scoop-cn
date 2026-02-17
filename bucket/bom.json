@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.1",
     "description": "A utility that lets you create, view and transform Software Bills of Materials (SBOMs).",
     "homepage": "https://kubernetes-sigs.github.io/bom/",

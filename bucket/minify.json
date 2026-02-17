@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.24.8",
     "description": "Go minifiers for web formats",
     "homepage": "https://github.com/tdewolff/minify",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2.6",
     "description": "Reverse differential backup tool, over a network or locally",
     "homepage": "https://rdiff-backup.net",
@@ -17,7 +17,7 @@
         }
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2008"
+        "vcredist": "extras/vcredist2008"
     },
     "bin": "rdiff-backup.exe",
     "checkver": {

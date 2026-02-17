@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.8.24",
     "description": "Tool to generate terraform files from existing infrastructure (reverse Terraform), i.e. infrastructure to code.",
     "homepage": "https://github.com/GoogleCloudPlatform/terraformer",

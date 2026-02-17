@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "A CLI tool for DSA problem revision with spaced repetition, powered by a customized SuperMemo 2 algorithm.",
     "homepage": "https://github.com/eannchen/leetsolv",

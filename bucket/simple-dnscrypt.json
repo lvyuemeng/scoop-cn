@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.7.1",
     "description": "An easy to use GUI for dnscrypt-proxy",
     "homepage": "https://simplednscrypt.org/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

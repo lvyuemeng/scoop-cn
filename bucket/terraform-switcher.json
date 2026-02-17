@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.13.0",
     "description": "A command line tool to switch between different versions of terraform",
     "homepage": "https://tfswitch.warrensbox.com",

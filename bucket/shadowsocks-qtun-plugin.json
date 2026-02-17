@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.3.0",
     "description": "Yet another SIP003 plugin based on IETF-QUIC.",
     "homepage": "https://github.com/shadowsocks/qtun",
     "license": "MIT",
     "suggest": {
-        "Shadowsocks": "scoop-cn/shadowsocks"
+        "Shadowsocks": "extras/shadowsocks"
     },
     "architecture": {
         "64bit": {

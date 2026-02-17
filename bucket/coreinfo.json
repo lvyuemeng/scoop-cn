@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.0",
     "description": "A command-line utility that shows you the mapping between logical processors and the physical processor.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/coreinfo",

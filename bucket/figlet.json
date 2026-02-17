@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0-go",
     "description": "Create large letters using ASCII art out of ordinary text.",
     "homepage": "https://github.com/lukesampson/figlet",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.1.0",
     "description": "Fast integer versions of trained models for the Tesseract Open Source OCR Engine",
     "homepage": "https://github.com/tesseract-ocr/tessdata_fast",
@@ -10,7 +10,7 @@
         "* Known issue:",
         "  - ERROR: Cannot create symbolic link: https://github.com/ScoopInstaller/Main/issues/4874"
     ],
-    "depends": "scoop-cn/tesseract",
+    "depends": "tesseract",
     "url": [
         "https://gh-proxy.org/https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.zip",
         "https://gh-proxy.org/https://raw.githubusercontent.com/tesseract-ocr/tessdata/d87b3cbc75555bd3282e0cadab5e159e2d468396/equ.traineddata",

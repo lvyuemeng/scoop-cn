@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.6",
     "description": "A Nintendo WiiU emulator capable of online play (development version)",
     "homepage": "https://cemu.info/",
     "license": "MPL-2.0",
     "suggest": {
-        "Microsoft Visual C++ Runtime 2022": "scoop-cn/vcredist2022"
+        "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

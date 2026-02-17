@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.0",
     "description": "A TOML toolkit written in Rust",
     "homepage": "https://taplo.tamasfe.dev/",

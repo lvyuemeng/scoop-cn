@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.7.0",
     "description": "Fully featured and highly configurable SFTP server with optional HTTP, FTP/S and WebDAV support",
     "homepage": "https://github.com/drakkan/sftpgo",

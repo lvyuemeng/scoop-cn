@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.0",
     "description": "fast, encrypted, and deduplicated backups powered by Rust",
     "homepage": "https://rustic.cli.rs",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.0",
     "description": "Rust utility to extract UEFI IFR data into human-readable text",
     "homepage": "https://github.com/LongSoft/IFRExtractor-RS",

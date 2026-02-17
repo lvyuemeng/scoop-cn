@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.1.22",
     "description": "High-performance Markdown linter, written in Rust.",
     "homepage": "https://github.com/rvben/rumdl",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

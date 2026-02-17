@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.4.116",
     "description": "A modern media center that's a one-stop solution for your video entertainment. You discover, watch and organize video content from easy to install addons.",
     "homepage": "https://www.stremio.com/",
@@ -15,9 +15,9 @@
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
     "post_install": [
         "'install-context', 'uninstall-context' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\stremio\\$_.reg\") {",
+        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\stremio\\$_.reg\") {",
         "        $sPath = \"$dir\\stremio.exe\".Replace('\\', '\\\\')",
-        "        $content = (Get-Content \"$bucketsdir\\scoop-cn\\scripts\\stremio\\$_.reg\").Replace('$stremioexe', $sPath)",
+        "        $content = (Get-Content \"$bucketsdir\\extras\\scripts\\stremio\\$_.reg\").Replace('$stremioexe', $sPath)",
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
         "    }",

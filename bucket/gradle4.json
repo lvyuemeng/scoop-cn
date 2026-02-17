@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.10.3",
     "description": "An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled)",
     "homepage": "https://gradle.org",
@@ -9,8 +9,8 @@
     "bin": "bin\\gradle.bat",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     }
 }

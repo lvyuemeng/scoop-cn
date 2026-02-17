@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.0.0-beta8",
     "description": "Automatically generate build configurations for multiple and widely used toolsets using one universal definition.",
     "homepage": "https://premake.github.io/",

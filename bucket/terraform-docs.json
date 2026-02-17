@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.21.0",
     "description": "Generate documentation from Terraform modules in various output formats",
     "homepage": "https://github.com/terraform-docs/terraform-docs",

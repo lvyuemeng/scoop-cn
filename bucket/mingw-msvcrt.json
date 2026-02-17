@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "15.2.0-rt_v13-rev0",
     "description": "Minimalistic GNU for Windows is a runtime environment for GCC, GDB, make and related binutils (MSVCRT Build Varient).",
     "homepage": "https://www.mingw-w64.org",

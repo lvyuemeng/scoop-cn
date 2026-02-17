@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20220728",
     "description": "NCNN implementation of Real-CUGAN image upscaling software.",
     "homepage": "https://github.com/nihui/realcugan-ncnn-vulkan",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.0",
     "homepage": "https://github.com/charmbracelet/vhs",
     "description": "A cli application that allows you to create terminal GIFs as code for integration testing and demoing your CLI tools (ex. neofetch/winfetch).",

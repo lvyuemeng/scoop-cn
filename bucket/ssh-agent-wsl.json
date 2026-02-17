@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.5",
     "description": "Use the Windows SSH agent from inside WSL",
     "homepage": "https://github.com/rupor-github/ssh-agent-wsl",

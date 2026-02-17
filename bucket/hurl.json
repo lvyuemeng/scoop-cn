@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.1.0",
     "description": "Command line tool that performs HTTP requests defined in a simple plain text format",
     "homepage": "https://hurl.dev",

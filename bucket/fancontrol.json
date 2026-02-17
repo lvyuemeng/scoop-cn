@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "259",
     "description": "A highly customizable fan controlling software for Windows",
     "homepage": "https://getfancontrol.com/",
     "license": "Freeware",
     "suggest": {
-        ".NET Desktop Runtime 10.0": "scoop-cn/windowsdesktop-runtime-10.0"
+        ".NET Desktop Runtime 10.0": "versions/windowsdesktop-runtime-10.0"
     },
     "architecture": {
         "64bit": {

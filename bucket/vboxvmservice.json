@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.2-Prune",
     "description": "Windows Service to run VirtualBox VMs automatically.",
     "homepage": "https://github.com/onlyfang/VBoxVmService/",

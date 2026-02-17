@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.41",
     "description": "List the active logon sessions on a system.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/logonsessions",

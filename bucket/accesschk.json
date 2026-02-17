@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.15",
     "description": "A command-line tool for viewing the effective permissions on files, registry keys, services, processes, kernel objects, and more.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/accesschk",

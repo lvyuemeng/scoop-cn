@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.14.0",
     "description": "Dockerfile linter",
     "homepage": "https://github.com/hadolint/hadolint",

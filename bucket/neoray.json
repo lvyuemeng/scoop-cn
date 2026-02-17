@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.6",
     "description": "Simple and lightweight GUI client for Neovim.",
     "homepage": "https://github.com/hismailbulut/Neoray",
@@ -6,7 +6,7 @@
     "suggest": {
         "Neovim": [
             "neovim",
-            "scoop-cn/neovim-nightly"
+            "versions/neovim-nightly"
         ]
     },
     "architecture": {

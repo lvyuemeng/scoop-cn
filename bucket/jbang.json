@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.137.0",
     "description": "The tool to run java, jar or jsh files with automatic dependency fetching, immediate compilation and execution",
     "homepage": "https://jbang.dev/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.10",
     "description": "A multi-platform command line tool to send mail via SMTP protocol.",
     "homepage": "https://github.com/muquit/mailsend-go",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.3.7",
     "description": "An unofficial, unendorsed language server for meson written in C++.",
     "homepage": "https://github.com/JCWasmx86/mesonlsp",

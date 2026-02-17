@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.762.2018",
     "description": "Portable executable (PE) manipulation toolkit. Process Viewer and PE files Editor, Dumper, Rebuilder, Comparator, Analyzer are included.",
     "homepage": "https://petoolse.github.io/petools/",

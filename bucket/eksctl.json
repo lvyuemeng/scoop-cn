@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.223.0",
     "description": "A simple CLI tool for creating clusters on EKS - Amazon’s new managed Kubernetes service for EC2.",
     "homepage": "https://eksctl.io",

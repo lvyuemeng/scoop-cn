@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.8.16",
     "description": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax - like Dockerfile and Makefile had a baby.",
     "bin": "earthly.exe",

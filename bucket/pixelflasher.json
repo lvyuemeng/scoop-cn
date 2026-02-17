@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.14.3.1",
     "description": "Pixel phone flashing GUI utility with features",
     "homepage": "https://github.com/badabing2005/PixelFlasher",
@@ -16,7 +16,7 @@
         ]
     ],
     "suggest": {
-        "adb": "scoop-cn/adb"
+        "adb": "main/adb"
     },
     "checkver": "github",
     "autoupdate": {

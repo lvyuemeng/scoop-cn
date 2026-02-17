@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2026.1-261.20869.47",
     "description": "Cross-Platform IDE for PHP by JetBrains. (Latest)",
     "homepage": "https://www.jetbrains.com/phpstorm/",
@@ -43,7 +43,7 @@
     "extract_to": "IDE",
     "installer": {
         "script": [
-            "& \"$bucketsdir\\scoop-cn\\scripts\\jetbrains\\portable.ps1\" \"$dir\" \"$persist_dir\"",
+            "& \"$bucketsdir\\versions\\scripts\\jetbrains\\portable.ps1\" \"$dir\" \"$persist_dir\"",
             "Remove-Item \"$dir\\IDE\\`$*\" -Force -Recurse"
         ]
     },

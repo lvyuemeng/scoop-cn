@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.0-beta.7",
     "description": "Enables building images locally, natively on your k3s cluster",
     "homepage": "https://github.com/rancher/kim",

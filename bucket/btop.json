@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.0.5",
     "description": "Resource monitor that shows usage and stats for processor, memory, disks, network, processes and services.",
     "homepage": "https://github.com/aristocratos/btop4win",
     "license": "Apache-2.0",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

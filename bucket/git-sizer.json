@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.5.0",
     "description": "Compute various size metrics for a Git repository, flagging those that might cause problems.",
     "homepage": "https://github.com/github/git-sizer",

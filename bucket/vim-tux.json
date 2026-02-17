@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "9.2.0010_20260216",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text. (tux build)",
     "homepage": "https://tuxproject.de/projects/vim",
@@ -20,7 +20,7 @@
     "post_install": [
         "'install-context.reg', 'uninstall-context.reg' | ForEach-Object {",
         "    $vimpath = \"$dir\\gVim.exe\".Replace('\\', '\\\\')",
-        "    $content = (Get-Content \"$bucketsdir\\scoop-cn\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
+        "    $content = (Get-Content \"$bucketsdir\\versions\\scripts\\vim\\$_\").Replace('$vim', $vimpath)",
         "    if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "    Set-Content \"$dir\\$_\" $content",
         "}"

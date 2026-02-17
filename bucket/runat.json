@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2018.07.25",
     "description": "A replacement for the at command which Microsoft has deprecated and removed in Windows 2012.",
     "homepage": "https://github.com/lukesampson/psutils",

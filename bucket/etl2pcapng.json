@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.0",
     "description": "Convert .etl to .pcapng",
     "homepage": "https://github.com/microsoft/etl2pcapng",

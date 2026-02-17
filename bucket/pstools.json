@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.51",
     "description": "Command-line utilities for listing the processes running on local or remote computers, running processes, rebooting computers, and more.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/pstools",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.12",
     "description": "Terminal session recorder (Asciinema format) written in Rust.",
     "homepage": "https://github.com/Watfaq/PowerSession-rs",

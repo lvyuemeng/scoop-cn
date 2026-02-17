@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.5",
     "description": "Binary installation for rust projects",
     "homepage": "https://github.com/cargo-bins/cargo-binstall",

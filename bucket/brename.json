@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.14.0",
     "description": "A practical cross-platform command-line tool for safely batch renaming files/directories via regular expression",
     "homepage": "https://github.com/shenwei356/brename",

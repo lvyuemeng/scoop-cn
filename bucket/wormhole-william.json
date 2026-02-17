@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.8",
     "description": "End-to-end encrypted file transfer. A magic wormhole CLI and API in Go",
     "homepage": "https://github.com/psanford/wormhole-william",

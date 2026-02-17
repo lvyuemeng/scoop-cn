@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.23.5",
     "homepage": "https://aka.ms/azure-dev/devhub",
     "description": "A developer CLI that accelerates the time it takes for you to get started on Azure. It provides a set of developer-friendly commands that map to key stages in your workflow - code, build, deploy, monitor, repeat.",

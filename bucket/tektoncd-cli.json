@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.43.0",
     "description": "A CLI for interacting with Tekton - a cloud native CI/CD solution",
     "homepage": "https://github.com/tektoncd/cli",

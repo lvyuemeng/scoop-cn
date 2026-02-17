@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.9.3",
     "description": "A simple, high performance relay server written in rust.",
     "homepage": "https://github.com/zhboner/realm",

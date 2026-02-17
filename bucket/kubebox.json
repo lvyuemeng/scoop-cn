@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.0",
     "description": "Terminal and Web console for Kubernetes.",
     "homepage": "https://github.com/astefanutti/kubebox",

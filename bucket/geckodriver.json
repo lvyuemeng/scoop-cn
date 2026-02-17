@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.36.0",
     "description": "WebDriver for the Firefox web browser.",
     "homepage": "https://github.com/mozilla/geckodriver",

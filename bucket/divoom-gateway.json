@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.42",
     "description": "A REST API gateway with swagger UI provided that wraps divoom HTTP APIs for controlling divoom devices, like pixoo.",
     "homepage": "https://github.com/r12f/divoom",

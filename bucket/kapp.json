@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.65.0",
     "description": "A simple deployment tool focused on the concept of Kubernetes application",
     "homepage": "https://carvel.dev/kapp/",

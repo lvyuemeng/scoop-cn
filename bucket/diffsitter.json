@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.0",
     "description": "A tree-sitter based AST difftool to get meaningful semantic diffs",
     "homepage": "https://github.com/afnanenayet/diffsitter",

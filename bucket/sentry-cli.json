@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.0",
     "description": "Connect to the Sentry API and manage projects related data.",
     "homepage": "https://docs.sentry.io/cli/",

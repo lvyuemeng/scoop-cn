@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.1",
     "description": "A Neovim client in C++",
     "homepage": "https://github.com/RMichelsen/Nvy",

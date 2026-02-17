@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.1",
     "description": "Transform JSON into discrete assignments to make it easier to grep and see the absolute 'path'.",
     "homepage": "https://github.com/tomnomnom/gron",

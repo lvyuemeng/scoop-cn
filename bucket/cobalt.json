@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.20.3",
     "description": "Static site generator written in Rust",
     "homepage": "https://cobalt-org.github.io/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

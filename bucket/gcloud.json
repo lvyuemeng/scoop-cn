@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "556.0.0",
     "description": "Command-line interface for Google Cloud Platform products and services.",
     "homepage": "https://cloud.google.com/sdk/",
     "license": "Proprietary",
     "notes": "To initialize Cloud SDK, you will need to run: 'gcloud init'",
-    "depends": "scoop-cn/7zip19.00-helper",
+    "depends": "7zip19.00-helper",
     "architecture": {
         "64bit": {
             "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-556.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",

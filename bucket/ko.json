@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.18.1",
     "description": "A simple, fast container image builder for Go applications",
     "homepage": "https://ko.build/",

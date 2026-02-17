@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.4.1",
     "description": "Tool for collection and processing of ETW events related to frame presentation on Windows.",
     "homepage": "https://github.com/GameTechDev/PresentMon",

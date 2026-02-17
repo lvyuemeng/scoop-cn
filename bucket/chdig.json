@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "26.2.1",
     "description": "Dig into ClickHouse with TUI interface.",
     "homepage": "https://github.com/azat/chdig",

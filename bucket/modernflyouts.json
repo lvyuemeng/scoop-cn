@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Github release tag (e.g. 0.9.3) != full version (e.g. 0.9.3.0), which can cause error during extraction, thus 'checkver->regex' is needed.",
     "version": "0.9.3.0",
     "description": "A replacement for the built-in audio flyout UI, with a Modern Fluent Design.",

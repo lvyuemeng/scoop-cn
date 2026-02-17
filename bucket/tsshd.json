@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.6",
     "description": "A trzsz-ssh(tssh) server that supports connection migration for roaming.",
     "homepage": "https://github.com/trzsz/tsshd",

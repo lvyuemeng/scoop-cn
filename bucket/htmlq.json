@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.0",
     "description": "Like jq, but for HTML. (Uses CSS selectors to extract bits of content from HTML files)",
     "homepage": "https://github.com/mgdm/htmlq",

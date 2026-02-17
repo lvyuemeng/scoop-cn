@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.7",
     "description": "An ffmpeg gui with batch processing, video downloading, and more",
     "homepage": "https://github.com/eibol/ffmpeg_batch",

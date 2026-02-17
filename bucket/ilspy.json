@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "9.1.0.7988",
     "description": ".NET assembly browser and decompiler.",
     "homepage": "http://ilspy.net",
     "license": "MIT",
     "suggest": {
-        ".NET Desktop Runtime 8.0": "scoop-cn/windowsdesktop-runtime-8.0"
+        ".NET Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
     },
     "architecture": {
         "arm64": {

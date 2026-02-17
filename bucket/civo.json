@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4.7",
     "description": "CLI library for managing cloud resources such as instances and Kubernetes clusters at Civo.com.",
     "homepage": "https://github.com/civo/cli",

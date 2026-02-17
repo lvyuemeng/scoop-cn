@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2018.07.25",
     "description": "The vimtutor that comes with Vim for Windows doesn't work with Scoop. This one does.",
     "homepage": "https://github.com/lukesampson/psutils",

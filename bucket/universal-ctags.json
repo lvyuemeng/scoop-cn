@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.1.0",
     "description": "Generates an index (or tag) file of language objects found in source files for many popular programming languages.",
     "homepage": "https://ctags.io",

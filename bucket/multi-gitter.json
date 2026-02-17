@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.61.0",
     "description": "A command-line tool for updating multiple repositories with a single command.",
     "homepage": "https://github.com/lindell/multi-gitter",

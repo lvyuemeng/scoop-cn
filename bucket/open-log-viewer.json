@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.0",
     "description": "Multi-platform log viewer built with Electron and styled with Material Design.",
     "homepage": "https://github.com/tmoreno/open-log-viewer",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.1",
     "description": "Like ls, but for images, shows thumbnails in terminal using sixel graphics",
     "homepage": "https://github.com/hackerb9/lsix",

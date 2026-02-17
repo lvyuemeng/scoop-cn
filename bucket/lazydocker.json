@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.24.4",
     "description": "Terminal UI for both docker and docker-compose",
     "homepage": "https://github.com/jesseduffield/lazydocker",

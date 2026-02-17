@@ -1,13 +1,13 @@
-﻿{
+{
     "##": "Lynx declares that it requires Win32/32bit OpenSSL 3.0.x lib.",
     "version": "2.9.2",
     "description": "Text web browser.",
     "homepage": "https://invisible-island.net/lynx/lynx.html",
     "license": "GPL-2.0-only",
     "notes": "Version 2.8.3 was moved to 'version/lynx283'",
-    "depends": "scoop-cn/cacert",
+    "depends": "cacert",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "innosetup": true,
     "url": [

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "11_2_0-esp-2022r1",
     "description": "Toolchain for Xtensa (ESP32) based on GCC",
     "homepage": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-scratch.html",

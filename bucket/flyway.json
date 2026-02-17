@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "12.0.1",
     "description": "Database migration tool that favors simplicity and convention over configuration.",
     "homepage": "https://github.com/flyway/flyway",

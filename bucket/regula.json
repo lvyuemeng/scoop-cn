@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.1",
     "description": "A tool to evaluate infrastructure as code files for potential AWS, Azure, Google Cloud, and Kubernetes security and compliance violations prior to deployment.",
     "homepage": "https://regula.dev/",

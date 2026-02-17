@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "16.9.0",
     "description": "Upgrade everything, keep your system up to date by detecting which tools you use and run their appropriate package managers.",
     "homepage": "https://github.com/topgrade-rs/topgrade",

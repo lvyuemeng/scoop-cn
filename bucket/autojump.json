@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.1",
     "description": "Rust implementation of autojump, a tool that helps navigate your filesystem in the command line, by recording the directories you use the most.",
     "homepage": "https://github.com/xen0n/autojump-rs",

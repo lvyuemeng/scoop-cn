@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.18.0",
     "description": "Multi-platform transparent client-side encryption of files in the cloud",
     "homepage": "https://cryptomator.org",
     "license": "GPL-3.0-only",
     "suggest": {
-        "WinFSP": "scoop-cn/winfsp-np"
+        "WinFSP": "nonportable/winfsp-np"
     },
     "architecture": {
         "64bit": {

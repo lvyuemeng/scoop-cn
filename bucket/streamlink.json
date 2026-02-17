@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.2.0-1",
     "description": "A command-line utility that pipes video streams from various services into a video player.",
     "homepage": "https://streamlink.github.io/",
@@ -6,8 +6,8 @@
     "notes": "You will find your config file here: '$dir\\config'. To customise it, read the docs here: https://streamlink.github.io/cli/config.html#syntax",
     "suggest": {
         "ffmpeg": "ffmpeg",
-        "VLC player": "scoop-cn/vlc",
-        "mpv player": "scoop-cn/mpv"
+        "VLC player": "extras/vlc",
+        "mpv player": "extras/mpv"
     },
     "architecture": {
         "64bit": {

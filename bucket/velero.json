@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.2",
     "description": "Safely backup, restore and perform disaster recovery, migrate Kubernetes cluster resources and persistent volumes.",
     "homepage": "https://velero.io",

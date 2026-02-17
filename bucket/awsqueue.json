@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.0.8",
     "description": "Simple queue lister for AWS SQS",
     "homepage": "https://github.com/NearlyUnique/awsqueue",

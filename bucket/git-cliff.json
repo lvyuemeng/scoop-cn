@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.12.0",
     "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications",
     "homepage": "https://git-cliff.org",

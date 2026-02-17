@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.0",
     "description": "A cross-platform HTTP client desktop application for testing HTTP and REST APIs, WebSocket, GraphQL (including subscriptions) and gRPC endpoints.",
     "homepage": "https://sunny-chung.github.io/hello-http/",

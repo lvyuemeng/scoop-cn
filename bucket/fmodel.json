@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.4.4.0",
     "description": "Archive explorer for Unreal Engine games that uses CUE4Parse as its core parsing library, providing robust support for the latest UE4 and UE5 archive formats",
     "homepage": "https://github.com/4sval/FModel",

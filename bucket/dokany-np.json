@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.1.1000",
     "description": "User mode file system library for windows with FUSE Wrapper.",
     "homepage": "https://dokan-dev.github.io/",

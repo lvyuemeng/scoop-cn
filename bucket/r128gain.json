@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.7",
     "description": "Fast audio loudness scanner & tagger (ReplayGain v2 / R128)",
     "homepage": "https://github.com/desbma/r128gain",

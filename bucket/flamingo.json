@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.2",
     "description": "Flamingo enhances ArgoCD by providing Flux subsystem capabilities, enabling visualization and management of Flux workloads alongside ArgoCD while ensuring timely backporting of CVEs for a secure environment.",
     "homepage": "https://github.com/flux-subsystem-argo/flamingo",

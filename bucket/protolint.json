@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.56.4",
     "description": "A pluggable linter and fixer to enforce Protocol Buffer style and conventions",
     "homepage": "https://github.com/yoheimuta/protolint",

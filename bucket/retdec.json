@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.0",
     "description": "A retargetable machine-code decompiler based on LLVM.",
     "homepage": "https://github.com/avast/retdec",
@@ -10,7 +10,7 @@
     ],
     "suggest": {
         "Python 3.4+": "python",
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

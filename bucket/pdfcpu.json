@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.1",
     "description": "A PDF processor written in Go, supporting encryption.",
     "homepage": "https://pdfcpu.io",

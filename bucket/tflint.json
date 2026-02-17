@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.61.0",
     "description": "A Terraform linter focused on possible errors, best practices, etc.",
     "homepage": "https://github.com/terraform-linters/tflint",

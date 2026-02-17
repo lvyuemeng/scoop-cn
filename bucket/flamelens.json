@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.1",
     "description": "Interactive flamegraph viewer in the terminal.",
     "homepage": "https://github.com/YS-L/flamelens",

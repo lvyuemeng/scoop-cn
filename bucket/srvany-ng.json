@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.1.0.0",
     "description": "Run any Windows application as a Service. Drop-in compatible replacement for \"srvany.exe\" from the W2K3 Resource Kit.",
     "homepage": "https://github.com/birkett/srvany-ng",

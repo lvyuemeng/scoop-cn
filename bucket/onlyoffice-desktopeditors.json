@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "9.2.1",
     "description": "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
     "homepage": "https://www.onlyoffice.com/apps.aspx",
     "license": "AGPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

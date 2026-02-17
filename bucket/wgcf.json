@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2.30",
     "description": "Unofficial CLI for Cloudflare Warp (Wireguard VPN service)",
     "homepage": "https://github.com/ViRb3/wgcf",

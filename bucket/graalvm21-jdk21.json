@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "High-performance, embeddable, polyglot Virtual Machine for JVM-langs (Java, Scala, Kotlin), JavaScript/NodeJS, Python, Ruby, R, and LLVM-langs (C, C++, Rust)",
     "version": "21.0.2",
     "homepage": "https://www.graalvm.org/",

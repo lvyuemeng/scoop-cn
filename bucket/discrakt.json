@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "3.4.2",
     "description": "An easy-to-use Trakt/Plex Discord Rich Presence",
     "homepage": "https://github.com/afonsojramos/discrakt",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

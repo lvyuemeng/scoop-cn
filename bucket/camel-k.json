@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.9.1",
     "description": "A lightweight integration platform, born on Kubernetes, with serverless superpowers",
     "homepage": "https://camel.apache.org/camel-k",

@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.24.0",
     "description": "A peer-to-peer streaming torrent client written completely in JavaScript.",
     "homepage": "https://webtorrent.io/desktop/",
     "license": "MIT",
     "suggest": {
-        "VLC": "scoop-cn/vlc"
+        "VLC": "extras/vlc"
     },
     "architecture": {
         "64bit": {

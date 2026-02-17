@@ -1,9 +1,9 @@
-﻿{
+{
     "version": "1.1.1",
     "description": "Azure API Management DevOps Resource Kit",
     "homepage": "https://github.com/Azure/azure-api-management-devops-resource-kit",
     "license": "MIT",
-    "depends": "scoop-cn/azure-cli",
+    "depends": "azure-cli",
     "architecture": {
         "64bit": {
             "url": "https://gh-proxy.org/https://github.com/Azure/azure-api-management-devops-resource-kit/releases/download/1.1.1/reskit-1.1.1.zip",

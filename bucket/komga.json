@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.24.1",
     "description": "Media server for comics/mangas/BDs with API and OPDS support",
     "homepage": "https://komga.org/",
     "license": "MIT",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "notes": "Default URL is http://localhost:25600",

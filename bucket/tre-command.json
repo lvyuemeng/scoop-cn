@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.4.0",
     "description": "Improved Tree command",
     "homepage": "https://github.com/dduan/tre",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.45.1",
     "description": "Carvel vendir is a tool that makes it easy to vendor portions of git repos, github releases, helm charts, docker image contents, etc. declaratively",
     "homepage": "https://carvel.dev/vendir/",

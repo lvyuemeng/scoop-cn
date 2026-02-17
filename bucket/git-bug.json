@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.1",
     "description": "Distributed, offline-first bug tracker embedded in git, with bridges",
     "homepage": "https://github.com/git-bug/git-bug",

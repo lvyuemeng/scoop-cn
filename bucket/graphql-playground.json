@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.10",
     "description": "GraphQL IDE for better development workflows (GraphQL subscriptions, interactive docs and collaboration)",
     "homepage": "https://github.com/prisma-labs/graphql-playground",

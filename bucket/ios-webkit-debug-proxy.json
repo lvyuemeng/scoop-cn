@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.1",
     "description": "A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).",
     "homepage": "https://github.com/google/ios-webkit-debug-proxy",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.16.45",
     "description": "Jenkins X provides automated CI+CD for Kubernetes with Preview Environments on Pull Requests",
     "homepage": "https://jenkins-x.io/",

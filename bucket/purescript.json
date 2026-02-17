@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.15.15",
     "description": "A strongly-typed language that compiles to Javascript",
     "homepage": "https://www.purescript.org/",

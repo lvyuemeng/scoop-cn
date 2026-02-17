@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.20.2",
     "description": "A Helm-inspired infrastructure-as-code (IaC) package deployer",
     "homepage": "https://github.com/yokecd/yoke",

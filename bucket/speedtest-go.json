@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.7.10",
     "description": "Full-featured Command Line Interface to Test Internet Speed using speedtest.net.",
     "homepage": "https://github.com/showwin/speedtest-go",

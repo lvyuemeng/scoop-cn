@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0",
     "description": "A kernel-mode driver that demonstrates keyboard input filtering in order to turn caps-locks into control keys. ",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/ctrl2cap",

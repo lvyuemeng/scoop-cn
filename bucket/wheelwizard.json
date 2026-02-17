@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.4",
     "description": "Mario Kart Wii mod manager and launcher, purpose-built for the Retro Rewind custom track distribution with several online features",
     "homepage": "https://github.com/TeamWheelWizard/WheelWizard",
@@ -7,7 +7,7 @@
         "url": "https://github.com/TeamWheelWizard/WheelWizard/blob/main/LICENSE"
     },
     "suggest": {
-        "Dolphin Emulator": "scoop-cn/dolphin"
+        "Dolphin Emulator": "games/dolphin"
     },
     "architecture": {
         "64bit": {

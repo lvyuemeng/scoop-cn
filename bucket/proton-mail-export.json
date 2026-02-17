@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.6",
     "description": "Command-line tool that allows you to export all your emails as EML files, and their metadata as JSON files.",
     "homepage": "https://proton.me/support/proton-mail-export-tool",

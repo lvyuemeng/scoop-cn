@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.56.6",
     "description": "Declarative CLI version manager written in Go",
     "homepage": "https://aquaproj.github.io/",

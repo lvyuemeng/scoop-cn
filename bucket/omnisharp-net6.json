@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.39.15",
     "description": "A .NET development platform based on roslyn workspaces. (.Net 6 based, STDIO server)",
     "homepage": "http://www.omnisharp.net",
     "license": "MIT",
     "suggest": {
-        "SDK": "scoop-cn/dotnet6-sdk"
+        "SDK": "versions/dotnet6-sdk"
     },
     "architecture": {
         "64bit": {

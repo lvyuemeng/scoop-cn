@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9",
     "description": "Btrfs filesystem driver.",
     "homepage": "https://github.com/maharmstone/btrfs",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2.1",
     "description": "Tests SSL/TLS enabled services to discover supported cipher suites",
     "homepage": "https://github.com/rbsec/sslscan",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.0.15",
     "description": "A tool to help those in the community that want to generate SPDX Software Bill of Materials (SBOMs) with current package managers.",
     "homepage": "https://github.com/spdx/spdx-sbom-generator",

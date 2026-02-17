@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.12.45",
     "description": "Runtime library for Gtk-based applications on Microsoft .NET",
     "homepage": "https://www.mono-project.com/docs/gui/gtksharp/",

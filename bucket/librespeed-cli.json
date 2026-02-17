@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.12",
     "description": "Command line client for LibreSpeed.org, a speedtest website",
     "homepage": "https://github.com/librespeed/speedtest-cli",

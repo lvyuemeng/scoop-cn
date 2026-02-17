@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.7",
     "description": "A meta-distro for WSL 2 which installs Ubuntu, Arch, Debian, Gentoo, etc. with systemd in a minute for you",
     "homepage": "https://github.com/nullpo-head/wsl-distrod",

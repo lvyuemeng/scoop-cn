@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "19481",
     "description": "An extensible editor for OpenStreetMap (OSM)",
     "homepage": "https://josm.openstreetmap.de",
@@ -8,7 +8,7 @@
         "https://josm.openstreetmap.de/browser/trunk/README"
     ],
     "suggest": {
-        "JRE": "scoop-cn/temurin-jre"
+        "JRE": "java/temurin-jre"
     },
     "url": [
         "https://josm.openstreetmap.de/download/josm-snapshot-19481.jar#/josm.jar",

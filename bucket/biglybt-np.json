@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "We install to $dir\\install instead of just $dir because for some reason, Scoop has trouble removing $dir upon uninstallation.",
     "version": "4.0.0.0",
     "homepage": "https://www.biglybt.com",

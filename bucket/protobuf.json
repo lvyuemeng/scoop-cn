@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "33.5",
     "description": "Protocol compiler used to compile .proto files.",
     "homepage": "https://github.com/protocolbuffers/protobuf",

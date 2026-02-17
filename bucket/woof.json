@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "15.3.0",
     "description": "Woof! is a continuation of the Boom/MBF bloodline of Doom source ports",
     "homepage": "https://fabiangreffrath.github.io/woof/",
@@ -10,8 +10,8 @@
     ],
     "suggest": {
         "Launcher (frontend)": [
-            "scoop-cn/doomrunner",
-            "scoop-cn/zdl"
+            "games/doomrunner",
+            "games/zdl"
         ]
     },
     "architecture": {

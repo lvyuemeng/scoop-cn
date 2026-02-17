@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.4.0",
     "description": "Mimics the functionality of a KVM switch, which allows a single keyboard and mouse to control multiple machines.",
     "homepage": "https://github.com/debauchee/barrier",

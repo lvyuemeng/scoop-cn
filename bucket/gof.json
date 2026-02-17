@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.0.13",
     "description": "Fuzzy search tool written in Go",
     "homepage": "https://github.com/mattn/gof",

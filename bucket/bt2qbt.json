@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.22",
     "description": "Cli tool for export from uTorrent/Bittorrent into qBittorrent.",
     "homepage": "https://github.com/rumanzo/bt2qbt/",

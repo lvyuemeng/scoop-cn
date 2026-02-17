@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.0",
     "description": "Run C# scripts from the .NET CLI.",
     "homepage": "https://github.com/filipw/dotnet-script",

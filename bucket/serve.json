@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.2",
     "description": "Starts a simple temporary static file server in your current directory and prints your IP address to share with colleagues",
     "homepage": "https://github.com/philippgille/serve",

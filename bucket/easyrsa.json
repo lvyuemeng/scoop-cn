@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.5",
     "description": "A CLI utility to build and manage a PKI CA",
     "homepage": "https://openvpn.net/easyrsa.html",

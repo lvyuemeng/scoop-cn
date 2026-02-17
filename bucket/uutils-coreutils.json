@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.0",
     "description": "A cross-platform Rust reimplementation of GNU coreutils (binaries compiled with MSVC), with some options or behaviors potentially differing from GNU coreutils.",
     "homepage": "https://uutils.github.io/coreutils/",
@@ -7,7 +7,7 @@
         "url": "https://github.com/uutils/coreutils/blob/HEAD/LICENSE"
     },
     "suggest": {
-        "Microsoft Visual C++ 2015-2022 Redistributable": "scoop-cn/vcredist2022"
+        "Microsoft Visual C++ 2015-2022 Redistributable": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

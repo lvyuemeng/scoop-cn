@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.5.5",
     "description": "Manage Git commits as a stack of patches",
     "homepage": "https://stacked-git.github.io/",

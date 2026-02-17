@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.6.20434",
     "description": "Memory monitoring tool capable of identifying memory-related programming errors such as accesses of uninitialized/unaddressable/freed memory, double frees, memory leaks, handle leaks, GDI API usage errors and accesses to un-reserved thread local storage slots.",
     "homepage": "https://drmemory.org",

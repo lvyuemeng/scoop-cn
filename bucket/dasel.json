@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2.2",
     "description": "DAta-SELector. Command line utility for querying and modifying data structures inside JSON, TOML, YAML, ...",
     "homepage": "https://github.com/TomWright/dasel",

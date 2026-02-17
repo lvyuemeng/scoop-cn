@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "11_0_16-b2043.64",
     "homepage": "https://github.com/JetBrains/JetBrainsRuntime",
     "description": "A fork of OpenJDK that includes a number enhancements in font rendering, HiDPI support, ligatures, performance improvements, and bugfixes. These are mainly for running IntelliJ Platform-based products",

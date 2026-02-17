@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.14.2",
     "description": "OpenAPI file based API server for mocking, transformations, validations and more",
     "homepage": "https://stoplight.io/open-source/prism",

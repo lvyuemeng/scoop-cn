@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.0",
     "description": "Lunarvim is a community-driven framework for neovim, written in lua. It is a full-featured IDE, with a focus on simplicity and ease of use.",
     "homepage": "https://www.lunarvim.org/",

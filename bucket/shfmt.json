@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.12.0",
     "description": "A shell parser, formatter and interpreter. Supports POSIX Shell, Bash and mksh.",
     "homepage": "https://github.com/mvdan/sh",

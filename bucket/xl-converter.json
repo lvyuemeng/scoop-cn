@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.3",
     "description": "Easy-to-use image converter for modern formats. Supports fast parallel encoding, lossless JPEG transcoding, JPEG XL, AVIF, JPEGLI, ExifTool, and more.",
     "homepage": "https://codepoems.eu/xl-converter",

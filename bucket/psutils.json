@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2023.06.28",
     "description": "A collection of command line utilities written in PowerShell proudly ignoring PowerShell Verb-Noun naming conventions.",
     "homepage": "https://github.com/lukesampson/psutils",

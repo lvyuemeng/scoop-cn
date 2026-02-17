@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.14.0",
     "description": "Tool for testing Helm charts. It is meant to be used for linting and testing pull requests. It automatically detects charts changed against the target branch.",
     "homepage": "https://github.com/helm/chart-testing/",

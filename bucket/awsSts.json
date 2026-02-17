@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.1",
     "description": "Create temporary login session for AWS CLI",
     "homepage": "https://github.com/NearlyUnique/awsSts",

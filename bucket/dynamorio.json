@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "11.91.20499",
     "description": "DynamoRIO is a runtime code manipulation system that supports code transformations on any part of a program, while it executes.",
     "homepage": "https://dynamorio.org",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "143.0.7499.109-2",
     "description": "A proxy using Chrome's network stack to camouflage traffic with strong censorship resistence and low detectablility.",
     "homepage": "https://github.com/klzgrad/naiveproxy",

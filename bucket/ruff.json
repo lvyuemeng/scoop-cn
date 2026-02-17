@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.15.1",
     "description": "An extremely fast Python linter and code formatter, written in Rust.",
     "homepage": "https://github.com/astral-sh/ruff",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.19",
     "description": "Prevent Kubernetes misconfigurations from reaching production (again 😤 )! From code to cloud, Datree provides an E2E policy enforcement solution to run automatic checks for rule violations.",
     "homepage": "https://www.datree.io/",

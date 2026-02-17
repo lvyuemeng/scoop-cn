@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20260203-4c89b49",
     "description": "Neovim GUI which uses a Golang Qt backend",
     "homepage": "https://github.com/akiyosi/goneovim",

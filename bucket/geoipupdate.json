@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.1.1",
     "description": "GeoIP Update program to perform automatic updates of GeoIP2 and GeoIP Legacy binary databases.",
     "homepage": "https://dev.maxmind.com/geoip/geoipupdate/",

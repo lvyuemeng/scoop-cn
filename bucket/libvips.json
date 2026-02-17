@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.18.0",
     "description": "A demand-driven, horizontally threaded image processing library",
     "homepage": "https://www.libvips.org/",

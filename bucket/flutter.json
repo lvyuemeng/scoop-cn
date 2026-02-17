@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.41.1",
     "description": "Google's SDK for crafting beautiful, fast user experiences for mobile, web, and desktop",
     "homepage": "https://flutter.dev",
@@ -6,12 +6,12 @@
     "notes": " - Run 'flutter doctor' to see if there are any platform dependencies you need to complete the setup.",
     "suggest": {
         "Android SDK Tools": "android-clt",
-        "Android Studio": "scoop-cn/android-studio",
+        "Android Studio": "extras/android-studio",
         "Java": [
-            "scoop-cn/oraclejdk-lts",
-            "scoop-cn/openjdk11"
+            "java/oraclejdk-lts",
+            "java/openjdk11"
         ],
-        "Visual Studio Code with Flutter extension": "scoop-cn/vscode"
+        "Visual Studio Code with Flutter extension": "extras/vscode"
     },
     "url": "https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.41.1-stable.zip",
     "hash": "1b2b077a35eeb5e125d4dac3857d1a16c1ffc09403c05a087054ac34fafba68a",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.28.14",
     "description": "A static analysis security scanner for Terraform code",
     "homepage": "https://tfsec.dev",

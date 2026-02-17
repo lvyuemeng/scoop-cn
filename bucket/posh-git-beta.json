@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.1.0",
     "description": "A PowerShell module which provides Git/PowerShell integration. (beta version)",
     "homepage": "https://dahlbyk.github.io/posh-git/",

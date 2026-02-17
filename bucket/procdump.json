@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "11.1",
     "description": "Capturing process dumps of otherwise difficult to isolate and reproduce CPU spikes.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/procdump",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.12",
     "description": "Command line deployment/management client for fly.io services",
     "homepage": "https://github.com/superfly/flyctl",

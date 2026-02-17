@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.0",
     "description": "Perceptual video quality assessment based on multi-method fusion.",
     "homepage": "https://github.com/Netflix/vmaf",

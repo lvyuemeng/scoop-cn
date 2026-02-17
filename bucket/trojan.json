@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.16.0",
     "description": "An unidentifiable mechanism for bypassing GFW",
     "homepage": "https://trojan-gfw.github.io/trojan/",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

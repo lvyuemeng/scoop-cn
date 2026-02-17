@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.68.0",
     "description": "Lossless trimming tool for video and audio files",
     "homepage": "https://github.com/mifi/lossless-cut",
@@ -23,8 +23,8 @@
     "post_install": [
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
         "'install-associations', 'uninstall-associations' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\losslesscut\\$_.reg\") {",
-        "        $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\losslesscut\\$_.reg\"",
+        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\losslesscut\\$_.reg\") {",
+        "        $content = Get-Content \"$bucketsdir\\extras\\scripts\\losslesscut\\$_.reg\"",
         "        $content = $content.Replace('$dirpath', $dirpath)",
         "        $content | Set-Content -Path \"$dir\\$_.reg\"",
         "    }",

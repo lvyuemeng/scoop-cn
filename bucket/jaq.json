@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.0",
     "description": "A jq clone focussed on correctness, speed, and simplicity",
     "homepage": "https://github.com/01mf02/jaq/",

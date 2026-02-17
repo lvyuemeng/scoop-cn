@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Rename from zip to 7z is needed due to 'unsupported compression method' error.",
     "version": "4.9.2",
     "description": "An Internet censorship circumventing tunnel tool, forked by Breakwa11 from shadowsocks, maintained now by Akariiin",

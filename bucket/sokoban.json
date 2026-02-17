@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.19",
     "description": "Sokoban with a solver",
     "homepage": "https://github.com/ShenMian/sokoban-rs",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.7",
     "description": "Command line app to control Syncthing",
     "homepage": "https://github.com/Martchus/syncthingtray",

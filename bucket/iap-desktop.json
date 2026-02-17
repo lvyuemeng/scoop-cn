@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.48.1768",
     "description": "Zero-trust Remote Desktop and SSH access to Linux and Windows VMs on Google Cloud",
     "homepage": "https://github.com/GoogleCloudPlatform/iap-desktop/",

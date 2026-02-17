@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20201121.2",
     "description": "A Pageant -> TCP bridge for use with WSL, allowing for Pageant to be used as an ssh-ageant within the WSL environment.",
     "homepage": "https://github.com/benpye/wsl-ssh-pageant",

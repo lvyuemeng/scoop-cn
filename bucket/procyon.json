@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.36",
     "description": "Java decompiler",
     "homepage": "https://bitbucket.org/mstrobel/procyon/",
@@ -8,8 +8,8 @@
     "bin": "procyon.jar",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     }
 }

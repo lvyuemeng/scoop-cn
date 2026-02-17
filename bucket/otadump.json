@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.2",
     "description": "Extract partitions from Android OTA files.",
     "homepage": "https://github.com/crazystylus/otadump",

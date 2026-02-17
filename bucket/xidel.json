@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.8",
     "description": "command line tool to download and extract data from HTML/XML pages as well as JSON APIs.",
     "homepage": "https://www.videlibri.de/xidel.html",

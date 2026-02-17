@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.11.2",
     "description": "Less verbose and more shell-friendly Terraform.",
     "homepage": "https://github.com/dex4er/tf",

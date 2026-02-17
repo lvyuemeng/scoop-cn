@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.63.4",
     "description": "Allows deleting all resources of an AWS account.",
     "homepage": "https://aws-nuke.ekristen.dev/",

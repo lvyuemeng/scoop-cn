@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.8.0",
     "description": "An anti-bikeshedding Kotlin linter with built-in formatter",
     "homepage": "https://github.com/pinterest/ktlint/",
     "license": "MIT",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "url": "https://gh-proxy.org/https://github.com/pinterest/ktlint/releases/download/1.8.0/ktlint#/ktlint.jar",

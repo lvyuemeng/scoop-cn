@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://github.com/tristanisham/zvm",
     "version": "0.8.13",
     "description": "Zig Version Manager (zvm) is a tool for managing your Zig installs",

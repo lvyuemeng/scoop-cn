@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.0",
     "description": "Recursively searches/replaces directories for a regex pattern.",
     "homepage": "https://github.com/dalance/amber",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.0.0",
     "description": "A command line tool to query an ODBC data source and write the result into a parquet file.",
     "homepage": "https://github.com/pacman82/odbc2parquet",

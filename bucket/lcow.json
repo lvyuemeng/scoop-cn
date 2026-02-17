@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "v4.14.35-v0.3.9",
     "description": "Linux containers on Windows built with LinuxKit.",
     "homepage": "https://github.com/linuxkit/lcow",

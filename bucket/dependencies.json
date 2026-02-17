@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.1",
     "description": "A rewrite of the old legacy software 'depends.exe' in C# for Windows devs to troubleshoot dll load dependencies issues.",
     "homepage": "https://github.com/lucasg/Dependencies",

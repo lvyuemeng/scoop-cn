@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "12.3.2",
     "description": "Text shaping engine. Supports OpenType and Apple Advanced Typography.",
     "homepage": "https://harfbuzz.github.io/",

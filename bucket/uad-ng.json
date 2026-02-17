@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "A GUI written in Rust using ADB to debloat non-rooted Android devices.",
     "homepage": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",

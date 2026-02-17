@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.1.1",
     "description": "Custom password generator algorithm plugin for KeePass 2.x to generate word sequences.",
     "homepage": "https://github.com/fireout/keepasssequencer",
     "license": "Unknown",
     "notes": "Default options located in \"$dir\\options.xml\".",
-    "depends": "scoop-cn/keepass",
+    "depends": "extras/keepass",
     "url": [
         "https://gh-proxy.org/https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll",
         "https://gh-proxy.org/https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll.config",

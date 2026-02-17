@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.41.7",
     "description": "A tabbed SSH solution for Windows, combining PuTTY, WinSCP and VcXsrv",
     "homepage": "https://winsshterm.blogspot.com/",
@@ -6,10 +6,10 @@
         "identifier": "Freeware",
         "url": "https://winsshterm.blogspot.com/p/license.html"
     },
-    "depends": "scoop-cn/putty",
+    "depends": "putty",
     "suggest": {
-        "Copy files": "scoop-cn/winscp",
-        "X-server": "scoop-cn/vcxsrv"
+        "Copy files": "extras/winscp",
+        "X-server": "extras/vcxsrv"
     },
     "architecture": {
         "64bit": {

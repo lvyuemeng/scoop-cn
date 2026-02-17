@@ -1,11 +1,11 @@
-﻿{
+{
     "version": "3.4.0",
     "description": "Easy to use video editor",
     "homepage": "https://www.openshot.org/",
     "license": "GPL-3.0-or-later",
     "suggest": {
-        "Blender": "scoop-cn/blender",
-        "Inkscape": "scoop-cn/inkscape"
+        "Blender": "extras/blender",
+        "Inkscape": "extras/inkscape"
     },
     "architecture": {
         "64bit": {

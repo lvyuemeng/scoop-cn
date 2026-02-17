@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.0",
     "description": "Tools to bootstrap CAs, certificate requests, and signed certificates",
     "homepage": "https://github.com/square/certstrap",

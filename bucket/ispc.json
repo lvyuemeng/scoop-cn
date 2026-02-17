@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.30.0",
     "description": "Intel® Implicit SPMD (Single Program Multiple Data) Compiler",
     "homepage": "https://ispc.github.io/",

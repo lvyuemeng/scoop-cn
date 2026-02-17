@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.24.2",
     "description": "The minimal, blazing fast, and extremely customizable prompt for any shell!",
     "homepage": "https://starship.rs",
@@ -8,7 +8,7 @@
         "Prerequisites: A Powerline font installed and enabled in your terminal."
     ],
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

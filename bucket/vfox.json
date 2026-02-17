@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.6",
     "description": "Manage multiple SDK versions with a single CLI tool, extendable via plugins",
     "homepage": "https://vfox.dev/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.2841",
     "description": "Xbox 360 Emulator Research Project",
     "homepage": "https://xenia.jp",
@@ -7,7 +7,7 @@
         "url": "https://github.com/xenia-project/xenia/blob/master/LICENSE"
     },
     "suggest": {
-        "Microsoft Visual C++ Runtime 2022": "scoop-cn/vcredist2022"
+        "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

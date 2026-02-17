@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.0",
     "description": "Kyverno CLI to manage Kubernetes policies",
     "homepage": "https://kyverno.io/docs/kyverno-cli/",

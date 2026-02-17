@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.0",
     "description": "git commit --fixup, but automatic",
     "homepage": "https://github.com/tummychow/git-absorb",

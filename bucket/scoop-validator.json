@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.2",
     "description": "A Scoop helper program for validating JSON files against a JSON Schema",
     "homepage": "https://github.com/ScoopInstaller/Validator/",

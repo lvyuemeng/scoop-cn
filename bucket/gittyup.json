@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.4.0",
     "description": "A continuation of GitAhead client, a graphical Git client designed to help you understand and manage your source code history.",
     "homepage": "https://murmele.github.io/Gittyup/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

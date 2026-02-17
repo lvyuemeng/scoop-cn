@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.1",
     "description": "A command line tool to download release assets from GitHub",
     "homepage": "https://github.com/devmatteini/dra",

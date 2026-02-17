@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.31.1",
     "description": "Docker CLI plugin for extended build capabilities with BuildKit",
     "homepage": "https://github.com/docker/buildx",

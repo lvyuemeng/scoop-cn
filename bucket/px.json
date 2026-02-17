@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.2",
     "description": "An HTTP proxy server to automatically authenticate through an NTLM proxy.",
     "homepage": "https://github.com/genotrance/px",

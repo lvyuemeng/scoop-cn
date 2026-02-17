@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.8.1",
     "description": "SDL_mixer is an audio mixer that supports various file formats for Simple Directmedia Layer.",
     "homepage": "https://github.com/libsdl-org/SDL_mixer",

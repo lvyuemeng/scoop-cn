@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "A tool to check for vulnerabilities in Golang dependencies, powered by Sonatype OSS Index",
     "homepage": "https://github.com/sonatype-nexus-community/nancy",

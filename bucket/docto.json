@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.16",
     "description": "Simple command line utility for converting .doc & .xls files to any supported format.",
     "homepage": "https://github.com/tobya/DocTo",

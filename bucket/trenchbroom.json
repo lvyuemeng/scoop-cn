@@ -1,9 +1,9 @@
-﻿{
+{
     "version": "2025.4",
     "description": "Level editor for Quake-based games",
     "homepage": "https://kristianduske.com/trenchbroom/",
     "license": "GPL-3.0-or-later",
-    "depends": "scoop-cn/vcredist2022",
+    "depends": "extras/vcredist2022",
     "architecture": {
         "64bit": {
             "url": "https://gh-proxy.org/https://github.com/TrenchBroom/TrenchBroom/releases/download/v2025.4/TrenchBroom-Win64-AMD64-v2025.4-Release.zip",

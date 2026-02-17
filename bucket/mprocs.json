@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.8.3",
     "description": "Run multiple commands in parallel",
     "homepage": "https://github.com/pvolok/mprocs",

@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "pyshim creates a .ps1 script for each .py file",
     "version": "1.9.70",
     "description": "The preferred tooling for managing your App Engine applications in Go.",

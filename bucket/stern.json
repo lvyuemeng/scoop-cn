@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.33.1",
     "description": "Multi pod and container log tailing for Kubernetes",
     "homepage": "https://github.com/stern/stern",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.1",
     "homepage": "https://github.com/nats-io/natscli",
     "description": "The NATS Command Line Interface.",

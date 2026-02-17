@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.2",
     "description": "Prometheus push acceptor for ephemeral and batch jobs.",
     "homepage": "https://github.com/prometheus/pushgateway",

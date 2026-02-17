@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.1",
     "description": "A utility to examine and validate certificates in a variety of formats.",
     "homepage": "https://github.com/square/certigo",

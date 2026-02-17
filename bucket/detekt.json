@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.23.8",
     "description": "A static code analysis tool for the Kotlin programming language",
     "homepage": "https://github.com/detekt/detekt",
     "license": "Apache-2.0",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "url": "https://gh-proxy.org/https://github.com/detekt/detekt/releases/download/v1.23.8/detekt-cli-1.23.8.zip",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.37.1",
     "description": "load or unload environment variables depending on the current directory",
     "homepage": "https://direnv.net",

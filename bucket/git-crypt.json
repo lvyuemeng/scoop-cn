@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.0",
     "description": "Store encrypted data in git repository",
     "homepage": "https://github.com/AGWA/git-crypt",

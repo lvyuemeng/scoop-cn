@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.3",
     "description": "A fast TCP tunnel over HTTP",
     "homepage": "https://github.com/jpillora/chisel",

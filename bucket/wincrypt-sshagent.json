@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.1.9",
     "description": "A SSH Agent based-on Windows CryptoAPI.",
     "homepage": "https://github.com/buptczq/WinCryptSSHAgent",

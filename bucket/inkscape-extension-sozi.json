@@ -1,9 +1,9 @@
-﻿{
+{
     "version": "23.07.25",
     "description": "Inkscape extension to insert video or audio to SVG document.",
     "homepage": "https://sozi.baierouge.fr/",
     "license": "MPL-2.0",
-    "depends": "scoop-cn/inkscape",
+    "depends": "extras/inkscape",
     "architecture": {
         "64bit": {
             "url": "https://gh-proxy.org/https://github.com/sozi-projects/Sozi/releases/download/v23.07/sozi-extras-media-23.07.25-1690311612-inkscape-1.0.zip",

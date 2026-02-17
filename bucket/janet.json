@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.41.1",
     "description": "Lisp-like, embeddable, functional and imperative programming language and bytecode interpreter",
     "homepage": "https://janet-lang.org",

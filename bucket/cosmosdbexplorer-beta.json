@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.10-beta",
     "description": "A nice client explorer for Microsoft Cosmos DB. It mimics the Data Explorer available on the Azure Portal on the desktop.",
     "homepage": "https://github.com/sachabruttin/CosmosDbExplorer",

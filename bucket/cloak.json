@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.2.0",
     "description": "a Command Line OTP Authenticator application",
     "homepage": "https://github.com/evansmurithi/cloak",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

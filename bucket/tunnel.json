@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.15",
     "description": "Expose local servers to the internet securely.",
     "homepage": "https://github.com/labstack/tunnel-client",

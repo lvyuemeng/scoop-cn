@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.25.1",
     "description": "Manage Podman and other container engines from a single UI and tray",
     "homepage": "https://github.com/containers/podman-desktop",

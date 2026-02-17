@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.0.2",
     "description": "Define and run multi-container applications with Docker",
     "homepage": "https://docs.docker.com/compose/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.25.0",
     "description": "A tiny, hackable BitTorrent client with low memory usage, high performance and a native user interface.",
     "homepage": "https://picotorrent.org",

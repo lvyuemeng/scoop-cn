@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.8.11",
     "description": "Distributed Workflow Engine for Microservices Orchestration",
     "homepage": "https://camunda.com/products/cloud/workflow-engine/",
@@ -11,7 +11,7 @@
         "https://docs.camunda.io/docs/guides/update-guide/130-to-800/"
     ],
     "suggest": {
-        "JDK": "scoop-cn/openjdk"
+        "JDK": "java/openjdk"
     },
     "architecture": {
         "64bit": {

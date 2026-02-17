@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://aria2.github.io/",
     "description": "Lightweight multi-protocol & multi-source command-line download utility, LAST version with SSLv3.0 and TLSv1.0 support",
     "license": "GPL-2.0-or-later",

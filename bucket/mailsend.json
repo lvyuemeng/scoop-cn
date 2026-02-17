@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.19",
     "description": "A program to send mail via SMTP from command line.",
     "homepage": "https://github.com/muquit/mailsend",

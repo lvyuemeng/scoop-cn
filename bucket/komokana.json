@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.1.5",
     "description": "An automatic application-aware keyboard layer switcher for Windows",
     "homepage": "https://github.com/LGUG2Z/komokana",
     "license": "MIT",
     "suggest": {
-        "komorebi": "scoop-cn/komorebi"
+        "komorebi": "extras/komorebi"
     },
     "architecture": {
         "64bit": {

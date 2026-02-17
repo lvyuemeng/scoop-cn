@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.74",
     "description": "Lightweight multi-threaded TFTP, DNS, SNTP, SYSLOG and DHCP server",
     "homepage": "https://pjo2.github.io/tftpd64/",

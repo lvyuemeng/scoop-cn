@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.08",
     "description": "Counts blank lines, comment lines, and physical lines of source code in many programming languages",
     "homepage": "https://github.com/AlDanial/cloc",

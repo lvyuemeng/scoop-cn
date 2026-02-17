@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "The next gen ls command",
     "homepage": "https://github.com/lsd-rs/lsd",
     "license": "Apache-2.0",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

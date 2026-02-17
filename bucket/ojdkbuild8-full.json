@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "OpenJDK 8 binaries built using source code from the CentOS project",
     "homepage": "https://github.com/ojdkbuild/ojdkbuild",
     "version": "1.8.0.332-1.b09",

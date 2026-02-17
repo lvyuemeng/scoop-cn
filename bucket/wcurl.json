@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2024.07.10",
     "homepage": "https://curl.se/wcurl/",
     "description": "A simple wrapper around curl to easily download files",

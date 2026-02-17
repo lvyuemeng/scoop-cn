@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.2.1",
     "description": "Developer tools for working with Google's bazel buildtool.",
     "homepage": "https://github.com/bazelbuild/buildtools",

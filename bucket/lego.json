@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.31.0",
     "description": "Let's Encrypt/ACME client and library written in Go",
     "homepage": "https://github.com/go-acme/lego",

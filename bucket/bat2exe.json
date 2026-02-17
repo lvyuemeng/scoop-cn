@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3",
     "description": "A simple application which converts any windows batch file to a fully working executable .exe with an icon of your choice.",
     "homepage": "https://bat2exe.net",

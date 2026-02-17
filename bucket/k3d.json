@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.8.3",
     "description": "Creates multi-node k3s cluster on a single machine using docker",
     "homepage": "https://github.com/rancher/k3d",
@@ -6,7 +6,7 @@
     "suggest": {
         "docker": [
             "docker",
-            "scoop-cn/docker-nightly",
+            "versions/docker-nightly",
             "docker-machine"
         ]
     },

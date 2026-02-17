@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.46",
     "description": "Scans K8s clusters, YAML files, and HELM charts, and detect misconfigurations and software vulnerabilities at early stages of the CI/CD pipeline and provides a risk score instantly and risk trends over time.",
     "homepage": "https://github.com/kubescape/kubescape/",

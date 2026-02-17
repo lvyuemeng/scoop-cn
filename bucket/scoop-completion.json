@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.0",
     "description": "A Scoop tab completion module for PowerShell",
     "homepage": "https://github.com/Moeologist/scoop-completion",

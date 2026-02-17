@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.11.10",
     "description": "Utility to scan your Kubernetes cluster for installed Helm charts, then cross-checks them against all known Helm repositories. If it finds an updated version of the chart you're using, or notices your current version is deprecated, it will let you know.",
     "homepage": "https://nova.docs.fairwinds.com/",

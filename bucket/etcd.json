@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6.8",
     "description": "A distributed, reliable key-value store for the most critical data of a distributed system",
     "homepage": "https://etcd.io/",

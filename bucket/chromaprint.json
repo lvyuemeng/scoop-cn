@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.0",
     "description": "fpcalc binary from Chromaprint for generating audio fingerprints used by AcoustID",
     "homepage": "https://acoustid.org/chromaprint",

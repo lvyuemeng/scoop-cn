@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.109.41146",
     "description": "A community-driven, freely-licensed binary distribution of Microsoft’s editor VS Code.",
     "homepage": "https://vscodium.com/",
@@ -31,8 +31,8 @@
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
         "$exepath = \"$dir\\VSCodium.exe\".Replace('\\', '\\\\')",
         "'install-associations', 'uninstall-associations', 'install-context', 'uninstall-context' | ForEach-Object {",
-        "  if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\vscode\\$_.reg\") {",
-        "    $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\vscode\\$_.reg\"",
+        "  if (Test-Path \"$bucketsdir\\extras\\scripts\\vscode\\$_.reg\") {",
+        "    $content = Get-Content \"$bucketsdir\\extras\\scripts\\vscode\\$_.reg\"",
         "    $content = $content.Replace('$codedir', $dirpath)",
         "    $content = $content.Replace('$code', $exepath)",
         "    $content = $content.Replace('&Code', '&VSCodium')",

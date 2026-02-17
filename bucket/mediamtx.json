@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.16.1",
     "description": "Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy that allows to read, publish and proxy video and audio streams",
     "homepage": "https://github.com/bluenviron/mediamtx",

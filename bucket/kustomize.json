@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.8.1",
     "description": "Customize raw, template-free YAML files for multiple purposes, leaving the original YAML untouched and usable as is.",
     "homepage": "https://github.com/kubernetes-sigs/kustomize",

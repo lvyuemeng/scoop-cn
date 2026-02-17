@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.62.1",
     "description": "A wrapper for Dart Sass that implements the compiler side of the Embedded Sass protocol",
     "homepage": "https://github.com/sass/dart-sass-embedded",

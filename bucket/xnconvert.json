@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.106.0",
     "description": "Batch photo resizer and image converter to crop, convert, compress, resize images.",
     "homepage": "https://www.xnview.com/en/xnconvert/",
     "license": "Freeware",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "32bit": {

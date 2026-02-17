@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.14.4",
     "description": "Open-source .NET assembly tool that can browse assembly classes, edit method instructions, and manipulate resources.",
     "homepage": "https://code.google.com/archive/p/simple-assembly-exploror/",

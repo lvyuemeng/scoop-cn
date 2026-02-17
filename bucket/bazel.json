@@ -1,11 +1,11 @@
-﻿{
+{
     "version": "9.0.0",
     "description": "A fast, scalable, multi-language and extensible build system",
     "homepage": "https://bazel.build",
     "license": "Apache-2.0",
     "suggest": {
         "MSYS2": "msys2",
-        "Python27": "scoop-cn/python27",
+        "Python27": "versions/python27",
         "curl": "curl"
     },
     "architecture": {

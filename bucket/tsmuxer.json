@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.7.0",
     "description": "Transport stream muxer for remuxing/muxing elementary streams into MPEG-TS format",
     "homepage": "https://github.com/justdan96/tsMuxer",

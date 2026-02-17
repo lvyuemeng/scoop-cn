@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.0-alpha.11",
     "description": "A wrapper executable that can be used to host any executable as a Windows service (Pre-release version).",
     "homepage": "https://github.com/winsw/winsw",

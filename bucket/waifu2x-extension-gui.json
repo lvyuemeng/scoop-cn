@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.134.01",
     "description": "Video, Image and GIF upscale/enlarge(Super-Resolution) and Video frame interpolation. Achieved with Waifu2x, Real-ESRGAN, Real-CUGAN, SRMD, RealSR, Anime4K, RIFE, CAIN, DAIN, and ACNet.",
     "homepage": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI",

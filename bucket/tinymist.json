@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.14.10",
     "description": "A brand-new language server for Typst",
     "homepage": "https://github.com/Myriad-Dreamin/tinymist",
     "license": "Apache-2.0",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.10",
     "description": "CNCF-certified Kubernetes distribution that runs entirely within Docker containers",
     "homepage": "https://rancher.com/products/rke/",

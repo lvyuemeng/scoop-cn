@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.4-beta.1",
     "description": "Stupid Fast Scoop Utilities. Incredibly fast replacements for commonly used Scoop commands, written in Rust.",
     "homepage": "https://github.com/jewlexx/sfsu",

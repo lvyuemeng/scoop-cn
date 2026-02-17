@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.40.0",
     "description": "Selenium Manager is a command-line tool developed in Rust to allow cross platform execution.",
     "homepage": "https://www.selenium.dev/documentation/selenium_manager/",

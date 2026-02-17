@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.3",
     "homepage": "https://flipperzero.one/update",
     "description": "Graphical desktop application for updating Flipper Zero firmware.",
@@ -10,7 +10,7 @@
         }
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2010"
+        "vcredist": "extras/vcredist2010"
     },
     "bin": [
         "qFlipper.exe",

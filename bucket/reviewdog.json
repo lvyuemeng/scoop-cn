@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.21.0",
     "description": "Automated code review tool integrated with any code analysis tools regardless of programming language.",
     "homepage": "https://github.com/reviewdog/reviewdog",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.18.0",
     "description": "A tool to install, manage and use Progressive Web Apps (PWAs) in Mozilla Firefox (native component)",
     "homepage": "https://pwasforfirefox.filips.si/",
@@ -9,8 +9,8 @@
         "Download: https://addons.mozilla.org/firefox/addon/pwas-for-firefox/"
     ],
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022",
-        "firefox": "scoop-cn/firefox"
+        "vcredist": "extras/vcredist2022",
+        "firefox": "extras/firefox"
     },
     "architecture": {
         "64bit": {

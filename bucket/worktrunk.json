@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.24.1",
     "description": "A CLI for Git worktree management, designed for parallel AI agent workflows.",
     "homepage": "https://worktrunk.dev",

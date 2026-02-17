@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.18.2",
     "description": "A syntax-highlighter for git and diff output",
     "homepage": "https://github.com/dandavison/delta",

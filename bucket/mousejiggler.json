@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.42",
     "description": "A very simple piece of software whose sole function is to \"fake\" mouse input to Windows, and jiggle the mouse pointer back and forth.",
     "homepage": "https://github.com/cerebrate/mousejiggler",

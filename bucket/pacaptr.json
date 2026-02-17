@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.23.1",
     "description": "A wrapper for many package managers with pacman-style command syntax",
     "homepage": "https://github.com/rami3l/pacaptr",

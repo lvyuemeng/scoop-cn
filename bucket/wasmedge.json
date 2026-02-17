@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.16.1",
     "description": "A lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.",
     "homepage": "https://wasmedge.org/",

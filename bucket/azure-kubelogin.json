@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.14",
     "description": "A client-go credential (exec) plugin implementing Azure authentication.",
     "homepage": "https://github.com/Azure/kubelogin/",

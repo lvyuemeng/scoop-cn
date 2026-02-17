@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.4.7.28397",
     "description": "Directory and file compare functions in one package",
     "homepage": "https://www.scootersoftware.com",
@@ -39,8 +39,8 @@
     "post_install": [
         "$dir_escaped = \"$dir\".Replace('\\', '\\\\')",
         "\"install-context-$architecture\", \"uninstall-context\" | ForEach-Object {",
-        "  if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\beyondcompare4\\$_.reg\") {",
-        "    $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\beyondcompare4\\$_.reg\"",
+        "  if (Test-Path \"$bucketsdir\\$bucket\\scripts\\beyondcompare4\\$_.reg\") {",
+        "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\beyondcompare4\\$_.reg\"",
         "    $content = $content.Replace('$install_dir', $dir_escaped)",
         "    if ($global) {",
         "      $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",

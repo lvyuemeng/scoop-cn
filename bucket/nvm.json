@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.2",
     "description": "A node.js version management utility for Windows.",
     "homepage": "https://github.com/coreybutler/nvm-windows",

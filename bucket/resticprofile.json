@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.32.0",
     "description": "Configuration profiles manager and scheduler for restic backup",
     "homepage": "https://creativeprojects.github.io/resticprofile/",

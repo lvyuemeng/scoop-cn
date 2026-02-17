@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.4.21",
     "description": "A document database with the scalability and flexibility.",
     "homepage": "https://www.mongodb.org",
@@ -7,7 +7,7 @@
         "url": "https://www.mongodb.com/licensing/server-side-public-license"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

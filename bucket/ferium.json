@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.7.1",
     "description": "Fast and multi-source CLI program for managing Minecraft mods and modpacks from Modrinth, CurseForge, and Github Releases",
     "homepage": "https://github.com/gorilla-devs/ferium",

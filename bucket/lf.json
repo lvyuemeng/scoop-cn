@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "r41",
     "description": "A terminal file manager written in Go",
     "homepage": "https://godoc.org/github.com/gokcehan/lf",

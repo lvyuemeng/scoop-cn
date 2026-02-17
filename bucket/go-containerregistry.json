@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.20.7",
     "description": "CLIs for working with container registries",
     "homepage": "https://github.com/google/go-containerregistry",

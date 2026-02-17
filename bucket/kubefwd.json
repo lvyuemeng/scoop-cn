@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.25.12",
     "description": "Bulk port forwarding Kubernetes services for local development",
     "homepage": "https://github.com/txn2/kubefwd",

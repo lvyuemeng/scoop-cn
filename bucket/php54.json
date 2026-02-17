@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.4.45",
     "description": "A popular general-purpose scripting language that is especially suited to web development. (version 5.4)",
     "homepage": "https://windows.php.net",
@@ -7,7 +7,7 @@
         "url": "https://secure.php.net/license/"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2008"
+        "vcredist": "extras/vcredist2008"
     },
     "pre_install": [
         "# Create directory for custom PHP configuration",

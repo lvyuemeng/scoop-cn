@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.40.0",
     "description": "A TUI Git client inspired by Magit",
     "homepage": "https://github.com/altsem/gitu",

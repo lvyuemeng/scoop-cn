@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.83u1",
     "description": "PuTTY CAC is a fork of the PuTTY, a popular Secure Shell (SSH) terminal. PuTTY CAC adds the ability to use the Windows Certificate API (CAPI) or a Public Key Cryptography Standards (PKCS) library to perform SSH public key authentication using a private key associated with a certificate that is stored on a hardware token.",
     "homepage": "https://github.com/NoMoreFood/putty-cac",

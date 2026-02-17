@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.0",
     "description": "A cli system trash manager, alternative to rm and trash-cli ",
     "homepage": "https://github.com/oberblastmeister/trashy",

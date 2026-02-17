@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.3",
     "description": "Application for updating PINE64 devices, such as Pinecil.",
     "homepage": "https://github.com/pine64/pine64_updater",

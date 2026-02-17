@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "Unaltered builds from the OpenJDK mercurial JDK8u code stream, built by Red Hat",
     "homepage": "https://adoptopenjdk.net/upstream.html",
     "version": "8u342-b07",

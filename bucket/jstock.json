@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.7.60",
     "description": "Free stock market software for 28 countries",
     "homepage": "https://jstock.org",
@@ -9,8 +9,8 @@
     "pre_install": "Set-Content \"$dir\\jstock.bat\" '@start javaw.exe -jar \"%~dp0jstock.jar\" %*' -Encoding Ascii",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "shortcuts": [

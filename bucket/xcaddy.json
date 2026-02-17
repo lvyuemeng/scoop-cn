@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.5",
     "description": "Command line tool and associated Go package makes it easy to make custom builds of the Caddy Web Server.",
     "homepage": "https://caddyserver.com",

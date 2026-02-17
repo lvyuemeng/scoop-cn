@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.02",
     "description": "A program that allows you to control the Cache Manager's working set size using functions provided by NT.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/cacheset",
@@ -19,7 +19,7 @@
             "shortcuts": [
                 [
                     "Cacheset64.exe",
-                    "scoop-cn/CacheSet",
+                    "SysInternals/CacheSet",
                     "/accepteula"
                 ]
             ]
@@ -29,7 +29,7 @@
             "shortcuts": [
                 [
                     "Cacheset.exe",
-                    "scoop-cn/CacheSet",
+                    "SysInternals/CacheSet",
                     "/accepteula"
                 ]
             ]

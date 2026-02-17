@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2.0",
     "description": "Image viewer and converter using Castle Game Engine, supporting common image formats (PNG, JPG...) and some exotic ones (DDS, KTX, RGBE)",
     "homepage": "https://castle-engine.io/castle-image-viewer",

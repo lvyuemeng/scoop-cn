@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.3",
     "description": "Simple set of tools to make working with GPG and SSH keys easier on Windows 10/11.",
     "homepage": "https://github.com/rupor-github/win-gpg-agent",

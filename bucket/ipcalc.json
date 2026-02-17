@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.51",
     "description": "Calculates IP broadcast, network, Cisco wildcard mask, and host ranges",
     "homepage": "https://jodies.de/ipcalc",

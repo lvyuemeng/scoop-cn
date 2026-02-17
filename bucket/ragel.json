@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.9",
     "description": "A finite-state machine compiler and a parser generator",
     "homepage": "https://github.com/eloraiby/ragel-windows",

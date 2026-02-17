@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.16.1.20250109",
     "description": "Eclipse Memory Analyzer",
     "homepage": "https://eclipse.dev/mat/",
     "license": "EPL-2.0",
     "suggest": {
         "JDK": [
-            "scoop-cn/openjdk17",
-            "scoop-cn/openjdk"
+            "java/openjdk17",
+            "java/openjdk"
         ]
     },
     "architecture": {

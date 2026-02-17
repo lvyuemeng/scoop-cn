@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "14.11.0",
     "description": "JSON Schema formatting, linting, testing, bundling and more for local development and CI/CD pipelines.",
     "homepage": "https://github.com/sourcemeta/jsonschema",

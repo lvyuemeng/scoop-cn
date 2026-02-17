@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2512",
     "description": "Nintendo GameCube and Wii emulator, with enhancements and Netplay",
     "homepage": "https://dolphin-emu.org/",
@@ -7,7 +7,7 @@
         "url": "https://github.com/dolphin-emu/dolphin/blob/master/COPYING"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

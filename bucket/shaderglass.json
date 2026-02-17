@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.3.1",
     "description": "Creates an overlay for running GPU shaders on top of the Windows desktop.",
     "homepage": "https://github.com/mausimus/ShaderGlass",

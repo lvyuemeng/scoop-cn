@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.02",
     "description": "See the order in which devices are loaded on your WinNT/2K system.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/loadorder",
@@ -23,7 +23,7 @@
             "shortcuts": [
                 [
                     "LoadOrd64.exe",
-                    "scoop-cn/LoadOrder",
+                    "SysInternals/LoadOrder",
                     "/accepteula"
                 ]
             ]
@@ -36,7 +36,7 @@
             "shortcuts": [
                 [
                     "LoadOrd.exe",
-                    "scoop-cn/LoadOrder",
+                    "SysInternals/LoadOrder",
                     "/accepteula"
                 ]
             ]
@@ -55,7 +55,7 @@
             "shortcuts": [
                 [
                     "LoadOrd64a.exe",
-                    "scoop-cn/LoadOrder",
+                    "SysInternals/LoadOrder",
                     "/accepteula"
                 ]
             ]

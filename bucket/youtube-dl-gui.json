@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.5",
     "description": "A cross platform front-end GUI of the popular youtube-dl written in wxPython.",
     "homepage": "https://github.com/oleksis/youtube-dl-gui",

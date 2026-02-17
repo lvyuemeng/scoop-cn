@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.6",
     "description": "Chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol.",
     "homepage": "https://qtox.github.io/",

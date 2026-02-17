@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6.8",
     "description": "HTTP reverse proxy and load balancer",
     "homepage": "https://traefik.io/",

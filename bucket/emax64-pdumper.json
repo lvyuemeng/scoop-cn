@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20180619",
     "description": "An optimized clean build of emacs-pdumper branch (27.0.50) for 64-bit Windows. Built with `--without-compress-install --without-dbus --with-modules 'CFLAGS= -O2 -g3'`",
     "homepage": "https://ntemacs.sourceforge.io",

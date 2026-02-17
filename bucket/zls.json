@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.15.1",
     "description": "Zig language LSP server",
     "homepage": "https://github.com/zigtools/zls",

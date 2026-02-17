@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.0",
     "description": "A modern reimplementation of git-flow in Go that offers greater flexibility while maintaining backward compatibility with the original git-flow and git-flow-avh. (Pre-release)",
     "homepage": "https://github.com/gittower/git-flow-next",

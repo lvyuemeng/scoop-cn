@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.10.4",
     "description": "A diff tool for YAML files, and sometimes JSON.",
     "homepage": "https://github.com/homeport/dyff",

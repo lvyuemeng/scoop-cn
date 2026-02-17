@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.0.0",
     "homepage": "https://authme.levminer.com/",
     "description": "A 2FA desktop app that supports TOTP and Google Authenticator QR codes.",

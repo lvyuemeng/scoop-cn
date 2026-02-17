@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.38.0",
     "description": "Conversion tool for Docker Compose to container orchestrators such as Kubernetes (or OpenShift).",
     "homepage": "https://kompose.io/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.37.2",
     "description": "Retrieve and show weather information for a given geographic location in a small dialog and in the system tray",
     "homepage": "https://github.com/FelixdelasPozas/TrayWeather",

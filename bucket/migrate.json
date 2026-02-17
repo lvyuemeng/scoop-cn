@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.19.1",
     "description": "Reads and applies migrations in correct order to a database.",
     "homepage": "https://github.com/golang-migrate/migrate",

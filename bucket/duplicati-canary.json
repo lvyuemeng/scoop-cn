@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.0.7.103_canary_2024-04-19",
     "homepage": "https://www.duplicati.com/",
     "description": "A free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers. This is the Canary release.",

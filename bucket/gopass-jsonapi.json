@@ -1,9 +1,9 @@
-﻿{
+{
     "version": "1.16.1",
     "description": "Gopass Browser Bindings",
     "homepage": "https://www.gopass.pw/",
     "license": "MIT",
-    "depends": "scoop-cn/gopass",
+    "depends": "gopass",
     "architecture": {
         "64bit": {
             "url": "https://gh-proxy.org/https://github.com/gopasspw/gopass-jsonapi/releases/download/v1.16.1/gopass-jsonapi-1.16.1-windows-amd64.zip",

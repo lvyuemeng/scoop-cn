@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "25.6.0.0",
     "description": "A video player forked from MPV. It can also play Youtube videos, search and download subtitles, and includes other features like a thumbnail generator and audio and video filters.",
     "homepage": "https://www.smplayer.info",

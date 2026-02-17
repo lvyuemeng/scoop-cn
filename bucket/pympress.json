@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.6",
     "description": "Pympress is a PDF presentation tool designed for dual-screen setups such as presentations and public talks.",
     "homepage": "https://github.com/Cimbali/pympress",
@@ -8,7 +8,7 @@
         "VLC is not distributed with pympress, but it is certainly available in your system's package manager and on their website (https://www.videolan.org/vlc/)."
     ],
     "suggest": {
-        "VLC": "scoop-cn/vlc"
+        "VLC": "extras/vlc"
     },
     "architecture": {
         "64bit": {

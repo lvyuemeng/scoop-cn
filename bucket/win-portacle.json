@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4",
     "description": "A Multi-platform Portable CLE (Common Lisp Environment), made up of Emacs, SBCL, QuickLisp, Git and more",
     "homepage": "https://portacle.github.io/",

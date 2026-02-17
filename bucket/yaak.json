@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2026.2.1",
     "description": "A fast, privacy-first API client for REST, GraphQL, SSE, WebSocket, and gRPC.",
     "homepage": "https://yaak.app/",

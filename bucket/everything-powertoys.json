@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.91.1",
     "description": "This plugin adds Everything search results to PowerToys Run.",
     "homepage": "https://github.com/lin-ycv/EverythingPowerToys",
@@ -6,7 +6,7 @@
     "suggest": {
         "Everything": [
             "everything",
-            "scoop-cn/everything-alpha"
+            "versions/everything-alpha"
         ],
         "PowerToys": "powertoys"
     },

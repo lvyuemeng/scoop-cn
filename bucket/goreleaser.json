@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.13.3",
     "description": "Release automation tool for Go projects.",
     "homepage": "https://goreleaser.com",

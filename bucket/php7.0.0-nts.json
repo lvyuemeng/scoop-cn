@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://windows.php.net/downloads/releases/archives",
     "version": "7.0.0",
     "license": {
@@ -25,6 +25,6 @@
     },
     "post_install": "if($bucket) { . \"$(Find-BucketDirectory $bucket\\bin\\postinstall.ps1)\" -dir \"$dir\" }",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     }
 }

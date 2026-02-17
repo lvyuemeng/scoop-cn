@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.0",
     "description": "Static analysis tool for shell scripts",
     "homepage": "https://shellcheck.net/",

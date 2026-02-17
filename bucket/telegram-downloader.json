@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.20.1",
     "homepage": "https://github.com/iyear/tdl",
     "description": "A cli utility for downloading files from Telegram, backing up your Telegram data, uploading files to Telegram, and recovering your Telegram data.",

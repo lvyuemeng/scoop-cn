@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.7",
     "description": "Massdrop Loader is used to read firmware from and write firmware to Massdrop keyboards",
     "homepage": "https://github.com/Massdrop/mdloader",

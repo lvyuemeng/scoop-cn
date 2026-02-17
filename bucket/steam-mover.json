@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1",
     "description": "GUI for moving a folder and leaving a symbolic link/junction behind",
     "homepage": "https://www.traynier.com/software/steammover",

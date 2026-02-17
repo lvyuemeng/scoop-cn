@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.13.0",
     "description": "Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation",
     "homepage": "https://github.com/hatoo/oha",

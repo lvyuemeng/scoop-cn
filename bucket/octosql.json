@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.13.0",
     "description": "Query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.",
     "homepage": "https://github.com/cube2222/octosql",

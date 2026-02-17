@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.33.0",
     "description": "A moonscipt dialect that is derived from the Moonscript language and continuously adopting new features to be more up to date. Just like moonscipt, it also compiles into Lua.",
     "homepage": "https://yuescript.org/",
@@ -15,9 +15,9 @@
     ],
     "suggest": {
         "Lua": [
-            "scoop-cn/lua",
-            "scoop-cn/lua51",
-            "scoop-cn/lua53"
+            "main/lua",
+            "versions/lua51",
+            "versions/lua53"
         ]
     },
     "architecture": {

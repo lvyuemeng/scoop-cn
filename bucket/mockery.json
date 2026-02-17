@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.6.4",
     "description": "A mock code autogenerator for Golang",
     "homepage": "https://github.com/vektra/mockery",

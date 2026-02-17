@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.5.2",
     "description": "A command-line application that will automatically synchronize recommended settings from the TRaSH guides to your Sonarr/Radarr instances.",
     "homepage": "https://recyclarr.dev/",

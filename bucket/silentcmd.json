@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.5",
     "description": "Executes a batch file without opening the command prompt window.",
     "homepage": "https://github.com/stbrenner/SilentCMD",

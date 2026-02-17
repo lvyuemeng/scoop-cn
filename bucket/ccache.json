@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.12.3",
     "description": "Compiler cache to speed up recompilation by caching previous compilations and detecting when the same compilation is being done again.",
     "homepage": "https://ccache.dev",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.15.0",
     "description": "A make/rake-like build tool for Go",
     "homepage": "https://magefile.org",

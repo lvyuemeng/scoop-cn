@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "12.3.2",
     "description": "A command-line program that does structural, content-preserving transformations on PDF files.",
     "homepage": "https://qpdf.sourceforge.io",

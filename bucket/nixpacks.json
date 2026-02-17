@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.39.0",
     "description": "Generate an OCI compliant image based off app source.",
     "homepage": "https://github.com/railwayapp/nixpacks",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

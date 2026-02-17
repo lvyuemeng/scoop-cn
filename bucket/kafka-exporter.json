@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.0",
     "description": "Kafka exporter for Prometheus",
     "homepage": "https://github.com/danielqsj/kafka_exporter",

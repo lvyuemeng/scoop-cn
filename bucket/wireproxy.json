@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.9",
     "description": "Wireguard client that exposes itself as a SOCKS5 proxy",
     "homepage": "https://github.com/octeep/wireproxy",

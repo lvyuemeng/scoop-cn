@@ -1,11 +1,11 @@
-﻿{
+{
     "version": "2.5.3",
     "description": "A multi platform Twitch.tv browser for Streamlink",
     "homepage": "https://streamlink.github.io/streamlink-twitch-gui/",
     "license": "MIT",
     "suggest": {
-        "streamlink": "scoop-cn/streamlink",
-        "VLC": "scoop-cn/vlc"
+        "streamlink": "extras/streamlink",
+        "VLC": "extras/vlc"
     },
     "architecture": {
         "64bit": {

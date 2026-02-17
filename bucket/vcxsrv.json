@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "21.1.16.1",
     "description": "Windows X-server based on the xorg git sources (like xming or cygwin's xwin)",
     "homepage": "https://github.com/marchaesen/vcxsrv",

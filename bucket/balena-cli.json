@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "24.0.0",
     "description": "Official balena CLI for interacting with balenaCloud and balena API.",
     "homepage": "https://github.com/balena-io/balena-cli",

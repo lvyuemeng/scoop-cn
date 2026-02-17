@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11.0",
     "description": "A tool for analyzing the dependencies in compiled Golang binaries.",
     "homepage": "https://github.com/Zxilly/go-size-analyzer",

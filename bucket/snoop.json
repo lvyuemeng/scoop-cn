@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.0.0",
     "description": "Spy/browse the visual tree of a running application (without the need for a debugger) and change properties, view triggers, set breakpoints on property changes and more.",
     "homepage": "https://github.com/snoopwpf/snoopwpf",

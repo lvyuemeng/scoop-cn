@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "10.1.0",
     "description": "Multi-threaded lossless PNG optimizer",
     "homepage": "https://github.com/shssoichiro/oxipng",

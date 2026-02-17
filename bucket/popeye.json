@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.22.1",
     "description": "A Kubernetes cluster resource sanitizer.",
     "homepage": "https://popeyecli.io",

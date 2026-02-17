@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.13",
     "description": "OpenSSL based Authenticode signing for PE/MSI/Java CAB files",
     "homepage": "https://github.com/mtrojnar/osslsigncode",

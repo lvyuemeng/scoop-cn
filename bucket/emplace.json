@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4.0",
     "description": "Synchronizes installed packages on multiple machines.",
     "homepage": "https://github.com/tversteeg/emplace",

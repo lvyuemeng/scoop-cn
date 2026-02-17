@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.0",
     "description": "Easily switch between windows of the same app with Alt+` (Backtick), also switch between apps with Alt+Tab.",
     "homepage": "https://github.com/sigoden/window-switcher",

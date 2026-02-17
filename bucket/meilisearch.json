@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.35.1",
     "description": "An open-source RESTful search API written in Rust",
     "homepage": "https://github.com/meilisearch/meilisearch",

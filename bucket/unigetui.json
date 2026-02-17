@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "3.3.7",
     "description": "GUI for the most common CLI package managers, such as WinGet, Scoop, Chocolatey, Pip, Npm, .NET Tool, PowerShell Gallery and more.",
     "homepage": "https://www.marticliment.com/unigetui/",
     "license": "MIT",
     "suggest": {
-        "scoop-search": "scoop-cn/scoop-search"
+        "scoop-search": "main/scoop-search"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.0",
     "description": "Modbreeze is a fast and easy to use mod manager for Minecraft written in Rust that allows easy sharing of modpacks with your friends using TOML.",
     "homepage": "https://github.com/Mr1cecream/Modbreeze",

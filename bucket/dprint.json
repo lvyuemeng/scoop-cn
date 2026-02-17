@@ -1,4 +1,4 @@
-﻿{
+{
     "homepage": "https://dprint.dev",
     "description": "Pluggable and configurable code formatting platform written in Rust.",
     "version": "0.51.1",

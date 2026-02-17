@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9",
     "description": "A simple command line tool to invoke the Azure Resource Manager API",
     "homepage": "https://github.com/projectkudu/ARMClient",

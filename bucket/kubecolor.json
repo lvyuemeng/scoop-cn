@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.3",
     "description": "Wraps kubectl with colorful output",
     "homepage": "https://github.com/kubecolor/kubecolor",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.2",
     "description": "This shell is an extensible implementation of Kotlin REPL.",
     "homepage": "https://github.com/Kotlin/kotlin-interactive-shell",

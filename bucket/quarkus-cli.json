@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "3.31.3",
     "description": "A CLI for Quarkus Java framework",
     "homepage": "https://quarkus.io/",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": "scoop-cn/openjdk"
+        "JDK": "java/openjdk"
     },
     "url": "https://gh-proxy.org/https://github.com/quarkusio/quarkus/releases/download/3.31.3/quarkus-cli-3.31.3.zip",
     "extract_dir": "quarkus-cli-3.31.3",

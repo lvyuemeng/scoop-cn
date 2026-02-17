@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.1",
     "description": "Graphical Scrcpy to display and control Android devices, powered by Electron",
     "homepage": "https://github.com/viarotel-org/escrcpy",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.3",
     "description": "A Suwayomi-Server client built in Compose Multiplatform",
     "homepage": "https://github.com/Suwayomi/Suwayomi-JUI",
@@ -7,7 +7,7 @@
         "url": "https://github.com/Suwayomi/Suwayomi-JUI/blob/master/LICENSE"
     },
     "suggest": {
-        "JRE": "scoop-cn/oraclejre8"
+        "JRE": "java/oraclejre8"
     },
     "architecture": {
         "64bit": {

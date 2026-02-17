@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.5.2",
     "description": "Test automation tool that combines API test-automation, mocks, performance-testing and UI automation into a single framework.",
     "homepage": "https://karatelabs.github.io/karate/",
     "license": "MIT",
     "suggest": {
-        "Java": "scoop-cn/openjdk"
+        "Java": "java/openjdk"
     },
     "url": "https://gh-proxy.org/https://github.com/karatelabs/karate/releases/download/v1.5.2/karate-1.5.2.jar#/karate.jar",
     "hash": "ccf4740c64a154c4c2457d6f0fd19a8f37902c29d32aac4e23012e0a878614be",

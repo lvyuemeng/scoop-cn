@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.20",
     "description": "An npm scripts runner written in Rust.",
     "homepage": "https://github.com/egoist/dum",

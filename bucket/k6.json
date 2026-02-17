@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.6.1",
     "description": "Load and performance regression testing tool for cloud native backend infrastructure",
     "homepage": "https://k6.io",

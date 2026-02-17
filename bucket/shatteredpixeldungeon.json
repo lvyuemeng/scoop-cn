@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "Traditional roguelike game with pixel-art graphics and simple interface",
     "homepage": "https://shatteredpixel.com/",
     "license": "GPL-3.0-only",
@@ -13,7 +13,7 @@
         ]
     ],
     "suggest": {
-        "oraclejre8": "scoop-cn/oraclejre8"
+        "oraclejre8": "java/oraclejre8"
     },
     "checkver": {
         "github": "https://github.com/00-Evan/shattered-pixel-dungeon"

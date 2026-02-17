@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.0.5",
     "description": "Flutter Version Management: A simple CLI to manage Flutter SDK versions.",
     "homepage": "https://fvm.app/",

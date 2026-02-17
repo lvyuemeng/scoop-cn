@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.6",
     "description": "GSL library shell based on LuaJIT2",
     "homepage": "https://www.nongnu.org/gsl-shell/",

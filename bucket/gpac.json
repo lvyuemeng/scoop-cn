@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "26.02-rev0",
     "description": "Multimedia framework developed for research and academic purposes",
     "homepage": "https://gpac.wp.imt.fr/",
     "license": "LGPL-2.1-or-later",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

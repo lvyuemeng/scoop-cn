@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "For command-line usage, see: https://sandboxie-plus.com/sandboxie/startcommandline/",
     "version": "5.72.1",
     "description": "A sandbox-based isolation tool for Windows that runs applications in a controlled environment, preventing permanent changes to the system.",

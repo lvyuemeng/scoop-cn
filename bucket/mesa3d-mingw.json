@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "25.3.5",
     "description": "Windows builds of Mesa3D, an open source implementation of OpenGL, OpenGL ES, Vulkan and other specifications (MinGW build)",
     "homepage": "https://github.com/pal1000/mesa-dist-win",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.0",
     "description": "Parallel S3 and local filesystem execution tool.",
     "homepage": "https://github.com/peak/s5cmd",

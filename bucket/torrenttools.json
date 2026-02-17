@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.2",
     "description": "Commandline tool for inspecting, creating and editing BitTorrent metafiles.",
     "homepage": "https://fbdtemme.github.io/torrenttools",

@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Please keep the checkver field as is. The default GITHUB_TOKEN lacks the necessary permissions to access the latest release endpoint for confluentinc/cli.",
     "version": "4.52.0",
     "description": "The Confluent command-line interface (CLI)",

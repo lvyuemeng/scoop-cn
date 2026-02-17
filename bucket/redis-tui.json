@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.1.6",
     "description": "A Redis Text-based UI client",
     "homepage": "https://github.com/mylxsw/redis-tui",

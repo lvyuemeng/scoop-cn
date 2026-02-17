@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.50.0",
     "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git",
     "homepage": "https://github.com/GitoxideLabs/gitoxide",
     "license": "Apache-2.0|MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "32bit": {

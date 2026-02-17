@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.52.0",
     "description": "Manage BareMetal Servers from Command Line (as easily as with Docker).",
     "homepage": "https://github.com/scaleway/scaleway-cli",

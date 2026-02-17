@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.17.0",
     "description": "A tool for analyzing and playing go with AI feedback from KataGo",
     "homepage": "https://github.com/sanderland/katrain",

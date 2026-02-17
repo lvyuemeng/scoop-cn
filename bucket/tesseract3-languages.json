@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.04.00",
     "description": "Trained models for the Tesseract Open Source OCR Engine (version 3)",
     "homepage": "https://github.com/tesseract-ocr/tessdata_fast",
@@ -7,7 +7,7 @@
         "This packages has overwritten the 'TESSDATA_PREFIX' environment variable with \"$dir\".",
         "After updating \"tesseract3\" please run \"scoop reset tesseract3-languages\" to update the environment variable!"
     ],
-    "depends": "scoop-cn/tesseract3",
+    "depends": "versions/tesseract3",
     "url": [
         "https://gh-proxy.org/https://github.com/tesseract-ocr/tessdata/archive/3.04.00.zip",
         "https://gh-proxy.org/https://raw.githubusercontent.com/USCDataScience/counterfeit-electronics-tesseract/319a6eeacff181dad5c02f3e7a3aff804eaadeca/Training%20Tesseract/snum.traineddata"

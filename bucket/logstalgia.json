@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.9",
     "description": "Website traffic visualization that replays or streams web-server access logs as a pong-like battle between the web server and an never ending torrent of requests.",
     "homepage": "https://logstalgia.io/",

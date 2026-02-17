@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.0",
     "description": "Windows service wrapper for arbitrary commands",
     "homepage": "https://github.com/mtkennerly/shawl",

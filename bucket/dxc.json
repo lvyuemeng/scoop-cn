@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.2505.1",
     "description": "DirectXShaderCompiler is a collection of tools, libraries and tests for compiling HLSL into DXIL, SPIR-V, and other target languages.",
     "homepage": "https://github.com/microsoft/DirectXShaderCompiler",

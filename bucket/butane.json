@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.26.0",
     "description": "Translates Butane configs into Ignition configs.",
     "homepage": "https://coreos.github.io/butane/",

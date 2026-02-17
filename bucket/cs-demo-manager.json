@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.18.2",
     "description": "Companion application for your Counter-Strike demos",
     "homepage": "https://cs-demo-manager.com",
@@ -39,7 +39,7 @@
         ]
     ],
     "suggest": {
-        "The database": "scoop-cn/postgresql"
+        "The database": "main/postgresql"
     },
     "notes": [
         "https://cs-demo-manager.com/docs/installation",

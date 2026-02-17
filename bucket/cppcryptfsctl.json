@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4.4.7",
     "description": "cppcryptfs is an implementation of the gocryptfs encrypted overlay filesystem in C++ for Windows.",
     "homepage": "https://github.com/bailey27/cppcryptfs",

@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.5.4",
     "description": "Dex to Java decompiler",
     "homepage": "https://github.com/skylot/jadx",
     "license": "Apache-2.0",
     "suggest": {
-        "JDK": "scoop-cn/openjdk"
+        "JDK": "java/openjdk"
     },
     "url": [
         "https://gh-proxy.org/https://github.com/skylot/jadx/releases/download/v1.5.4/jadx-1.5.4.zip",

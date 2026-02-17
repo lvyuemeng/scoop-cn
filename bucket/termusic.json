@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.12.1",
     "description": "Music Player TUI written in Rust",
     "homepage": "https://github.com/tramhao/termusic",

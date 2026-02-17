@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "2.0.0.0",
     "description": "Windows Registry editor. Breadcrumb navigation, favorites, dark theme...",
     "homepage": "https://regedix.webrox.fr/",
     "license": "GPL-3.0",
     "suggest": {
-        ".NET Desktop Runtime 7.0": "scoop-cn/windowsdesktop-runtime-7.0"
+        ".NET Desktop Runtime 7.0": "versions/windowsdesktop-runtime-7.0"
     },
     "architecture": {
         "64bit": {

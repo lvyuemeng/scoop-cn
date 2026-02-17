@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.15.0",
     "description": "Deploy static websites to Amazon S3 and CloudFront with Gzip and custom headers support (e.g. 'Cache-Control')",
     "homepage": "https://github.com/bep/s3deploy",

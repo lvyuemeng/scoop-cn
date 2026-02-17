@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.84",
     "description": "Local Github actions runner.",
     "homepage": "https://github.com/nektos/act/",

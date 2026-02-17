@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.93.3",
     "description": "Find leaked credentials",
     "homepage": "https://github.com/trufflesecurity/trufflehog",

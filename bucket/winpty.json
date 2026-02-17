@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.3",
     "description": "A Windows software package providing an interface similar to a Unix pty-master for communicating with Windows console programs",
     "homepage": "https://github.com/rprichard/winpty",

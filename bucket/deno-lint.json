@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.83.0",
     "description": "Blazing fast linter for JavaScript and TypeScript written in Rust",
     "homepage": "https://docs.deno.com/lint/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

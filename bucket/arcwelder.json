@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "Arc welder simplifies gcode for Marlin and Klipper 3D Printer",
     "license": "LGPL-3.0-or-later",

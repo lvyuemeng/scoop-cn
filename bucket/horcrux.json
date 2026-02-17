@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2",
     "description": "A tool that splits files into encrypted fragments.",
     "homepage": "https://github.com/jesseduffield/horcrux",

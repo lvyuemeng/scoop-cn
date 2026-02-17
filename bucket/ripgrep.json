@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "15.1.0",
     "description": "Recursively searches directories for a regex pattern.",
     "homepage": "https://github.com/BurntSushi/ripgrep",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.67.0",
     "description": "A general-purpose command-line fuzzy finder",
     "homepage": "https://github.com/junegunn/fzf",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.1",
     "description": "Real-time logging dashboard for Kubernetes",
     "homepage": "https://github.com/kubetail-org/kubetail",

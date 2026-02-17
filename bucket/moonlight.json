@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "6.1.0",
     "description": "GameStream client for PCs (Windows, Mac, Linux, and Steam Link)",
     "homepage": "https://moonlight-stream.org",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

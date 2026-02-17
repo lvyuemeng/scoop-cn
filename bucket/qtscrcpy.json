@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.3.3",
     "description": "Display and control Android device via TCP/IP or USB.",
     "homepage": "https://github.com/barry-ran/QtScrcpy",

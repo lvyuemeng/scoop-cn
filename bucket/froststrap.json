@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.4.1.0",
     "description": "A Bloxstrap/Fishstrap fork, focused on performance and customization",
     "homepage": "https://froststrap.github.io/",
     "license": "AGPL-3.0-or-later|MIT|Unlicense",
     "suggest": {
-        ".NET Desktop Runtime 8.0": "scoop-cn/windowsdesktop-runtime-8.0"
+        ".NET Desktop Runtime 8.0": "versions/windowsdesktop-runtime-8.0"
     },
     "architecture": {
         "64bit": {

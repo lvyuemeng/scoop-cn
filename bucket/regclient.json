@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.11.1",
     "description": "Command line interface and tools for the regclient Go library (regctl, regbot, regsync).",
     "homepage": "https://regclient.org/",

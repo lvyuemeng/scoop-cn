@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.25.113.0",
     "description": "A Windows clipboard enhancement utility that extends the standard clipboard by storing copied items for later reuse, with support for multiple data types including text, images, HTML, and custom formats.",
     "homepage": "https://sabrogden.github.io/Ditto/",

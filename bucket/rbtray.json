@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.14",
     "description": "Background program making any application minimizable to the system tray by right-clicking its Minimize button",
     "homepage": "https://github.com/benbuck/rbtray",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.6",
     "description": "Securely transfer data between computers. Rust implementation of Magic Wormhole, with new features and enhancements",
     "homepage": "https://github.com/magic-wormhole/magic-wormhole.rs",

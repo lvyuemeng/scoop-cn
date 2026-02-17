@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.4",
     "description": "Language server for Helm",
     "homepage": "https://github.com/mrjosh/helm-ls",

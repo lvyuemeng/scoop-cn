@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.3.0",
     "description": "CLI for ArgoCD - declarative, GitOps continuous delivery tool for Kubernetes",
     "homepage": "https://github.com/argoproj/argo-cd",

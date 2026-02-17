@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.34.1",
     "description": "A tool for developers to build, release and operate production ready containerized applications on Amazon ECS and AWS Fargate.",
     "homepage": "https://aws.github.io/copilot-cli/",

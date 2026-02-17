@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.4",
     "homepage": "https://www.squirreldisk.com/",
     "description": "A beautiful, super fast disk usage analysis tool. Built with rust.",

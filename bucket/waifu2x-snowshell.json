@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.6.1",
     "description": "GUI Shell for waifu2x-caffe, waifu2x-converter-cpp and waifu2x-ncnn-vulkan.",
     "homepage": "https://github.com/YukihoAA/waifu2x_snowshell",
@@ -8,7 +8,7 @@
         "Following converters are available: extras/waifu2x-caffe, waifu2x-converter-cpp and waifu2x-ncnn-vulkan."
     ],
     "suggest": {
-        "waifu2x-caffe": "scoop-cn/waifu2x-caffe",
+        "waifu2x-caffe": "extras/waifu2x-caffe",
         "waifu2x-converter-cpp": "waifu2x-converter-cpp",
         "waifu2x-ncnn-vulkan": "waifu2x-ncnn-vulkan"
     },

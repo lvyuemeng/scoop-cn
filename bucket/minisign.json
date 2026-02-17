@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.12",
     "description": "A dead simple tool to sign files and verify signatures",
     "homepage": "https://jedisct1.github.io/minisign/",

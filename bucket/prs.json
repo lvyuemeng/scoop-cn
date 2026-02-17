@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.5.1",
     "description": "Secure, fast & convenient password manager CLI with GPG & git sync",
     "homepage": "https://github.com/timvisee/prs",
     "license": "GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "depends": [
         "git",

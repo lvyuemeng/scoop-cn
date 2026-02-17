@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.33.1",
     "description": "Golang implementation of Swagger 2.0 (OpenAPI 2.0)",
     "homepage": "https://goswagger.io",

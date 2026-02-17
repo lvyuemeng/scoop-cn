@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.5",
     "description": "A Qt/C++ GUI front end to sshfs, ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt and encfs",
     "homepage": "https://mhogomchungu.github.io/sirikali/",

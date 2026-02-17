@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.3.1",
     "description": "Fully featured CLI-based CD ripper supporting flac/tta/alac/wavpack/mp3/aac/vorbis, AccurateRip, MusicBrainz, HDCD, and more.",
     "homepage": "https://github.com/cyanreg/cyanrip",

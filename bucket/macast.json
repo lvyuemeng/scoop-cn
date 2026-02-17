@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7",
     "description": "A tool which uses mpv as DLNA Media Renderer and allows you to push videos, pictures or music from your mobile phone to your computer.",
     "homepage": "https://github.com/xfangfang/Macast",

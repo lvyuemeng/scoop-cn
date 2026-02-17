@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.0",
     "description": "An S/MIME signing utility compatible with Git that allows developers to sign their commits and tags using X.509 certificates",
     "homepage": "https://github.com/github/smimesign",

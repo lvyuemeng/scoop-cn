@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2",
     "description": "A tool to monitor git repositories and automatically pull & push changes.",
     "homepage": "https://github.com/muesli/gitomatic",

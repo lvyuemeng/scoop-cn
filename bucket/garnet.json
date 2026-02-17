@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.0.98",
     "description": "A high-performance cache-store from Microsoft Research.",
     "homepage": "https://microsoft.github.io/garnet",
@@ -13,7 +13,7 @@
         "GarnetServer.exe --config-import-path redis.conf --config-import-format RedisConf"
     ],
     "suggest": {
-        "dotnet-sdk": "scoop-cn/dotnet-sdk"
+        "dotnet-sdk": "main/dotnet-sdk"
     },
     "architecture": {
         "64bit": {

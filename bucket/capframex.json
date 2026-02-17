@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.8.3",
     "description": "Frametimes analysis tool compatible with OCAT",
     "homepage": "https://github.com/CXWorld/CapFrameX",
     "license": "MIT",
     "suggest": {
-        "OCAT": "scoop-cn/ocat"
+        "OCAT": "extras/ocat"
     },
     "architecture": {
         "64bit": {

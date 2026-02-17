@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.2026.1",
     "description": "A tool to draw UML diagrams, using a simple and human readable text description.",
     "homepage": "https://github.com/plantuml/plantuml",
     "license": "GPL-3.0-only",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "url": [

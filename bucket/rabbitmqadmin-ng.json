@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.25.0",
     "description": "A command line tool for RabbitMQ that uses the HTTP API",
     "homepage": "https://github.com/rabbitmq/rabbitmqadmin-ng",

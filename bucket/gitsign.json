@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.14.0",
     "description": "Keyless Git signing with Sigstore!",
     "homepage": "https://github.com/sigstore/gitsign",

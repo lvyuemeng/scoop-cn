@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.6",
     "description": "JSON Incremental Digger. Drill down JSON interactively by using filtering queries like jq",
     "homepage": "https://github.com/simeji/jid",

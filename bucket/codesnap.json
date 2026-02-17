@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.13.1",
     "description": "Command-line tool for generating beautiful code snippets",
     "homepage": "https://github.com/codesnap-rs/codesnap",

@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Deprecate this manifest after 2026-06-01.",
     "version": "3.11.0",
     "description": "Unofficial YouTube Music Desktop App bundled with custom plugins. (Deprecated, please use `extras/pear-desktop` instead)",

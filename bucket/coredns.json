@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.14.1",
     "description": "A DNS server/forwarder, that chains plugins.",
     "homepage": "https://coredns.io",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20251008",
     "description": "An open-source DirectShow subtitle renderer. Variant with libass backend",
     "homepage": "https://github.com/Masaiki/xy-VSFilter",

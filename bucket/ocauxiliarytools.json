@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20250001",
     "description": "A GUI-based Configurator for editing config.plist files for Acidanthera's OpenCore Boot Manager",
     "homepage": "https://github.com/ic005k/OCAuxiliaryTools",

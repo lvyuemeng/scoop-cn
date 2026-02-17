@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "1.7.19",
     "description": "A desktop client that supports for multiple LLM providers.",
     "homepage": "https://cherry-ai.com",
     "license": "Apache-2.0",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.7.1",
     "description": "Reversing tool for PE files",
     "homepage": "https://hshrzd.wordpress.com/pe-bear/",
     "license": "GPL-2.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

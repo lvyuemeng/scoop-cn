@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "'rootfs' must be a 'real' directory (at least on Windows 10 RS4)",
     "version": "25.3.19.0",
     "description": "Install ArchLinux as a WSL Instance",

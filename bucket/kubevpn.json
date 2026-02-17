@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.9.13",
     "description": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.",
     "homepage": "https://www.kubevpn.dev/",

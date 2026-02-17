@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "138.0.7204.300",
     "description": "Chromium fork for Linux, Windows, MacOS, Android, and Raspberry Pi named after radioactive element No. 90. Compiled with AVX2 support. If your CPU does not support AVX2 DO NOT INSTALL. Use CPU-Z to determine if your CPU supports AVX2.",
     "homepage": "https://thorium.rocks/",

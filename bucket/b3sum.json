@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.3",
     "description": "Command line utility prints the BLAKE3 hashes of files or of standard input",
     "homepage": "https://github.com/BLAKE3-team/BLAKE3",

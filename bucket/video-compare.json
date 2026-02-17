@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20260214",
     "description": "Split screen video comparison tool using FFmpeg and SDL2.",
     "homepage": "https://github.com/pixop/video-compare",

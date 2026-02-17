@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "2026.02.16.233630",
     "description": "yt-dlp (official) nightly builds",
     "homepage": "https://github.com/yt-dlp/yt-dlp-nightly-builds",
     "license": "Freeware",
     "suggest": {
         "ffmpeg": [
-            "scoop-cn/ffmpeg-yt-dlp-nightly",
-            "scoop-cn/ffmpeg-shared-yt-dlp-nightly"
+            "versions/ffmpeg-yt-dlp-nightly",
+            "versions/ffmpeg-shared-yt-dlp-nightly"
         ]
     },
     "architecture": {

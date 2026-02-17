@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "8.6.0",
     "description": "In-memory data structure store, used as a database, cache and message broker",
     "homepage": "https://redis.io",

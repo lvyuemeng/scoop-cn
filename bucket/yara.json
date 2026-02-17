@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "4.5.5",
     "description": "A malware samples pattern matching tool.",
     "homepage": "https://virustotal.github.io/yara/",
     "license": "BSD-3-Clause",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist"
+        "vcredist": "extras/vcredist"
     },
     "architecture": {
         "64bit": {

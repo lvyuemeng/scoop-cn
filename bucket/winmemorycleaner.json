@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.8",
     "description": "Portable RAM cleaner using native Windows APIs to release memory.",
     "homepage": "https://github.com/IgorMundstein/WinMemoryCleaner",

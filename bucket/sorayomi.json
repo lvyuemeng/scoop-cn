@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.3",
     "description": "A flutter manga reader compatible with Tachiyomi extensions and backups",
     "homepage": "https://github.com/Suwayomi/Tachidesk-Sorayomi",
@@ -7,7 +7,7 @@
         "url": "https://github.com/Suwayomi/Tachidesk-Sorayomi/blob/main/LICENSE"
     },
     "suggest": {
-        "Tachidesk-Server": "scoop-cn/tachidesk-server"
+        "Tachidesk-Server": "extras/tachidesk-server"
     },
     "architecture": {
         "64bit": {

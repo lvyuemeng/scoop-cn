@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.15.0",
     "description": "Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo, Dynadot",
     "homepage": "https://github.com/jeessy2/ddns-go",

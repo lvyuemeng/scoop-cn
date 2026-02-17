@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.0.2",
     "description": "Command-line task management tool for sequential and parallel execution of long-running tasks.",
     "homepage": "https://github.com/Nukesor/pueue",

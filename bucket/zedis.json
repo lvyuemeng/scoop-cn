@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.4",
     "description": "A blazing-fast, native Redis GUI built with Rust and GPUI.",
     "homepage": "https://github.com/vicanso/zedis",

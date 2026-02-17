@@ -1,14 +1,14 @@
-﻿{
+{
     "version": "2023-12-22",
     "description": "A powerful math program combining numerical and symbolic tools (using the computer algebra system Maxima).",
     "homepage": "https://euler-math-toolbox.de",
     "license": "GPL-3.0-or-later",
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ],
-        "POV-Ray": "scoop-cn/pov-ray"
+        "POV-Ray": "extras/pov-ray"
     },
     "architecture": {
         "64bit": {

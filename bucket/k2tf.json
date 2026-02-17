@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.8.0",
     "description": "Converts Kubernetes API Objects (in YAML format) into HashiCorp's Terraform configuration language.",
     "homepage": "https://github.com/sl1pm4t/k2tf",

@@ -1,11 +1,11 @@
-﻿{
+{
     "version": "2.42.10",
     "description": "Tool for customizing the Spotify client.",
     "homepage": "https://spicetify.app/",
     "license": "LGPL-2.1-only",
     "notes": "Make sure to set 'spotify_path' to the directory of your Spotify installation in the Spicetify config",
     "suggest": {
-        "Spotify": "scoop-cn/spotify"
+        "Spotify": "extras/spotify"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "##": [
         "The `-dir` option can only install the application on the system drive.",
         "To avoid unnecessary complexity, please do not use the `-dir` option in the installation script."

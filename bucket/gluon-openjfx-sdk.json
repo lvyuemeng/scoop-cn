@@ -1,10 +1,10 @@
-﻿{
+{
     "description": "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
     "homepage": "https://openjfx.io/",
     "version": "18.0.1",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "suggest": {
-        "JDK": "scoop-cn/openjdk"
+        "JDK": "java/openjdk"
     },
     "architecture": {
         "64bit": {

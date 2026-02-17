@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.5.1",
     "description": "Command-line interface for running Temporal Server and interacting with Workflows, Activities, Namespaces, and other parts of Temporal",
     "homepage": "https://docs.temporal.io/cli",

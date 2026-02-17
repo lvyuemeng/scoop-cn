@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.9.0",
     "description": "Go language linters aggregator",
     "homepage": "https://golangci-lint.run/",

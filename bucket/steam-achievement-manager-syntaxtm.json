@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.0",
     "homepage": "https://github.com/syntax-tm/SteamAchievementManager",
     "description": "Fork of Steam Achievement Manager with the goal of updating to .NET Core, WPF and modernizing the app",

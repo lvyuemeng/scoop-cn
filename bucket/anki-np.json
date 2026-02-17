@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "25.09",
     "description": "A smart spaced repetition flashcard program.",
     "homepage": "https://apps.ankiweb.net",
@@ -7,7 +7,7 @@
         "url": "https://github.com/ankitects/anki/blob/HEAD/LICENSE"
     },
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2008"
+        "vcredist": "extras/vcredist2008"
     },
     "architecture": {
         "64bit": {

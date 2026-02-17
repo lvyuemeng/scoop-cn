@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "Please keep checkver field as is. We cannot fetch the latest version via the GitHub API, due to the IP restrictions in the Databricks org.",
     "version": "0.288.0",
     "description": "CLI for interacting with the Databricks platform.",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20260214",
     "description": "TCP/UDP port mapping for full-cone NAT",
     "homepage": "https://github.com/heiher/natmap",

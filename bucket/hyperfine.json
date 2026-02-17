@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.20.0",
     "description": "A command-line benchmarking tool",
     "homepage": "https://github.com/sharkdp/hyperfine",

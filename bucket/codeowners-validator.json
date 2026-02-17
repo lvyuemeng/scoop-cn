@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.7.4",
     "description": "The GitHub Codeowners file validator",
     "homepage": "https://github.com/mszostok/codeowners-validator",

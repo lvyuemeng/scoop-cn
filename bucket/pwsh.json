@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "7.5.4",
     "description": "Cross-platform automation and configuration tool/framework, known as Powershell Core, that works well with existing tools and is optimized for dealing with structured data.",
     "homepage": "https://github.com/PowerShell/PowerShell",
@@ -33,8 +33,8 @@
         "if ($architecture -eq '32bit') { $pwshArch = 'x86' } else { $pwshArch = 'x64' }",
         "$pwshPath = \"$dir\\pwsh.exe\".Replace('\\', '\\\\')",
         "'install-explorer-context', 'uninstall-explorer-context', 'install-file-context' , 'uninstall-file-context' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\pwsh\\$_.reg\") {",
-        "        $content = (Get-Content \"$bucketsdir\\scoop-cn\\scripts\\pwsh\\$_.reg\").Replace('$pwshPath', $pwshPath)",
+        "    if (Test-Path \"$bucketsdir\\main\\scripts\\pwsh\\$_.reg\") {",
+        "        $content = (Get-Content \"$bucketsdir\\main\\scripts\\pwsh\\$_.reg\").Replace('$pwshPath', $pwshPath)",
         "        $content = $content.Replace('$pwshArch', $pwshArch)",
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",

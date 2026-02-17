@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "1.78",
     "description": "Drawing software dedicated to designing the crease patterns of origami",
     "homepage": "http://mitani.cs.tsukuba.ac.jp/oripa/",
     "license": "GPL-3.0-or-later",
     "suggest": {
         "JDK": [
-            "scoop-cn/openjdk",
-            "scoop-cn/oraclejdk"
+            "java/openjdk",
+            "java/oraclejdk"
         ]
     },
     "url": "https://gh-proxy.org/https://github.com/oripa/oripa/releases/download/v1.78_release/oripa-1.78-all.jar#/oripa.jar",

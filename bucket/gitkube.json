@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.0",
     "description": "Build and deploy docker images to Kubernetes using git push",
     "homepage": "https://github.com/hasura/gitkube",

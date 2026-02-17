@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.8.2",
     "description": "High dynamic range (HDR) image comparison tool for graphics people. tev allows viewing images through various tonemapping operators and inspecting the values of individual pixels. To compare images, tev can rapidly flip between them and visualize various error metrics.",
     "homepage": "https://github.com/Tom94/tev",

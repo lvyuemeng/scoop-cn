@@ -1,4 +1,4 @@
-﻿{
+{
     "##": "User config is stored at '$Env:LocalAppData\\python\\mu'",
     "version": "1.2.0",
     "description": "A small, simple editor for beginner Python programmers.",

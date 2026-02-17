@@ -1,13 +1,13 @@
-﻿{
+{
     "version": "0.6.1",
     "description": "A wallpaper engine, set any window as your wallpaper.",
     "homepage": "https://github.com/Francesco149/weebp",
     "license": "Unlicense",
     "suggest": {
         "mpv": [
-            "scoop-cn/mpv",
-            "scoop-cn/mpv-git",
-            "scoop-cn/mpv.net"
+            "extras/mpv",
+            "extras/mpv-git",
+            "extras/mpv.net"
         ]
     },
     "architecture": {

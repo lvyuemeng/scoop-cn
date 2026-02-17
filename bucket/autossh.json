@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4g",
     "description": "Automatically restart SSH sessions and tunnels, in case they drop.",
     "homepage": "https://www.harding.motd.ca/autossh/",

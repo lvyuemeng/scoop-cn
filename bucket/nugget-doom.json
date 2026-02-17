@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.5.0",
     "description": "Doom source port forked from Woof! with additional features",
     "homepage": "https://github.com/MrAlaux/Nugget-Doom",
@@ -10,8 +10,8 @@
     ],
     "suggest": {
         "Launcher (frontend)": [
-            "scoop-cn/doomrunner",
-            "scoop-cn/zdl"
+            "games/doomrunner",
+            "games/zdl"
         ]
     },
     "architecture": {

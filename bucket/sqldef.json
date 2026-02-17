@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.9.8",
     "description": "Idempotent schema management for MySQL, Microsoft SQL Server, and SQLite.",
     "homepage": "https://github.com/k0kubun/sqldef",

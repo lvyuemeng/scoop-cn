@@ -1,11 +1,11 @@
-﻿{
+{
     "##": "Not all releases include build artifacts, hence the checkver.jsonpath. See: https://github.com/textbrowser/biblioteq/issues/300.",
     "version": "2025.12.25",
     "description": "Professional archiving, cataloging, and library management suite providing connectivity to PostgreSQL and SQLite.",
     "homepage": "https://textbrowser.github.io/biblioteq/",
     "license": "BSD-3-Clause",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

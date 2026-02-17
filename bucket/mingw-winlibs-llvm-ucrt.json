@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "14.2.0-19.1.1-12.0.0-r2",
     "description": "GNU Compiler Collection with LLVM/Clang/LLD/LLDB (UCRT, WinLibs build)",
     "homepage": "https://winlibs.com",

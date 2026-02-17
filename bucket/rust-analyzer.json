@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2026-02-16",
     "description": "A Rust compiler front-end for IDEs",
     "homepage": "https://rust-analyzer.github.io/",

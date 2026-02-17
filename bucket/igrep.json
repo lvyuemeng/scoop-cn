@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.3.0",
     "description": "Runs grep (ripgrep's library) and allows to interactively pick its results and open selected match in a text editor.",
     "homepage": "https://github.com/konradsz/igrep",

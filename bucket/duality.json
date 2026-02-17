@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0",
     "homepage": "https://adamslair.github.io/duality/",
     "description": "A modular 2D game engine that provides its own visual editor. It's highly extensible, written entirely in C# and backed by OpenGL.",

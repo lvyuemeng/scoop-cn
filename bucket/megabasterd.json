@@ -1,12 +1,12 @@
-﻿{
+{
     "version": "8.22",
     "description": "Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.",
     "homepage": "https://github.com/tonikelope/megabasterd",
     "license": "GPL-3.0-only",
     "suggest": {
         "JDK": [
-            "scoop-cn/openjdk",
-            "scoop-cn/oraclejdk"
+            "java/openjdk",
+            "java/oraclejdk"
         ]
     },
     "url": [

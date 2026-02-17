@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.0.4",
     "description": "Container Signing, Verification and Storage in an OCI registry.",
     "homepage": "https://github.com/sigstore/cosign",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.13.0",
     "description": "A malware samples pattern matching tool, re-incarnation of YARA.",
     "homepage": "https://virustotal.github.io/yara-x/",

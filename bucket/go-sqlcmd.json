@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.9.0",
     "description": "sqlcmd is a multi-platform command line experience for Microsoft SQL Server and Azure SQL",
     "homepage": "https://github.com/microsoft/go-sqlcmd",

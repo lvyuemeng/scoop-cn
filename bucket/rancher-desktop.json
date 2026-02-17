@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.22.0",
     "description": "Kubernates container management tool that can build, push, and pull images and run containers.",
     "homepage": "https://rancherdesktop.io/",

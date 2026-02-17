@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.4.0",
     "description": "Command line utility to inject and eject DLLs.",
     "homepage": "https://github.com/nefarius/Injector",

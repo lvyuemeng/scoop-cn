@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.107.3",
     "description": "A simple one-file way to run various GGML models like LLAMA, ALPACA, VICUNA",
     "homepage": "https://github.com/LostRuins/koboldcpp",

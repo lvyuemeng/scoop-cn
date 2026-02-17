@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "6.1.4",
     "description": "F# Make, build automation tool for .NET with similar capabilities to make and rake",
     "homepage": "https://fake.build",

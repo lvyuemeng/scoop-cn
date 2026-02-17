@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.1.0",
     "description": "Open-source binary diff, delta/differential compression tools, VCDIFF/RFC 3284 delta compression.",
     "homepage": "http://xdelta.org/",

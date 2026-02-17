@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.12",
     "description": "Massively spiffy yet delicately unobtrusive compression library. Unencumbered by patents.",
     "homepage": "http://www.zlib.net/",
@@ -12,8 +12,8 @@
     "post_install": [
         "$dirpath = \"$dir\".Replace('\\', '\\\\')",
         "'register', 'unregister' | ForEach-Object {",
-        "  if (Test-Path \"$bucketsdir\\scoop-cn\\scripts\\zlib\\$_.reg\") {",
-        "    $content = Get-Content \"$bucketsdir\\scoop-cn\\scripts\\zlib\\$_.reg\"",
+        "  if (Test-Path \"$bucketsdir\\extras\\scripts\\zlib\\$_.reg\") {",
+        "    $content = Get-Content \"$bucketsdir\\extras\\scripts\\zlib\\$_.reg\"",
         "    $content = $content.Replace('$dir', $dirpath)",
         "    $content | Set-Content -Path \"$dir\\$_.reg\"",
         "  }",

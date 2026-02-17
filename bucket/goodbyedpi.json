@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.2.2",
     "description": "Bypass Deep Packet Inspection systems found in many Internet Service Providers which block access to certain websites.",
     "homepage": "https://github.com/ValdikSS/GoodbyeDPI",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.40.2",
     "description": "A declarative language for describing and deploying Azure resources",
     "homepage": "https://github.com/Azure/bicep",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.23.5",
     "description": "A developer CLI that provides commands for working with Azure resources that map to key workflow stages: code, build, deploy, monitor, repeat.",
     "homepage": "https://aka.ms/azd",

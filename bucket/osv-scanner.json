@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.3.3",
     "description": "Find existing vulnerabilities affecting your project's dependencies.",
     "homepage": "https://github.com/google/osv-scanner",

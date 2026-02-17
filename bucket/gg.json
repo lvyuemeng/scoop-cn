@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.38.2",
     "description": "A GUI for Jujutsu, a Git-compatible DVCS",
     "homepage": "https://github.com/gulbanana/gg",
     "license": "Apache-2.0",
     "suggest": {
-        "jj": "scoop-cn/jj"
+        "jj": "main/jj"
     },
     "architecture": {
         "64bit": {

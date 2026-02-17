@@ -1,4 +1,4 @@
-﻿{
+{
     "description": "OpenJDK 11 binaries built using source code from the CentOS project",
     "homepage": "https://github.com/ojdkbuild/ojdkbuild",
     "version": "11.0.15.9-1",

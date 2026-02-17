@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.8.0.3",
     "description": "Mintty as a terminal for WSL (Windows Subsystem for Linux).",
     "homepage": "https://github.com/mintty/wsltty",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.2.0.3_stable_2026-01-06",
     "description": "A free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers.",
     "homepage": "https://www.duplicati.com/",

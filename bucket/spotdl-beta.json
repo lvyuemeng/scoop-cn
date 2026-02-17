@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.4.3",
     "description": "Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).",
     "homepage": "https://github.com/spotDL/spotify-downloader",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.3",
     "description": "Toolbox to flash and manage keyboards running the QMK firmware.",
     "homepage": "https://qmk.fm/toolbox/",

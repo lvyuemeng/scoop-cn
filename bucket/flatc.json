@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "25.12.19",
     "description": "An efficient serialization library for multiple languages",
     "homepage": "https://google.github.io/flatbuffers/index.html",

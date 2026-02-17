@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.6.1",
     "description": "Interactive JSON filter using jq",
     "homepage": "https://github.com/ynqa/jnv",

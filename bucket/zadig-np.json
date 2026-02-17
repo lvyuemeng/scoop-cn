@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.9",
     "description": "Installs generic USB drivers, such as WinUSB, libusb-win32/libusb0.sys or libusbK.",
     "homepage": "https://zadig.akeo.ie/",

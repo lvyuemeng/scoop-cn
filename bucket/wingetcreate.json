@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.10.3.0",
     "description": "The Windows Package Manager Manifest Creator command-line tool",
     "homepage": "https://github.com/microsoft/winget-create",

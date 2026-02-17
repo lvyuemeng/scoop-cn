@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "v25.01-v1.5.7-R4",
     "description": "Multi-format compression/decompression tool with brotli and other codecs (beta version)",
     "homepage": "https://github.com/mcmilk/7-Zip-zstd/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.2",
     "description": "List all the DLLs that are currently loaded, including where they are loaded and their version numbers.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/listdlls",

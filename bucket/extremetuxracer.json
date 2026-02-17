@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.8.4",
     "description": "High-speed arctic racing game based on Tux Racer",
     "homepage": "https://sourceforge.net/projects/extremetuxracer/",
     "license": "GPL-2.0-or-later",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.2",
     "description": "Create a book from markdown files.",
     "homepage": "https://github.com/rust-lang/mdBook",

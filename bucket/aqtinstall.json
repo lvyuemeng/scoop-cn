@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.3.0",
     "description": "A command line tool for downloading Qt binaries, documents and sources.",
     "homepage": "https://github.com/miurahr/aqtinstall",

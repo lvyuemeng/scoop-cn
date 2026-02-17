@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "5.3",
     "description": "Emulator of x86-based machines based on PCem.",
     "homepage": "https://github.com/86Box/86Box",
@@ -10,8 +10,8 @@
         }
     },
     "suggest": {
-        "86Box Manager": "scoop-cn/86box-manager",
-        "86Box ROMs": "scoop-cn/86box-roms"
+        "86Box Manager": "extras/86box-manager",
+        "86Box ROMs": "extras/86box-roms"
     },
     "bin": "86Box.exe",
     "shortcuts": [

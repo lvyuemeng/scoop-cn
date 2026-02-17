@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "20240608.083822.1ed9031",
     "description": "Lightweight command line program for reading, parsing and setting metadata into MPEG-4 files",
     "homepage": "https://github.com/wez/atomicparsley",

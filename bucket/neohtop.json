@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.2.0",
     "description": "A modern, cross-platform system monitor built on top of Svelte, Rust, and Tauri",
     "homepage": "https://github.com/Abdenasser/neohtop",

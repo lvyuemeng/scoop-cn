@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.23.0",
     "description": "Arguably a Terminal API Client based on well-known clients such as Postman, Insomnia, or even Bruno.",
     "homepage": "https://atac.julien-cpsn.com/",

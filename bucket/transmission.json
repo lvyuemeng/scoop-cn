@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "4.1.0",
     "description": "A fast, easy, and free BitTorrent client.",
     "homepage": "https://transmissionbt.com/",
     "license": "GPL-2.0-only|GPL-3.0-only",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

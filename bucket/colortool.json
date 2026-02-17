@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1904.29002",
     "description": "Utility for helping to set the color palette of the Windows Console",
     "homepage": "https://github.com/microsoft/terminal/tree/main/src/tools/ColorTool",

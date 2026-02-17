@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.0",
     "description": "A Windows CLI tool for copying files from/to a portable device via MTP",
     "homepage": "https://github.com/kzmi/mtpcopy",

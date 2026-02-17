@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2026.02.04",
     "description": "A youtube-dl fork with additional features and fixes.",
     "homepage": "https://github.com/yt-dlp/yt-dlp",
@@ -12,7 +12,7 @@
             "deno",
             "nodejs",
             "nodejs-lts",
-            "scoop-cn/nodejs22",
+            "versions/nodejs22",
             "bun",
             "quickjs"
         ],

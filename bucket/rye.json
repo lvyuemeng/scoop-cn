@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "0.44.0",
     "description": "A comprehensive project and package management solution for Python",
     "homepage": "https://rye.astral.sh/",
     "license": "MIT",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.5.0",
     "description": "A userspace cross-platform EFI boot entry management GUI App based on Qt.",
     "homepage": "https://github.com/Inokinoki/QEFIEntryManager",

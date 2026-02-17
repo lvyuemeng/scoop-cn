@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "9.3.0",
     "description": "An open source analytics and visualization platform designed to work with Elasticsearch.",
     "homepage": "https://www.elastic.co/products/kibana",
@@ -8,8 +8,8 @@
     },
     "suggest": {
         "JDK": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/openjdk"
+            "java/oraclejdk",
+            "java/openjdk"
         ]
     },
     "architecture": {

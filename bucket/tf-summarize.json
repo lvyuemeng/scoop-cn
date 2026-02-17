@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.3.15",
     "description": "A command-line utility to print the summary of a Terraform plan.",
     "homepage": "https://github.com/dineshba/tf-summarize",

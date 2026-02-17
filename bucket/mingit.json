@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.53.0",
     "description": "Minimal Git for Windows (MinGit) is a lightweight distribution intended primarily for application-integration scenarios (such as integrated development environments and graphical visualization tools) where full interactive console capabilities, including colorization and pagination, are not required.",
     "homepage": "https://gitforwindows.org",

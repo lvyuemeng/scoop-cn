@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.23.0",
     "description": "A statically typed programming language for scientific computations with first class support for physical dimensions and units",
     "homepage": "https://numbat.dev/",

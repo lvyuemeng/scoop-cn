@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "24.6.0",
     "description": "The stream database optimized for event sourcing",
     "homepage": "https://eventstore.org/",

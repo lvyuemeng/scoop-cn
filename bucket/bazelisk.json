@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.28.1",
     "description": "A user-friendly launcher for Bazel",
     "homepage": "https://github.com/bazelbuild/bazelisk",

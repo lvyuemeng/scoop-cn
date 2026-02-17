@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.4.0",
     "description": "HashCheck Shell Extension for Windows with added SHA2, SHA3, and multithreading.",
     "homepage": "https://github.com/gurnec/HashCheck",

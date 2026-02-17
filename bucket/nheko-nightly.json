@@ -1,10 +1,10 @@
-﻿{
+{
     "version": "20240804-50f9ed",
     "description": "Desktop client for Matrix using Qt and C++17.",
     "homepage": "https://nheko-reborn.github.io/",
     "license": "GPL-3.0-or-later",
     "suggest": {
-        "vcredist": "scoop-cn/vcredist2022"
+        "vcredist": "extras/vcredist2022"
     },
     "architecture": {
         "64bit": {

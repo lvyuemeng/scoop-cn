@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.11",
     "description": "Scan for and delete Registry keys that contain embedded null-characters that are otherwise undeleteable by standard Registry-editing tools.",
     "homepage": "https://learn.microsoft.com/sysinternals/downloads/regdelnull",

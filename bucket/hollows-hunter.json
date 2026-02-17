@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.4.1.1",
     "description": "Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
     "homepage": "https://hshrzd.wordpress.com/pe-sieve/",

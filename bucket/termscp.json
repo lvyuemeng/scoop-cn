@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.19.1",
     "description": "Terminal UI file explorer with SCP/SFTP/FTP support",
     "homepage": "https://github.com/veeso/termscp",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.15.0",
     "description": "Configurable embedded Linux firmware update creator and runner",
     "homepage": "https://github.com/fwup-home/fwup",

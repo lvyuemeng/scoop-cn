@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "132",
     "description": "DBMS-independent SQL query tool",
     "homepage": "https://www.sql-workbench.eu",
@@ -8,9 +8,9 @@
     },
     "suggest": {
         "java": [
-            "scoop-cn/oraclejdk",
-            "scoop-cn/adopt11-hotspot",
-            "scoop-cn/adopt14-hotspot"
+            "java/oraclejdk",
+            "java/adopt11-hotspot",
+            "java/adopt14-hotspot"
         ]
     },
     "url": "https://www.sql-workbench.eu/Workbench-Build132-with-optional-libs.zip",

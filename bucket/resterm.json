@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.23.2",
     "description": "Terminal API client for HTTP/GraphQL/gRPC with support for SSH tunnels, WebSockets, SSE, workflows, profiling, OpenAPI and response diffs.",
     "homepage": "https://github.com/unkn0wn-root/resterm",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.53.0",
     "description": "YAML templating tool that works on YAML structure instead of text",
     "homepage": "https://carvel.dev/ytt",

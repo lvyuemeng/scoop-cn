@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.21.14",
     "description": "Build, bundle & ship your Rust WASM application to the web.",
     "homepage": "https://trunkrs.dev/",

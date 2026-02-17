@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.19.11",
     "description": "A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH.",
     "homepage": "https://github.com/natesales/q",

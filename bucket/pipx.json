@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.8.0",
     "description": "Install and run Python applications in isolated environments",
     "homepage": "https://pipx.pypa.io/",

@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.14.0",
     "description": "Shared compilation cache used as a compiler wrapper to avoid compilation when possible, storing a cache in a remote storage.",
     "homepage": "https://github.com/mozilla/sccache",

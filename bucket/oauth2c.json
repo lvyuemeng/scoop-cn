@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.19.0",
     "description": "A command-line tool for interacting with OAuth 2.0 authorization servers.",
     "homepage": "https://github.com/cloudentity/oauth2c",

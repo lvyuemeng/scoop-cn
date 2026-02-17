@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.10.0",
     "description": "Simple tunneling reverse proxy with a fast web UI and auto HTTPS",
     "homepage": "https://github.com/boringproxy/boringproxy",

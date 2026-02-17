@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "0.9.2",
     "description": "Terminal emulator for Windows Subsystem for Linux (WSL)",
     "homepage": "https://github.com/goreliu/wsl-terminal",

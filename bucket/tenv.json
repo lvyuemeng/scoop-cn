@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "4.9.3",
     "description": "OpenTofu, Terraform, Terragrunt, and Atmos version manager, written in Go.",
     "homepage": "https://tofuutils.github.io/tenv/",

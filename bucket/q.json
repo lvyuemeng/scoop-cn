@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "3.1.6",
     "description": "Run SQL directly on delimited files and multi-file sqlite databases",
     "homepage": "https://harelba.github.io/q/",

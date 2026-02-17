@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.42.2",
     "description": "Command-line tooling for the Dhall configuration language",
     "homepage": "https://dhall-lang.org",

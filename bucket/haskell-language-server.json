@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "2.13.0.0",
     "description": "The official language server for Haskell.",
     "homepage": "https://github.com/haskell/haskell-language-server",

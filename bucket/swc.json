@@ -1,4 +1,4 @@
-﻿{
+{
     "version": "1.15.11",
     "description": "A super-fast TypeScript / JavaScript compiler written in Rust",
     "homepage": "https://swc.rs",
