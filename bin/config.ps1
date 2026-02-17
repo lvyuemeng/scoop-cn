@@ -87,6 +87,12 @@
 			enabled     = $true
 		},
 		@{
+			description = "Proxy: 7-Zip 7zr.exe (to GitHub Releases)"
+			find        = 'https?://www\.7-zip\.org/a/7zr\.exe'
+			replace     = '${Github}/https://github.com/ip7z/7zip/releases/download/24.09/7zr.exe'
+			enabled     = $true
+		},
+		@{
 			description = "Mirror: Blender"
 			find        = 'download\.blender\.org'
 			replace     = '${Tsinghua}/blender'
@@ -94,8 +100,8 @@
 		},
 		@{
 			description = "Mirror: Cygwin"
-			find        = '//.*/cygwin/'
-			replace     = '//${Tsinghua}/cygwin/'
+			find        = '(https?://)?(www\.)?cygwin\.com/'
+			replace     = '${Tsinghua}/cygwin/'
 			enabled     = $true
 		},
 		@{
@@ -189,22 +195,22 @@
 			enabled     = $true
 		},
 		@{
-			description = "Fix: Internal 'scripts' paths"
+			description = "Fix: Internal 'scripts' paths - DISABLED (removed hardcoded bucket name)"
 			find        = '(bucketsdir\\\\).+(\\\\scripts)'
 			replace     = '$1scoop-cn$2'
-			enabled     = $true
+			enabled     = $false
 		},
 		@{
-			description = "Fix: Internal 'suggest' paths"
+			description = "Fix: Internal 'suggest' paths - DISABLED (removed hardcoded bucket name)"
 			find        = '\"main/|\"extras/|\"versions/|\"nirsoft/|\"sysinternals/|\"php/|\"nerd-fonts/|\"nonportable/|\"java/|\"games/'
 			replace     = '"scoop-cn/'
-			enabled     = $true
+			enabled     = $false
 		},
 		@{
-			description = "Fix: Internal 'depends' paths"
-			find        = '\"depends\":\s*\"(scoop\-cn/)?'
+			description = "Fix: Internal 'depends' paths - DISABLED (removed hardcoded bucket name)"
+			find        = '\"depends":\s*\"(scoop\-cn/)?'
 			replace     = '"depends": "scoop-cn/'
-			enabled     = $true
+			enabled     = $false
 		}
 	)
 }

@@ -6,12 +6,15 @@ $SCRIPTS_DIR = Join-Path $ROOT "scripts"
 # Safety: $PScriptRoot\config.ps1 = <root>\bin\config.json
 $CONTEXT = & "$BIN_ROOT\config.ps1"
 
+# Track JSON validation failures across all manifest updates (Defect #8)
+$global:JsonValidationFailures = 0
+
 function Expand-Variables {
 	param(
 		[string]$text,
 		[hashtable]$vars
 	)
-	
+
 	$prevText = $null
 	while ($text -ne $prevText) {
 		$prevText = $text
@@ -36,11 +39,25 @@ function Update-Manifest {
 	$isChange = $false
 
 	# Apply all enabled rules
+	$lastAppliedRule = $null
 	foreach ($rule in $rules) {
 		if ($content -match $rule["find"]) {
 			Write-Verbose "[$($manifest.Name)] Applying rule: $($rule["description"])"
 			$content = $content -replace $rule["find"], $rule["replace"]
 			$isChange = $true
+			$lastAppliedRule = $rule["description"]
+		}
+	}
+
+	# Validate JSON before writing (Defect #8 fix)
+	if ($isChange) {
+		try {
+			$content | ConvertFrom-Json | Out-Null
+		}
+		catch {
+			Write-Error "[$($manifest.Name)] Invalid JSON after applying rule: $lastAppliedRule. Error: $_"
+			$global:JsonValidationFailures++
+			$isChange = $false
 		}
 	}
 
@@ -53,7 +70,7 @@ function Update-Manifest {
 		Write-Warning "DRY RUN: Would have modified $($manifest.FullName)"
 	} else {
 		Write-Host "Updating $($manifest.FullName)"
-		[System.IO.File]::WriteAllText($manifest.FullName, $content, [Text.Encoding]::UTF8)
+		[System.IO.File]::WriteAllText($manifest.FullName, $content, [System.Text.UTF8Encoding]::new($false))
 	}
 }
 
@@ -82,7 +99,7 @@ function Invoke-BucketAggregation {
 		Write-Verbose "Aggregating $bucket..."
 		$SourceBucket = Join-Path (Get-Location).Path $bucket "bucket"
 		$SourceScripts = Join-Path (Get-Location).Path $bucket "scripts"
-		
+
 		if (Test-Path $SourceBucket) {
 			Copy-Item -Path (Join-Path $SourceBucket "*") -Destination $BUCKET_DIR -Recurse -Force
 		}

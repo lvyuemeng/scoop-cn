@@ -8,7 +8,7 @@
 
 </div>
 
-**Especially thanks to `https://github.com/duzyn/scoop-cn`** which currently seems not maintained now.
+**Acknowledgment**: This project was inspired by [`duzyn/scoop-cn`](https://github.com/duzyn/scoop-cn), which is no longer actively maintained. This repository is an actively maintained continuation with additional improvements.
 
 ## Why I create
 
@@ -104,7 +104,7 @@ If you want to modify your other scoop bucket upstream url (Which is the url you
 ```powershell
 scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop # Change Scoop upstream
 git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main # Change Main bucket upstream
-git -C "$env:USERPROFILE\scoop\buckets\scoop-cn" remote set-url origin https://gh-proxy.com/https://github.com/duzyn/scoop-cn # Change scoop-cn bucket upstream
+git -C "$env:USERPROFILE\scoop\buckets\spc" remote set-url origin https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn # Change scoop-cn bucket upstream
 # Others...
 ```
 

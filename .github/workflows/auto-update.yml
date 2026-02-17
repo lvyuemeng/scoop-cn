@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 jobs:
   auto-update:
     runs-on: windows-latest
@@ -19,6 +23,16 @@ jobs:
         uses: actions/checkout@main
         with:
           fetch-depth: 2
+
+      - name: Run Tests
+        shell: pwsh
+        run: |
+          Write-Host "Running test suite..." -ForegroundColor Cyan
+          & .\tests\Run-Tests.ps1
+          if ($LASTEXITCODE -ne 0) {
+            Write-Error "Tests failed. Aborting update."
+            exit 1
+          }
 
       - name: Aggregate and update
         shell: pwsh
@@ -35,5 +49,5 @@ jobs:
             echo "No changes to commit"
           } else {
             git commit -m "Updated on $(Get-Date -Format "yyyy-MM-dd HH:mm K")"
-            git push -f origin master
+            git push origin master
           }
