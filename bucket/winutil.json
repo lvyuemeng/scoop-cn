@@ -8,7 +8,7 @@
         "gsudo": "main/gsudo"
     },
     "url": "https://gh-proxy.org/https://github.com/ChrisTitusTech/winutil/releases/download/26.03.04/winutil.ps1",
-    "hash": "3bb5d5e5179dbd638b57fa14688a229a56d1209a8cf9ccb78be02804a0030f03",
+    "hash": "4ddc68c69668a7519d8433caba9caf2d287f6838409bfefebab0f1abc27c358d",
     "bin": "winutil.ps1",
     "post_uninstall": [
         "if ($purge) {",
