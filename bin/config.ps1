@@ -214,4 +214,16 @@
             enabled     = $false
         }
     )
+
+    # Post-processing: Fix specific bucket issues that may be fixed upstream eventually
+    postprocess = @(
+        @{
+            description = "charmbracelet: Rename .json to wishlist.json"
+            repo        = "charmbracelet/scoop-bucket"
+            action      = "rename"
+            from        = ".json"
+            to          = "wishlist.json"
+            enabled     = $true
+        }
+    )
 }

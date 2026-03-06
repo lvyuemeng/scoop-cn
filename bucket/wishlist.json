@@ -1,0 +1,22 @@
+{
+    "version": "0.15.2",
+    "architecture": {
+        "32bit": {
+            "url": "https://gh-proxy.org/https://github.com/charmbracelet/wishlist/releases/download/v0.15.2/wishlist_0.15.2_Windows_i386.zip",
+            "bin": [
+                "wishlist_0.15.2_Windows_i386/wishlist.exe"
+            ],
+            "hash": "c58d5e8df11a2a12f16eb147392d3844cc9885172520e6c039e9fe92137c9bca"
+        },
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/charmbracelet/wishlist/releases/download/v0.15.2/wishlist_0.15.2_Windows_x86_64.zip",
+            "bin": [
+                "wishlist_0.15.2_Windows_x86_64/wishlist.exe"
+            ],
+            "hash": "b0122f03751ba00bbc9678814d31319f823e9b0a3f4e0790f36f7c7e6e11e945"
+        }
+    },
+    "homepage": "https://charm.sh/",
+    "license": "MIT",
+    "description": "The SSH directory"
+}
