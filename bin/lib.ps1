@@ -1,220 +1,219 @@
-$BIN_ROOT = $PSScriptRoot
-$ROOT = (Get-Item $PSScriptRoot).Parent.FullName
-$BUCKET_DIR = Join-Path $ROOT "bucket"
-$SCRIPTS_DIR = Join-Path $ROOT "scripts"
+$Script:BIN_ROOT = $PSScriptRoot
+$Script:ROOT = (Get-Item $PSScriptRoot).Parent.FullName
+$Script:BUCKET_DIR = Join-Path $Script:ROOT "bucket"
+$Script:SCRIPTS_DIR = Join-Path $Script:ROOT "scripts"
+$Script:JsonValidationFailures = 0
 
-# Safety: $PScriptRoot\config.ps1 = <root>\bin\config.json
-$CONTEXT = & "$BIN_ROOT\config.ps1"
-
-# Track JSON validation failures across all manifest updates (Defect #8)
-$global:JsonValidationFailures = 0
+# Safely load the configuration
+$ConfigFile = Join-Path $Script:BIN_ROOT "config.ps1"
+if (-not (Test-Path $ConfigFile)) {
+    throw "Configuration file not found at $ConfigFile"
+}
+$Script:CONTEXT = & $ConfigFile
 
 function Expand-Variables {
+    [CmdletBinding()]
     param(
-        [string]$text,
-        [hashtable]$vars
+        [string]$Text,
+        [hashtable]$Vars
     )
 
+    if ([string]::IsNullOrWhiteSpace($Text) -or $null -eq $Vars) { return $Text }
+
     $prevText = $null
-    while ($text -ne $prevText) {
-        $prevText = $text
-        foreach ($key in $vars.Keys) {
-            $pattern = '\$\{' + [Regex]::Escape($key) + '\}'
-            $text = $text -replace $pattern, $vars[$key]
+    while ($Text -ne $prevText) {
+        $prevText = $Text
+        foreach ($key in $Vars.Keys) {
+            $pattern = '\$\{' + [regex]::Escape($key) + '\}'
+            $Text = $Text -replace $pattern, $Vars[$key]
         }
     }
-    return $text
+    return $Text
 }
 
 function Update-Manifest {
     [CmdletBinding()]
     param(
-        $manifest,
-        $rules,
-        $vars,
+        [Parameter(Mandatory)][System.IO.FileInfo]$Manifest,
+        [Parameter(Mandatory)][array]$ExpandedRules,
         [switch]$DryRun
     )
 
-    $content = [System.IO.File]::ReadAllText($manifest.FullName)
+    $content = [System.IO.File]::ReadAllText($Manifest.FullName)
     $isChange = $false
+    $lastAppliedRule = $null
 
     # Apply all enabled rules
-    $lastAppliedRule = $null
-    foreach ($rule in $rules) {
-        if ($content -match $rule["find"]) {
-            Write-Verbose "[$($manifest.Name)] Applying rule: $($rule["description"])"
-            $content = $content -replace $rule["find"], $rule["replace"]
+    foreach ($rule in $ExpandedRules) {
+        if ($content -match $rule.find) {
+            Write-Verbose "[$($Manifest.Name)] Applying rule: $($rule.description)"
+            $content = $content -replace $rule.find, $rule.replace
             $isChange = $true
-            $lastAppliedRule = $rule["description"]
+            $lastAppliedRule = $rule.description
         }
     }
 
-    # Validate JSON before writing (Defect #8 fix)
-    if ($isChange) {
-        try {
-            $content | ConvertFrom-Json | Out-Null
-        } catch {
-            Write-Error "[$($manifest.Name)] Invalid JSON after applying rule: $lastAppliedRule. Error: $_"
-            $global:JsonValidationFailures++
-            $isChange = $false
-        }
-    }
+    if (-not $isChange) { return }
 
-    # Write the file back *only* if changes were made
-    if (-not $isChange) {
+    # Validate JSON before committing changes
+    try {
+        $null = ConvertFrom-Json -InputObject $content -ErrorAction Stop
+    } catch {
+        Write-Error "[$($Manifest.Name)] Invalid JSON after applying rule: '$lastAppliedRule'. Error: $_"
+        $Script:JsonValidationFailures++
         return
     }
 
     if ($DryRun) {
-        Write-Warning "DRY RUN: Would have modified $($manifest.FullName)"
+        Write-Host "DRY RUN: Would have modified $($Manifest.Name)" -ForegroundColor Yellow
     } else {
-        Write-Host "Updating $($manifest.FullName)"
-        [System.IO.File]::WriteAllText($manifest.FullName, $content, [System.Text.UTF8Encoding]::new($false))
+        Write-Verbose "Updating $($Manifest.FullName)"
+        [System.IO.File]::WriteAllText($Manifest.FullName, $content, [System.Text.UTF8Encoding]::new($false))
     }
 }
 
 # --- PART 1: AGGREGATION ---
 function Invoke-BucketAggregation {
     [CmdletBinding()]
-    param(
-        [string[]]$repos
-    )
-    Write-Host "Starting bucket aggregation..."
-    Write-Host "Found $($repos.Count) repositories."
+    param([string[]]$Repos)
 
-    # Clear old buckets
-    Remove-Item -Path $BUCKET_DIR, $SCRIPTS_DIR -Recurse -Force -ErrorAction SilentlyContinue
-    New-Item -ItemType Directory -Path $BUCKET_DIR | Out-Null
-    New-Item -ItemType Directory -Path $SCRIPTS_DIR | Out-Null
+    Write-Host "Starting bucket aggregation for $($Repos.Count) repositories..." -ForegroundColor Cyan
 
-    # Safety: $repos should contains urls of repo
-    foreach ($repo in $repos) {
-        # $repo = <owner>/<$bucket>
-        $bucket = $repo.Split('/')[-1]
-        # clone repo: $ROOT/<bucket>
-        Write-Host "Cloning $repo to $bucket"
-        & git clone --depth 1 "https://github.com/$repo.git" $bucket
+    # Ensure clean slate for output directories
+    $directories = @($Script:BUCKET_DIR, $Script:SCRIPTS_DIR)
+    Remove-Item -Path $directories -Recurse -Force -ErrorAction SilentlyContinue
+    $directories | ForEach-Object { $null = New-Item -ItemType Directory -Path $_ -Force }
 
-        Write-Verbose "Aggregating $bucket..."
-        $SourceBucket = Join-Path -Path (Join-Path (Get-Location).Path $bucket) -ChildPath "bucket"
-        $SourceScripts = Join-Path -Path (Join-Path (Get-Location).Path $bucket) -ChildPath "scripts"
-        $SourceRoot = Join-Path (Get-Location).Path $bucket
+    foreach ($repo in $Repos) {
+        $bucketName = $repo.Split('/')[-1]
+        $targetPath = Join-Path $Script:ROOT $bucketName
 
-        if (Test-Path $SourceBucket) {
-            Copy-Item -Path (Join-Path $SourceBucket "*") -Destination $BUCKET_DIR -Recurse -Force
-        } elseif (Test-Path $SourceRoot) {
-            # Some buckets (like charmbracelet/scoop-bucket) have manifests directly in root
-            Get-ChildItem -Path $SourceRoot -Filter "*.json" | Copy-Item -Destination $BUCKET_DIR -Force
+        # Wipe old clone if it was left behind
+        if (Test-Path $targetPath) { Remove-Item -Path $targetPath -Recurse -Force }
+
+        Write-Host "Cloning $repo -> $bucketName"
+        $gitArgs = @("clone", "--depth", "1", "--quiet", "https://github.com/$repo.git", $targetPath)
+        & git @gitArgs
+
+        Write-Verbose "Aggregating contents of $bucketName..."
+        $sourceBucket = Join-Path $targetPath "bucket"
+        $sourceScripts = Join-Path $targetPath "scripts"
+
+        if (Test-Path $sourceBucket) {
+            Copy-Item -Path (Join-Path $sourceBucket "*") -Destination $Script:BUCKET_DIR -Recurse -Force
+        } elseif (Test-Path $targetPath) {
+            # Some buckets have manifests directly in the root
+            Get-ChildItem -Path $targetPath -Filter "*.json" | Copy-Item -Destination $Script:BUCKET_DIR -Force
         }
-        if (Test-Path $SourceScripts) {
-            Copy-Item -Path (Join-Path $SourceScripts "*") -Destination $SCRIPTS_DIR -Recurse -Force
+
+        if (Test-Path $sourceScripts) {
+            Copy-Item -Path (Join-Path $sourceScripts "*") -Destination $Script:SCRIPTS_DIR -Recurse -Force
         }
     }
-    Write-Host "Aggregation complete."
+    Write-Host "Aggregation complete." -ForegroundColor Green
 }
 
 # --- PART 2: URL REPLACEMENT ---
 function Invoke-Replacement {
     [CmdletBinding()]
     param(
-        [PSCustomObject[]]$rules,
-        [hashtable]$vars,
+        [array]$Rules,
+        [hashtable]$Vars,
         [switch]$DryRun
     )
-    Write-Host "Applying replacement rules..."
 
-    Write-Debug "Rules: $($rules | Out-String)"
-    $expandedRules = foreach ($rule in $rules) {
-        if (-not $rule["enabled"]) { continue }
+    Write-Host "Applying replacement rules..." -ForegroundColor Cyan
 
-        [ordered]@{
-            description = $rule["description"]
-            find        = $rule["find"]
-            replace     = Expand-Variables -text $rule["replace"] -vars $vars
+    # Pre-compile the rules to save CPU cycles inside the file loop
+    $expandedRules = foreach ($rule in $Rules) {
+        if (-not $rule.enabled) { continue }
+
+        [PSCustomObject]@{
+            description = $rule.description
+            find        = $rule.find
+            replace     = Expand-Variables -Text $rule.replace -Vars $Vars
         }
     }
-    Write-Debug "Expanded rules: $($expandedRules | Out-String)"
 
-    if ($expandedRules.Count -eq 0) {
-        Write-Warning "No enabled rules found in config.ps1. Skipping replacement."
+    if (-not $expandedRules) {
+        Write-Warning "No enabled rules found. Skipping replacements."
         return
-    } else {
-        Write-Host "Applying $($expandedRules.Count) enabled replacement rules..."
     }
 
-    $manifests = Get-ChildItem -Recurse -Path $BUCKET_DIR -Filter "*.json"
-    # Write-Debug "Manifests: $($manifests | Out-String)"
+    Write-Host "Applying $($expandedRules.Count) active rules..."
+    $manifests = Get-ChildItem -Path $Script:BUCKET_DIR -Filter "*.json" -Recurse
 
-    $manifests | ForEach-Object {
-        Update-Manifest -manifest $_ -rules $expandedRules -vars $vars -DryRun:$DryRun
+    foreach ($manifest in $manifests) {
+        Update-Manifest -Manifest $manifest -ExpandedRules $expandedRules -DryRun:$DryRun
     }
-    Write-Host "Replacement complete."
+    Write-Host "Replacement complete." -ForegroundColor Green
 }
 
 # --- PART 3: CLEANUP ---
 function Invoke-Cleanup {
     [CmdletBinding()]
-    param(
-        [string[]]$repos
-    )
+    param([string[]]$Repos)
 
-    Write-Host "Cleaning up source bucket folders..."
-    $repos | ForEach-Object {
-        $bucket = $_.Split('/')[-1]
-        Remove-Item -Path (Join-Path $ROOT $bucket) -Recurse -Force -ErrorAction SilentlyContinue
+    Write-Host "Cleaning up cloned repository folders..." -ForegroundColor Cyan
+    foreach ($repo in $Repos) {
+        $bucketName = $repo.Split('/')[-1]
+        $targetPath = Join-Path $Script:ROOT $bucketName
+
+        if (Test-Path $targetPath) {
+            Remove-Item -Path $targetPath -Recurse -Force -ErrorAction SilentlyContinue
+        }
     }
 }
 
 # --- PART 4: POST-PROCESSING ---
 function Invoke-PostProcess {
     [CmdletBinding()]
-    param(
-        [array]$postprocess,
-        [string]$bucketDir
-    )
+    param([array]$PostProcess)
 
-    if (-not $postprocess -or $postprocess.Count -eq 0) {
-        return
-    }
+    if (-not $PostProcess) { return }
 
-    Write-Host "Running post-processing..."
+    Write-Host "Running post-processing actions..." -ForegroundColor Cyan
 
-    foreach ($proc in $postprocess) {
-        if (-not $proc["enabled"]) {
-            continue
-        }
+    foreach ($proc in $PostProcess) {
+        if (-not $proc.enabled) { continue }
 
-        $repo = $proc["repo"]
-        $action = $proc["action"]
-        $bucketName = $repo.Split('/')[-1]
-        $sourcePath = Join-Path $ROOT $bucketName
+        $bucketName = $proc.repo.Split('/')[-1]
+        $sourcePath = Join-Path $Script:ROOT $bucketName
 
-        Write-Host "  Post-process [$($proc["description"])]"
+        Write-Host "  Executing: [$($proc.description)]"
 
-        if ($action -eq "rename") {
-            $from = $proc["from"]
-            $to = $proc["to"]
-            $fromPath = Join-Path $sourcePath $from
-            $toPath = Join-Path $bucketDir $to
+        if ($proc.action -eq "rename") {
+            $fromPath = Join-Path $sourcePath $proc.from
+            $toPath = Join-Path $Script:BUCKET_DIR $proc.to
 
             if (Test-Path $fromPath) {
-                Write-Host "    Renaming $from -> $to"
+                Write-Verbose "    Renaming $($proc.from) -> $($proc.to)"
                 Move-Item -Path $fromPath -Destination $toPath -Force
+            } else {
+                Write-Warning "    Source path not found: $fromPath"
             }
         }
     }
-    Write-Host "Post-processing complete."
+    Write-Host "Post-processing complete." -ForegroundColor Green
 }
 
+# --- ENTRY POINT ---
 function Invoke-Entry {
     [CmdletBinding()]
-    param(
-        [switch]$DryRun
-    )
+    param([switch]$DryRun)
 
-    Invoke-BucketAggregation -repos $CONTEXT.repositories
-    Invoke-PostProcess -postprocess $CONTEXT.postprocess -bucketDir $BUCKET_DIR
-    Invoke-Replacement -rules  $CONTEXT.rules -vars $CONTEXT.proxies -DryRun:$DryRun
-    Invoke-Cleanup -repos $CONTEXT.repositories
-    Write-Host "Update process complete."
+    try {
+        Invoke-BucketAggregation -Repos $Script:CONTEXT.repositories
+        Invoke-PostProcess -PostProcess $Script:CONTEXT.postprocess
+        Invoke-Replacement -Rules $Script:CONTEXT.rules -Vars $Script:CONTEXT.proxies -DryRun:$DryRun
+    } finally {
+        # Ensures repos are deleted even if user hits Ctrl+C or a syntax error crashes the pipeline
+        Invoke-Cleanup -Repos $Script:CONTEXT.repositories
+    }
+
+    Write-Host "Update process complete." -ForegroundColor Green
+
+    if ($Script:JsonValidationFailures -gt 0) {
+        Write-Warning "Completed with $Script:JsonValidationFailures JSON validation failure(s)."
+    }
 }

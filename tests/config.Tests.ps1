@@ -6,7 +6,9 @@
 #>
 
 BeforeAll {
-    $script:ConfigPath = Join-Path $PSScriptRoot ".." "bin" "config.ps1"
+    $script:ConfigPath = Join-Path $PSScriptRoot ".."
+    $script:ConfigPath = Join-Path $script:ConfigPath "bin"
+    $script:ConfigPath = Join-Path $script:ConfigPath "config.ps1"
     $script:Config = & $script:ConfigPath
 }
 

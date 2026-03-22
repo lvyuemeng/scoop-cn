@@ -6,7 +6,8 @@
 #>
 
 BeforeAll {
-    $script:WorkflowsDir = Join-Path $PSScriptRoot ".." ".." ".github" "workflows"
+    $script:WorkflowsDir = Join-Path (Join-Path (Join-Path $PSScriptRoot "..") "..") ".github"
+    $script:WorkflowsDir = Join-Path $script:WorkflowsDir "workflows"
 }
 
 Describe "Workflow File Structure" {

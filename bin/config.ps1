@@ -10,7 +10,10 @@
         "matthewjberger/scoop-nerd-fonts",
         "Calinou/scoop-games",
         "niheaven/scoop-sysinternals",
-        "charmbracelet/scoop-bucket"
+        "charmbracelet/scoop-bucket",
+        # My repo
+        "lvyuemeng/winspec",
+        "lvyuemeng/spx"
     )
 
     proxies      = @{
@@ -216,7 +219,7 @@
     )
 
     # Post-processing: Fix specific bucket issues that may be fixed upstream eventually
-    postprocess = @(
+    postprocess  = @(
         @{
             description = "charmbracelet: Rename .json to wishlist.json"
             repo        = "charmbracelet/scoop-bucket"

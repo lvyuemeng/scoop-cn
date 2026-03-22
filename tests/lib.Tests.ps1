@@ -7,14 +7,15 @@
 
 BeforeAll {
     # Import the library
-    $script:BinRoot = Join-Path $PSScriptRoot ".." "bin"
+    $script:BinRoot = Join-Path $PSScriptRoot ".."
+    $script:BinRoot = Join-Path $script:BinRoot "bin"
     . (Join-Path $script:BinRoot "lib.ps1")
 }
 
 Describe "Expand-Variables" {
     It "Should expand single variable" {
         $vars = @{ Github = "https://proxy.com" }
-        $result = Expand-Variables -text '${Github}/url' -vars $vars
+        $result = Expand-Variables -Text '${Github}/url' -Vars $vars
         $result | Should -Be "https://proxy.com/url"
     }
 
@@ -23,7 +24,7 @@ Describe "Expand-Variables" {
             Github   = "https://gh-proxy.org"
             Tsinghua = "mirrors.tuna.tsinghua.edu.cn"
         }
-        $result = Expand-Variables -text '${Github}/path and ${Tsinghua}/other' -vars $vars
+        $result = Expand-Variables -Text '${Github}/path and ${Tsinghua}/other' -Vars $vars
         $result | Should -Be "https://gh-proxy.org/path and mirrors.tuna.tsinghua.edu.cn/other"
     }
 
@@ -32,7 +33,7 @@ Describe "Expand-Variables" {
             Proxy  = '${Mirror}'
             Mirror = 'https://mirror.com'
         }
-        $result = Expand-Variables -text '${Proxy}/path' -vars $vars
+        $result = Expand-Variables -Text '${Proxy}/path' -Vars $vars
         $result | Should -Be "https://mirror.com/path"
     }
 }
@@ -44,22 +45,22 @@ Describe "Update-Manifest" {
             Remove-Item -Path $script:TestDir -Recurse -Force
         }
         New-Item -ItemType Directory -Path $script:TestDir | Out-Null
-        $script:JsonValidationFailures = 0
+        $Script:JsonValidationFailures = 0
     }
 
     It "Should apply replacement rules" {
         $manifestPath = Join-Path $script:TestDir "test.json"
         '{"url": "https://github.com/user/repo"}' | Set-Content $manifestPath
 
-        $rules = @(
-            @{
+        $expandedRules = @(
+            [PSCustomObject]@{
                 description = "Test rule"
                 find        = 'github\.com'
                 replace     = 'proxy.com/github'
             }
         )
 
-        Update-Manifest -manifest (Get-Item $manifestPath) -rules $rules -vars @{}
+        Update-Manifest -Manifest (Get-Item $manifestPath) -ExpandedRules $expandedRules
 
         $content = Get-Content $manifestPath -Raw
         $content | Should -Match "proxy.com/github"
@@ -70,37 +71,36 @@ Describe "Update-Manifest" {
         '{"url": "https://github.com/user/repo"}' | Set-Content $manifestPath
         $originalContent = Get-Content $manifestPath -Raw
 
-        $rules = @(
-            @{
+        $expandedRules = @(
+            [PSCustomObject]@{
                 description = "Break JSON"
                 find        = '"url"'
                 replace     = '"url": invalid'  # This breaks JSON syntax
             }
         )
 
-        # Capture errors to verify validation worked
-        $errorCountBefore = $global:JsonValidationFailures
-        { Update-Manifest -manifest (Get-Item $manifestPath) -rules $rules -vars @{} -ErrorAction SilentlyContinue } | Should -Not -Throw
+        $failuresBefore = $Script:JsonValidationFailures
+        { Update-Manifest -Manifest (Get-Item $manifestPath) -ExpandedRules $expandedRules -ErrorAction SilentlyContinue } | Should -Not -Throw
 
         $content = Get-Content $manifestPath -Raw
         $content | Should -Be $originalContent  # Should remain unchanged
-        # The variable in lib.ps1 should have been incremented
-        $global:JsonValidationFailures | Should -BeGreaterThan $errorCountBefore
+        # The script-scoped variable in lib.ps1 should have been incremented
+        $Script:JsonValidationFailures | Should -BeGreaterThan $failuresBefore
     }
 
     It "Should write files without BOM" {
         $manifestPath = Join-Path $script:TestDir "test.json"
         '{"test": "value"}' | Set-Content $manifestPath
 
-        $rules = @(
-            @{
+        $expandedRules = @(
+            [PSCustomObject]@{
                 description = "Test rule"
                 find        = 'value'
                 replace     = 'changed'
             }
         )
 
-        Update-Manifest -manifest (Get-Item $manifestPath) -rules $rules -vars @{}
+        Update-Manifest -Manifest (Get-Item $manifestPath) -ExpandedRules $expandedRules
 
         $bytes = [System.IO.File]::ReadAllBytes($manifestPath)
         $hasBom = ($bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF)
