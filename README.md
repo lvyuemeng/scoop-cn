@@ -31,7 +31,7 @@ Once Scoop is installed, you can start using this bucket immediately:
 
 ```powershell
 # Add the bucket
-scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn
+scoop bucket add spc https://gh-proxy.org/https://github.com/lvyuemeng/scoop-cn
 
 # Search for packages
 scoop search <package-name>
@@ -45,38 +45,37 @@ scoop install spc/<package-name>
 If you already have apps installed through other buckets, you can migrate them to use our mirrors:
 
 ```powershell
-# Migrate all installed apps to use spc bucket
-Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object { (Get-Content -Path $_.FullName -Raw) -replace '"bucket": "(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' | Set-Content -Path $_.FullName }
+# Migrate all installed apps to use the spc bucket
+Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object {
+    $content = Get-Content $_.FullName -Raw
+    if ($content -match '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"') {
+        $content -replace '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' |
+            Set-Content $_.FullName -Force
+    }
+}
 ```
 
 ### Configure Upstream Mirrors
 
-You can also configure other Scoop bucket upstream URLs to use mirrors:
+You can also point existing Scoop buckets at proxy mirrors:
 
 ```powershell
 # Change Scoop core repository upstream
-scoop config scoop_repo https://gh-proxy.com/https://github.com/ScoopInstaller/Scoop
+scoop config SCOOP_REPO https://gitee.com/scoop-installer/scoop
 
 # Change Main bucket upstream
-git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.com/https://github.com/ScoopInstaller/Main
+git -C "$env:USERPROFILE\scoop\buckets\main" remote set-url origin https://gh-proxy.org/https://github.com/ScoopInstaller/Main
 
 # Change scoop-cn bucket upstream
-git -C "$env:USERPROFILE\scoop\buckets\spc" remote set-url origin https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn
+git -C "$env:USERPROFILE\scoop\buckets\spc" remote set-url origin https://gh-proxy.org/https://github.com/lvyuemeng/scoop-cn
 ```
 
 ## Installation
 
 ### Prerequisites
 
-Before installing Scoop, ensure your system meets the following requirements:
-
-- **PowerShell**: Version 5.1 or higher
-
-```powershell
-$PSVersionTable.PSVersion.Major >= 5.1
-```
-
-- **Execution Policy**: Must allow script execution
+- **PowerShell** 5.1 or higher
+- **Execution Policy** must allow script execution
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -84,21 +83,20 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ### Method 1: Automated Installation (Recommended)
 
-Use the provided `installer.ps1` script for a fully automated installation:
+Use the provided `installer.ps1` script for a fully automated setup:
 
 ```powershell
 # Download the installer
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lvyuemeng/scoop-cn/master/installer.ps1" -OutFile "$env:TEMP\installer.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lvyuemeng/scoop-cn/main/installer.ps1" -OutFile "$env:TEMP\installer.ps1"
 
 # Run with default settings (will prompt for proxy usage)
 & "$env:TEMP\installer.ps1"
 
-# Or specify options directly:
 # Use Chinese proxy mirrors automatically
 & "$env:TEMP\installer.ps1" -UseProxy
 
-# Use proxy with custom bucket name
-& "$env:TEMP\installer.ps1" -UseProxy -BucketName "my-bucket"
+# Use proxy with a custom bucket name
+& "$env:TEMP\installer.ps1" -UseProxy -BucketName my-bucket
 ```
 
 #### Installer Parameters
@@ -107,29 +105,30 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/lvyuemeng/scoop-cn/mas
 | --------- | ----------- | ------- |
 | `-UseProxy` | Use Chinese proxy mirrors for installation | Prompt user |
 | `-ScoopDir` | Custom Scoop installation directory | `$env:USERPROFILE\scoop` |
-| `-BucketName` | Name for the scoop-cn bucket | `spc` |
+| `-BucketName` | Alias for the scoop-cn bucket | `spc` |
 
 ### Method 2: Manual Installation
 
-If you prefer manual installation:
-
 ```powershell
-# For users behind firewalls (China)
-Invoke-WebRequest https://gh-proxy.com/https://raw.githubusercontent.com/ScoopInstaller/Install/master/install.ps1 | Invoke-Expression
-
-# For users with direct access
+# Users with direct internet access
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+
+# Users behind network restrictions (China)
+$tmp = "$env:TEMP\scoop-install.ps1"
+Invoke-WebRequest -Uri https://scoop.201704.xyz -OutFile $tmp
+& $tmp
+Remove-Item $tmp -Force
 ```
 
-After installation, add our bucket:
+After installation, add the bucket:
 
 ```powershell
-scoop bucket add spc https://gh-proxy.com/https://github.com/lvyuemeng/scoop-cn
+scoop bucket add spc https://gh-proxy.org/https://github.com/lvyuemeng/scoop-cn
 ```
 
 ## Configuration
 
-For more details about URL replacement rules, see [config](./bin/config.ps1).
+For details about URL replacement rules see [`bin/config.ps1`](./bin/config.ps1).
 
 ## Contributing
 
@@ -152,7 +151,7 @@ Run the test suite before submitting:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## Star History
 
