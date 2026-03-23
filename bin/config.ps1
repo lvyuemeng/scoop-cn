@@ -13,7 +13,8 @@
         "charmbracelet/scoop-bucket",
         # My repo
         "lvyuemeng/winspec",
-        "lvyuemeng/spx"
+        "lvyuemeng/spx",
+        "lvyuemeng/shed"
     )
 
     proxies      = @{
