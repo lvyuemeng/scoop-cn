@@ -10,6 +10,7 @@
         "matthewjberger/scoop-nerd-fonts",
         "Calinou/scoop-games",
         "niheaven/scoop-sysinternals",
+        # charmbracelet
         "charmbracelet/scoop-bucket",
         # My repo
         "lvyuemeng/winspec",

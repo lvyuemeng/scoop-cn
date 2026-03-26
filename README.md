@@ -18,7 +18,7 @@ This project provides mirrored bucket repositories with optimized download URLs,
 
 ## Features
 
-- **Aggregated Buckets**: Includes mirrors for `main extras versions nirsoft sysinternals php nerd-fonts nonportable java games`
+- **Aggregated Buckets**: Includes mirrors for `main extras versions nirsoft sysinternals php nerd-fonts nonportable java games charmbracelet winspec spx shed`
 - **Automatic Updates**: Mirrors are refreshed every 4 hours
 - **Proxy Support**: Built-in support for Chinese proxy mirrors
 - **Easy Migration**: Tools to migrate existing installations to use mirrored buckets
@@ -48,8 +48,8 @@ If you already have apps installed through other buckets, you can migrate them t
 # Migrate all installed apps to use the spc bucket
 Get-ChildItem -Path "$env:USERPROFILE\scoop\apps" -Recurse -Filter "install.json" | ForEach-Object {
     $content = Get-Content $_.FullName -Raw
-    if ($content -match '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"') {
-        $content -replace '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games)"', '"bucket": "spc"' |
+    if ($content -match '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games|scoop-bucket|winspec|spx|shed)"') {
+        $content -replace '"bucket":\s*"(main|extras|versions|nirsoft|sysinternals|php|nerd-fonts|nonportable|java|games|scoop-bucket|winspec|spx|shed)"', '"bucket": "spc"' |
             Set-Content $_.FullName -Force
     }
 }

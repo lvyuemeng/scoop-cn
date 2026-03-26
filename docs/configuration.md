@@ -60,6 +60,7 @@ Rules define regex-based URL replacements. Each rule is a hashtable with:
 ### Example Rules
 
 **GitHub Releases Proxy:**
+
 ```powershell
 @{
     description = "Proxy: GitHub Releases Download"
@@ -70,6 +71,7 @@ Rules define regex-based URL replacements. Each rule is a hashtable with:
 ```
 
 **Mirror Replacement:**
+
 ```powershell
 @{
     description = "Mirror: Blender"

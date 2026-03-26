@@ -14,6 +14,7 @@ Thank you for your interest in contributing to scoop-cn! This document provides 
 ### When to Add a Rule
 
 Add a rule when:
+
 - A package downloads from a URL that needs proxy/mirror replacement
 - The URL is not already covered by existing rules
 - The package is in one of the aggregated buckets
@@ -78,7 +79,8 @@ Follow conventional commits:
 - `chore:` - Maintenance
 
 Examples:
-```
+
+```text
 feat(rules): add mirror for ExamplePackage
 fix(lib): handle edge case in URL replacement
 docs: update configuration guide
