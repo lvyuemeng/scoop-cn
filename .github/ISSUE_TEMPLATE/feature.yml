@@ -1,0 +1,80 @@
+name: 🚀 Feature Request
+description: Suggest a new feature or improvement for the bucket.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+    - type: checkboxes
+      attributes:
+          label: Prerequisites
+          options:
+              - label: I have written a descriptive issue title.
+                required: true
+              - label: I have searched all issues/PRs to ensure it has not already been suggested or implemented.
+                required: true
+              - label: This feature is related to the bucket itself, not to Scoop or PowerShell (which are handled elsewhere).
+                required: true
+    - type: textarea
+      attributes:
+          label: Feature Description
+          description: A clear and concise description of what you want to happen.
+          placeholder: "I would like to have a new manifest for X because ..."
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Problem It Solves
+          description: Describe the problem or pain point this feature would address.
+          placeholder: "Currently, users need to manually install X, which is inconvenient because ..."
+      validations:
+          required: true
+    - type: textarea
+      attributes:
+          label: Alternatives Considered
+          description: Any alternative solutions or workarounds you've thought about.
+          placeholder: "I considered using a different bucket, but it lacks Y feature."
+      validations:
+          required: false
+    - type: textarea
+      attributes:
+          label: Additional Context
+          description: Add any other context, screenshots, or links that help explain the feature.
+          placeholder: "Here is the official download page: ..."
+      validations:
+          required: false
+    - type: textarea
+      attributes:
+          label: Scoop Config (Optional)
+          description: If relevant, paste verbatim output from `scoop config` below.
+          render: console
+          placeholder: |
+              PS> scoop config
+
+              last_update            : 2022/11/14 22:05:50
+              scoop_repo             : https://github.com/ScoopInstaller/Scoop
+              scoop_branch           : master
+              use_lessmsi            : True
+              aria2-enabled          : True
+              aria2-warning-enabled  : False
+      validations:
+          required: false
+    - type: textarea
+      attributes:
+          label: PowerShell Version (Optional)
+          description: If relevant, paste verbatim output from `$PSVersionTable` below.
+          render: console
+          placeholder: |
+              PS> $PSVersionTable
+
+              Name                           Value
+              ----                           -----
+              PSVersion                      7.3.0
+              PSEdition                      Core
+              GitCommitId                    7.3.0
+              OS                             Microsoft Windows 10.0.25236
+              Platform                       Win32NT
+              PSCompatibleVersions           {1.0, 2.0, 3.0, 4.0…}
+              PSRemotingProtocolVersion      2.3
+              SerializationVersion           1.1.0.1
+              WSManStackVersion              3.0
+      validations:
+          required: false
